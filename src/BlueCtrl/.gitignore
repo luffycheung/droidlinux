@@ -1,0 +1,12 @@
+assets/bluectrld
+assets/CHANGELOG.md
+bin/
+gen/
+libs/
+obj/
+ant.properties
+local.properties
+proguard.cfg
+.classpath
+.project
+.settings
