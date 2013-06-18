@@ -1,0 +1,77 @@
+dev name|galaxy_nexus|OptimusG_Snow|phone1dev[Y/N]|phone2dev[Y/N]|permission[Y/N]
+accelirq|crw-rw---- system   system    10,  54 2013-06-17 10:16 accelirq||0|1|9
+alarm|crw-rw-r-- system   radio     10,  46 2013-06-17 10:16 alarm||0|1|9
+an30259a_leds|crw------- system   system    10,  51 2013-06-17 10:16 an30259a_leds||0|1|9
+android_adb|crw-rw---- adb      adb       10,  50 2013-06-17 10:16 android_adb||0|1|9
+ashmem|crw-rw-rw- root     root      10,  61 2013-06-17 10:16 ashmem||0|1|9
+binder|crw-rw-rw- root     root      10,  44 2013-06-17 10:16 binder||0|1|9
+block|drwxr-xr-x root     root              2013-06-17 10:16 block||0|1|9
+bus|drwxr-xr-x root     root              2013-06-17 10:16 bus||0|1|9
+compassirq|crw-rw---- system   system    10,  53 2013-06-17 10:16 compassirq||0|1|9
+console|crw------- root     root       5,   1 2013-06-17 10:16 console||0|1|9
+cpu_dma_latency|crw------- root     root      10,  33 2013-06-17 10:16 cpu_dma_latency||0|1|9
+cpuctl|drwxr-xr-x system   system            2013-06-17 10:16 cpuctl||0|1|9
+device-mapper|crw------- root     root      10, 236 2013-06-17 10:16 device-mapper||0|1|9
+dsscomp|crw-rw---- system   system    10,  59 2013-06-17 10:16 dsscomp||0|1|9
+full|crw-rw-rw- root     root       1,   7 2013-06-17 10:16 full||0|1|9
+fuse|crw------- root     root      10, 229 2013-06-17 10:16 fuse||0|1|9
+graphics|drwxr-xr-x root     root              2013-06-17 10:16 graphics||0|1|9
+hdcp|crw------- root     root      10,  60 2013-06-17 10:16 hdcp||0|1|9
+i2c-1|crw------- root     root      89,   1 2013-06-17 10:16 i2c-1||0|1|9
+i2c-2|crw-rw---- media    media     89,   2 2013-06-17 10:16 i2c-2||0|1|9
+i2c-3|crw------- root     root      89,   3 2013-06-17 10:16 i2c-3||0|1|9
+i2c-4|crw------- root     root      89,   4 2013-06-17 10:16 i2c-4||0|1|9
+i2c-5|crw------- root     root      89,   5 2013-06-17 10:16 i2c-5||0|1|9
+input|drwxr-xr-x root     root              2013-06-17 10:16 input||0|1|9
+ion|crwxrwxrwx root     root      10,  58 2013-06-17 10:16 ion||0|1|9
+keychord|crw------- root     root      10,  47 2013-06-17 10:16 keychord||0|1|9
+kmem|crw------- root     root       1,   2 2013-06-17 10:16 kmem||0|1|9
+kmsg|crw------- root     root       1,  11 2013-06-17 10:16 kmsg||0|1|9
+log|drwxr-xr-x root     root              2013-06-17 10:16 log||0|1|9
+mem|crw------- root     root       1,   1 2013-06-17 10:16 mem||0|1|9
+modem_br|crw-rw---- radio    radio     10,  52 2013-06-17 10:16 modem_br||0|1|9
+mpu|crw-rw---- system   system    10,  57 2013-06-17 10:16 mpu||0|1|9
+mpuirq|crw-rw---- system   system    10,  56 2013-06-17 10:16 mpuirq||0|1|9
+mtd|drwxr-xr-x root     root              2013-06-17 10:16 mtd||0|1|9
+mtp_usb|crw-rw---- root     mtp       10,  49 2013-06-17 10:16 mtp_usb||0|1|9
+network_latency|crw------- root     root      10,  32 2013-06-17 10:16 network_latency||0|1|9
+network_throughput|crw------- root     root      10,  31 2013-06-17 10:16 network_throughput||0|1|9
+null|crw-rw-rw- root     root       1,   3 2013-06-17 10:16 null||0|1|9
+ppp|crw-rw---- radio    vpn      108,   0 2013-06-17 10:16 ppp||0|1|9
+ptmx|crw-rw-rw- root     root       5,   2 2013-06-17 14:14 ptmx||0|1|9
+pts|drwxr-xr-x root     root              1969-12-31 18:00 pts||0|1|9
+pvrsrvkm|crw-rw-rw- root     root     250,   0 2013-06-17 10:16 pvrsrvkm||0|1|9
+random|crw-rw-rw- root     root       1,   8 2013-06-17 10:16 random||0|1|9
+rfkill|crw------- root     root      10,  63 2013-06-17 10:16 rfkill||0|1|9
+rpmsg-omx0|crw-rw---- drmrpc   drmrpc   252,   0 2013-06-17 10:16 rpmsg-omx0||0|1|9
+rpmsg-omx1|crw-rw---- drmrpc   drmrpc   252,   1 2013-06-17 10:16 rpmsg-omx1||0|1|9
+rproc_user|crw-rw---- drmrpc   drmrpc    10,  62 2013-06-17 10:16 rproc_user||0|1|9
+rtc0|crw------- root     root     254,   0 2013-06-17 10:16 rtc0||0|1|9
+snd|drwxr-xr-x root     root              2013-06-17 10:16 snd||0|1|9
+socket|drwxr-xr-x root     root              2013-06-17 13:28 socket||0|1|9
+tf_ctrl|crw-rw---- drmrpc   drmrpc   122,   1 2013-06-17 10:16 tf_ctrl||0|1|9
+tf_driver|crw-rw---- drmrpc   drmrpc   122,   0 2013-06-17 10:16 tf_driver||0|1|9
+tiler|crwxrwxrwx system   system   248,   0 2013-06-17 10:16 tiler||0|1|9
+timerirq|crw-rw---- system   system    10,  55 2013-06-17 10:16 timerirq||0|1|9
+tty|crw-rw-rw- root     root       5,   0 2013-06-17 10:16 tty||0|1|9
+ttyFIQ0|crw------- root     root     253,   0 2013-06-17 10:16 ttyFIQ0||0|1|9
+ttyGS0|crw-rw---- radio    radio    249,   0 2013-06-17 10:16 ttyGS0||0|1|9
+ttyGS1|crw-rw---- radio    radio    249,   1 2013-06-17 10:16 ttyGS1||0|1|9
+ttyGS2|crw------- root     root     249,   2 2013-06-17 10:16 ttyGS2||0|1|9
+ttyGS3|crw------- root     root     249,   3 2013-06-17 10:16 ttyGS3||0|1|9
+ttyO0|crw-rw---- system   radio    251,   0 2013-06-17 13:18 ttyO0||0|1|9
+ttyO1|crw------- bluetooth bluetooth 251,   1 2013-06-17 10:16 ttyO1||0|1|9
+ttyO3|crw------- nfc      nfc      251,   3 2013-06-17 10:16 ttyO3||0|1|9
+tun|crw-rw---- system   vpn       10, 200 2013-06-17 10:16 tun||0|1|9
+uhid|crw-rw---- system   net_bt_stack  10,  45 2013-06-17 10:16 uhid||0|1|9
+uinput|crw-rw---- system   net_bt_stack  10, 223 2013-06-17 10:16 uinput||0|1|9
+umts_boot0|crw-rw---- radio    radio     10,  36 2013-06-17 10:16 umts_boot0||0|1|9
+umts_boot1|crw-rw---- radio    radio     10,  34 2013-06-17 10:16 umts_boot1||0|1|9
+umts_ipc0|crw-rw---- radio    radio     10,  38 2013-06-17 10:16 umts_ipc0||0|1|9
+umts_ramdump0|crw-rw---- radio    radio     10,  35 2013-06-17 10:16 umts_ramdump0||0|1|9
+umts_rfs0|crw-rw---- radio    radio     10,  37 2013-06-17 10:16 umts_rfs0||0|1|9
+urandom|crw-rw-rw- root     root       1,   9 2013-06-17 10:16 urandom||0|1|9
+usb_accessory|crw-rw---- root     usb       10,  48 2013-06-17 10:16 usb_accessory||0|1|9
+watchdog|crw------- root     root      10, 130 2013-06-17 10:16 watchdog||0|1|9
+xt_qtaguid|crw-r--r-- root     root      10,  39 2013-06-17 10:16 xt_qtaguid||0|1|9
+zero|crw-rw-rw- root     root       1,   5 2013-06-17 10:16 zero||0|1|9
