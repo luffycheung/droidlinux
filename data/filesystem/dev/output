@@ -1,0 +1,209 @@
+HPD||crw-rw---- system   system    10, 243 2013-06-14 07:58 HPD|109
+accelirq|crw-rw---- system   system    10,  54 2013-06-17 10:16 accelirq||019
+akm8963||crw------- system   radio     10,  43 2013-06-14 07:58 akm8963|109
+alarm|crw-rw-r-- system   radio     10,  46 2013-06-17 10:16 alarm|crw-rw-r-- system   radio     10,  50 2013-06-14 07:58 alarm|000
+an30259a_leds|crw------- system   system    10,  51 2013-06-17 10:16 an30259a_leds||019
+android_adb|crw-rw---- adb      adb       10,  50 2013-06-17 10:16 android_adb|crw-rw---- adb      adb       10,  54 2013-06-14 07:58 android_adb|000
+apm_bios||crw------- root     root      10, 134 2013-06-14 07:58 apm_bios|109
+ashmem|crw-rw-rw- root     root      10,  61 2013-06-17 10:16 ashmem|crw-rw-rw- root     root      10,  60 2013-06-14 07:58 ashmem|000
+binder|crw-rw-rw- root     root      10,  44 2013-06-17 10:16 binder|crw-rw-rw- root     root      10,  49 2013-06-14 07:58 binder|000
+block|drwxr-xr-x root     root              2013-06-17 10:16 block|drwxr-xr-x root     root              2013-06-14 07:58 block|000
+bus|drwxr-xr-x root     root              2013-06-17 10:16 bus|drwxr-xr-x root     root              2013-06-14 07:58 bus|000
+bus_dma_throughput||crw------- root     root      10,  33 2013-06-14 07:58 bus_dma_throughput|109
+compassirq|crw-rw---- system   system    10,  53 2013-06-17 10:16 compassirq||019
+console|crw------- root     root       5,   1 2013-06-17 10:16 console|crw------- root     root       5,   1 2013-06-14 07:58 console|000
+cpu_dma_latency|crw------- root     root      10,  33 2013-06-17 10:16 cpu_dma_latency|crw------- root     root      10,  36 2013-06-14 07:58 cpu_dma_latency|000
+cpuctl|drwxr-xr-x system   system            2013-06-17 10:16 cpuctl|drwxr-xr-x system   system            2013-06-14 07:58 cpuctl|000
+device-mapper|crw------- root     root      10, 236 2013-06-17 10:16 device-mapper|crw------- root     root      10, 236 2013-06-14 07:58 device-mapper|000
+diag||crw-rw---- radio    radio    253,   0 2013-06-14 07:58 diag|109
+display_frequency||crw------- root     root      10,  32 2013-06-14 07:58 display_frequency|109
+dsscomp|crw-rw---- system   system    10,  59 2013-06-17 10:16 dsscomp||019
+dun||crw------- system   system    10,  55 2013-06-14 07:58 dun|109
+dvfs_response_latency||crw------- root     root      10,  31 2013-06-14 07:58 dvfs_response_latency|109
+ecryptfs||crw------- root     root      10,  59 2013-06-14 07:58 ecryptfs|109
+exynos-mem||crw-rw-rw- system   graphics   1,  14 2013-06-14 07:58 exynos-mem|109
+fimg2d||crw-rw-rw- system   graphics  10, 240 2013-06-14 07:58 fimg2d|109
+full|crw-rw-rw- root     root       1,   7 2013-06-17 10:16 full|crw-rw-rw- root     root       1,   7 2013-06-14 07:58 full|000
+fuse|crw------- root     root      10, 229 2013-06-17 10:16 fuse|crw------- root     root      10, 229 2013-06-14 07:58 fuse|000
+graphics|drwxr-xr-x root     root              2013-06-17 10:16 graphics|drwxr-xr-x root     root              2013-06-14 07:58 graphics|000
+hdcp|crw------- root     root      10,  60 2013-06-17 10:16 hdcp||019
+hsicctl0||crw-rw---- system   radio    251,   0 2013-06-14 07:58 hsicctl0|109
+hsicctl1||crw-rw---- system   radio    251,   1 2013-06-14 07:58 hsicctl1|109
+hsicctl2||crw-rw---- system   radio    251,   2 2013-06-14 07:58 hsicctl2|109
+hsicctl3||crw-rw---- system   radio    251,   3 2013-06-14 07:58 hsicctl3|109
+i2c-0||crw------- root     root      89,   0 2013-06-14 07:58 i2c-0|109
+i2c-1|crw------- root     root      89,   1 2013-06-17 10:16 i2c-1|crw------- root     root      89,   1 2013-06-14 07:58 i2c-1|000
+i2c-12||crw------- root     root      89,  12 2013-06-14 07:58 i2c-12|109
+i2c-14||crw------- root     root      89,  14 2013-06-14 07:58 i2c-14|109
+i2c-15||crw------- root     root      89,  15 2013-06-14 07:58 i2c-15|109
+i2c-17||crw------- root     root      89,  17 2013-06-14 07:58 i2c-17|109
+i2c-2|crw-rw---- media    media     89,   2 2013-06-17 10:16 i2c-2|crw-rw---- system   system    89,   2 2013-06-14 07:58 i2c-2|000
+i2c-21||crw------- root     root      89,  21 2013-06-14 07:58 i2c-21|109
+i2c-22||crw------- root     root      89,  22 2013-06-14 07:58 i2c-22|109
+i2c-3|crw------- root     root      89,   3 2013-06-17 10:16 i2c-3|crw------- root     root      89,   3 2013-06-14 07:58 i2c-3|000
+i2c-4|crw------- root     root      89,   4 2013-06-17 10:16 i2c-4|crw------- root     root      89,   4 2013-06-14 07:58 i2c-4|000
+i2c-5|crw------- root     root      89,   5 2013-06-17 10:16 i2c-5|crw-rw---- system   system    89,   5 2013-06-14 07:58 i2c-5|000
+i2c-7||crw------- root     root      89,   7 2013-06-14 07:58 i2c-7|109
+i2c-8||crw------- root     root      89,   8 2013-06-14 07:58 i2c-8|109
+icd||-rw-r--r-- system   system          1 2013-06-14 07:58 icd|109
+icdr||-rw-r--r-- system   system          1 2013-06-14 07:58 icdr|109
+input|drwxr-xr-x root     root              2013-06-17 10:16 input|drwxr-xr-x root     root              2013-06-16 18:22 input|000
+ion|crwxrwxrwx root     root      10,  58 2013-06-17 10:16 ion|crw-rw-rw- system   system    10,  63 2013-06-14 07:58 ion|000
+keychord|crw------- root     root      10,  47 2013-06-17 10:16 keychord|crw------- root     root      10,  51 2013-06-14 07:58 keychord|000
+kmem|crw------- root     root       1,   2 2013-06-17 10:16 kmem|crw------- root     root       1,   2 2013-06-14 07:58 kmem|000
+kmsg|crw------- root     root       1,  11 2013-06-17 10:16 kmsg|crw------- root     root       1,  11 2013-06-14 07:58 kmsg|000
+log|drwxr-xr-x root     root              2013-06-17 10:16 log|drwxr-xr-x root     root              2013-06-14 07:58 log|000
+mali||crw-rw-rw- system   system   244,   0 2013-06-14 07:58 mali|109
+mdm||crw-rw---- system   system    10,  37 2013-06-14 07:58 mdm|109
+mem|crw------- root     root       1,   1 2013-06-17 10:16 mem|crw------- root     root       1,   1 2013-06-14 07:58 mem|000
+mobicore||crwxrwxrwx root     root      10,  41 2013-06-14 07:58 mobicore|109
+modem_br|crw-rw---- radio    radio     10,  52 2013-06-17 10:16 modem_br||019
+mpu|crw-rw---- system   system    10,  57 2013-06-17 10:16 mpu||019
+mpuirq|crw-rw---- system   system    10,  56 2013-06-17 10:16 mpuirq||019
+mtd|drwxr-xr-x root     root              2013-06-17 10:16 mtd||019
+mtp_usb|crw-rw---- root     mtp       10,  49 2013-06-17 10:16 mtp_usb||019
+network_latency|crw------- root     root      10,  32 2013-06-17 10:16 network_latency|crw------- root     root      10,  35 2013-06-14 07:58 network_latency|000
+network_throughput|crw------- root     root      10,  31 2013-06-17 10:16 network_throughput|crw------- root     root      10,  34 2013-06-14 07:58 network_throughput|000
+null|crw-rw-rw- root     root       1,   3 2013-06-17 10:16 null|crw-rw-rw- root     root       1,   3 2013-06-14 07:58 null|000
+pipes||drwxrwx--x shell    shell             2013-06-14 07:58 pipes|109
+pn544||crw------- nfc      nfc       10,  56 2013-06-14 07:58 pn544|109
+ppp|crw-rw---- radio    vpn      108,   0 2013-06-17 10:16 ppp|crw-rw---- radio    vpn      108,   0 2013-06-14 07:58 ppp|000
+psaux||crw------- root     root      10,   1 2013-06-14 07:58 psaux|109
+ptmx|crw-rw-rw- root     root       5,   2 2013-06-17 14:14 ptmx|crw-rw-rw- root     root       5,   2 2013-06-17 15:13 ptmx|000
+pts|drwxr-xr-x root     root              1969-12-31 18:00 pts|drwxr-xr-x root     root              1969-12-31 19:00 pts|000
+pvrsrvkm|crw-rw-rw- root     root     250,   0 2013-06-17 10:16 pvrsrvkm||019
+random|crw-rw-rw- root     root       1,   8 2013-06-17 10:16 random|crw-rw-rw- root     root       1,   8 2013-06-14 07:58 random|000
+rfkill|crw------- root     root      10,  63 2013-06-17 10:16 rfkill|crw------- root     root      10,  62 2013-06-14 07:58 rfkill|000
+rpmsg-omx0|crw-rw---- drmrpc   drmrpc   252,   0 2013-06-17 10:16 rpmsg-omx0||019
+rpmsg-omx1|crw-rw---- drmrpc   drmrpc   252,   1 2013-06-17 10:16 rpmsg-omx1||019
+rproc_user|crw-rw---- drmrpc   drmrpc    10,  62 2013-06-17 10:16 rproc_user||019
+rtc0|crw------- root     root     254,   0 2013-06-17 10:16 rtc0|crw------- root     root     254,   0 2013-06-14 07:58 rtc0|000
+rtc1||crw------- root     root     254,   1 2013-06-14 07:58 rtc1|109
+s3c-mem||crw------- root     root       1,  13 2013-06-14 07:58 s3c-mem|109
+s3c-mfc||crw-rw-rw- system   graphics  10, 252 2013-06-14 07:58 s3c-mfc|109
+s5p-smem||crwxrwxr-x system   system    10,  61 2013-06-14 07:58 s5p-smem|109
+snd|drwxr-xr-x root     root              2013-06-17 10:16 snd|drwxr-xr-x root     root              2013-06-14 07:58 snd|000
+socket|drwxr-xr-x root     root              2013-06-17 13:28 socket|drwxr-xr-x root     root              2013-06-17 13:19 socket|000
+srp||crw-rw---- system   audio     10, 250 2013-06-14 07:58 srp|109
+ssp_sensorhub||crw-rw---- system   input     10,  42 2013-06-14 07:58 ssp_sensorhub|109
+sw_sync||crw------- root     root      10,  58 2013-06-14 07:58 sw_sync|109
+tf_ctrl|crw-rw---- drmrpc   drmrpc   122,   1 2013-06-17 10:16 tf_ctrl||019
+tf_driver|crw-rw---- drmrpc   drmrpc   122,   0 2013-06-17 10:16 tf_driver||019
+tiler|crwxrwxrwx system   system   248,   0 2013-06-17 10:16 tiler||019
+timerirq|crw-rw---- system   system    10,  55 2013-06-17 10:16 timerirq||019
+touchwake||crw------- root     root      10,  57 2013-06-14 07:58 touchwake|109
+tspdrv||crw-rw---- root     shell     10,  30 2013-06-14 07:58 tspdrv|109
+tty|crw-rw-rw- root     root       5,   0 2013-06-17 10:16 tty|crw-rw-rw- root     root       5,   0 2013-06-14 07:58 tty|000
+tty0||crw-rw---- root     system     4,   0 2013-06-14 07:58 tty0|109
+tty1||crw------- root     root       4,   1 2013-06-14 07:58 tty1|109
+tty10||crw------- root     root       4,  10 2013-06-14 07:58 tty10|109
+tty11||crw------- root     root       4,  11 2013-06-14 07:58 tty11|109
+tty12||crw------- root     root       4,  12 2013-06-14 07:58 tty12|109
+tty13||crw------- root     root       4,  13 2013-06-14 07:58 tty13|109
+tty14||crw------- root     root       4,  14 2013-06-14 07:58 tty14|109
+tty15||crw------- root     root       4,  15 2013-06-14 07:58 tty15|109
+tty16||crw------- root     root       4,  16 2013-06-14 07:58 tty16|109
+tty17||crw------- root     root       4,  17 2013-06-14 07:58 tty17|109
+tty18||crw------- root     root       4,  18 2013-06-14 07:58 tty18|109
+tty19||crw------- root     root       4,  19 2013-06-14 07:58 tty19|109
+tty2||crw------- root     root       4,   2 2013-06-14 07:58 tty2|109
+tty20||crw------- root     root       4,  20 2013-06-14 07:58 tty20|109
+tty21||crw------- root     root       4,  21 2013-06-14 07:58 tty21|109
+tty22||crw------- root     root       4,  22 2013-06-14 07:58 tty22|109
+tty23||crw------- root     root       4,  23 2013-06-14 07:58 tty23|109
+tty24||crw------- root     root       4,  24 2013-06-14 07:58 tty24|109
+tty25||crw------- root     root       4,  25 2013-06-14 07:58 tty25|109
+tty26||crw------- root     root       4,  26 2013-06-14 07:58 tty26|109
+tty27||crw------- root     root       4,  27 2013-06-14 07:58 tty27|109
+tty28||crw------- root     root       4,  28 2013-06-14 07:58 tty28|109
+tty29||crw------- root     root       4,  29 2013-06-14 07:58 tty29|109
+tty3||crw------- root     root       4,   3 2013-06-14 07:58 tty3|109
+tty30||crw------- root     root       4,  30 2013-06-14 07:58 tty30|109
+tty31||crw------- root     root       4,  31 2013-06-14 07:58 tty31|109
+tty32||crw------- root     root       4,  32 2013-06-14 07:58 tty32|109
+tty33||crw------- root     root       4,  33 2013-06-14 07:58 tty33|109
+tty34||crw------- root     root       4,  34 2013-06-14 07:58 tty34|109
+tty35||crw------- root     root       4,  35 2013-06-14 07:58 tty35|109
+tty36||crw------- root     root       4,  36 2013-06-14 07:58 tty36|109
+tty37||crw------- root     root       4,  37 2013-06-14 07:58 tty37|109
+tty38||crw------- root     root       4,  38 2013-06-14 07:58 tty38|109
+tty39||crw------- root     root       4,  39 2013-06-14 07:58 tty39|109
+tty4||crw------- root     root       4,   4 2013-06-14 07:58 tty4|109
+tty40||crw------- root     root       4,  40 2013-06-14 07:58 tty40|109
+tty41||crw------- root     root       4,  41 2013-06-14 07:58 tty41|109
+tty42||crw------- root     root       4,  42 2013-06-14 07:58 tty42|109
+tty43||crw------- root     root       4,  43 2013-06-14 07:58 tty43|109
+tty44||crw------- root     root       4,  44 2013-06-14 07:58 tty44|109
+tty45||crw------- root     root       4,  45 2013-06-14 07:58 tty45|109
+tty46||crw------- root     root       4,  46 2013-06-14 07:58 tty46|109
+tty47||crw------- root     root       4,  47 2013-06-14 07:58 tty47|109
+tty48||crw------- root     root       4,  48 2013-06-14 07:58 tty48|109
+tty49||crw------- root     root       4,  49 2013-06-14 07:58 tty49|109
+tty5||crw------- root     root       4,   5 2013-06-14 07:58 tty5|109
+tty50||crw------- root     root       4,  50 2013-06-14 07:58 tty50|109
+tty51||crw------- root     root       4,  51 2013-06-14 07:58 tty51|109
+tty52||crw------- root     root       4,  52 2013-06-14 07:58 tty52|109
+tty53||crw------- root     root       4,  53 2013-06-14 07:58 tty53|109
+tty54||crw------- root     root       4,  54 2013-06-14 07:58 tty54|109
+tty55||crw------- root     root       4,  55 2013-06-14 07:58 tty55|109
+tty56||crw------- root     root       4,  56 2013-06-14 07:58 tty56|109
+tty57||crw------- root     root       4,  57 2013-06-14 07:58 tty57|109
+tty58||crw------- root     root       4,  58 2013-06-14 07:58 tty58|109
+tty59||crw------- root     root       4,  59 2013-06-14 07:58 tty59|109
+tty6||crw------- root     root       4,   6 2013-06-14 07:58 tty6|109
+tty60||crw------- root     root       4,  60 2013-06-14 07:58 tty60|109
+tty61||crw------- root     root       4,  61 2013-06-14 07:58 tty61|109
+tty62||crw------- root     root       4,  62 2013-06-14 07:58 tty62|109
+tty63||crw------- root     root       4,  63 2013-06-14 07:58 tty63|109
+tty7||crw------- root     root       4,   7 2013-06-14 07:58 tty7|109
+tty8||crw------- root     root       4,   8 2013-06-14 07:58 tty8|109
+tty9||crw------- root     root       4,   9 2013-06-14 07:58 tty9|109
+ttyFIQ0|crw------- root     root     253,   0 2013-06-17 10:16 ttyFIQ0||019
+ttyGS0|crw-rw---- radio    radio    249,   0 2013-06-17 10:16 ttyGS0|crw------- system   system   249,   0 2013-06-14 07:58 ttyGS0|000
+ttyGS1|crw-rw---- radio    radio    249,   1 2013-06-17 10:16 ttyGS1|crw------- system   system   249,   1 2013-06-14 07:58 ttyGS1|000
+ttyGS2|crw------- root     root     249,   2 2013-06-17 10:16 ttyGS2|crw------- system   system   249,   2 2013-06-14 07:58 ttyGS2|000
+ttyGS3|crw------- root     root     249,   3 2013-06-17 10:16 ttyGS3|crw------- system   system   249,   3 2013-06-14 07:58 ttyGS3|000
+ttyO0|crw-rw---- system   radio    251,   0 2013-06-17 13:18 ttyO0||019
+ttyO1|crw------- bluetooth bluetooth 251,   1 2013-06-17 10:16 ttyO1||019
+ttyO3|crw------- nfc      nfc      251,   3 2013-06-17 10:16 ttyO3||019
+ttyS0||crw------- root     root       4,  64 2013-06-14 07:58 ttyS0|109
+ttyS1||crw------- root     root       4,  65 2013-06-14 07:58 ttyS1|109
+ttyS2||crw------- root     root       4,  66 2013-06-14 07:58 ttyS2|109
+ttyS3||crw------- root     root       4,  67 2013-06-14 07:58 ttyS3|109
+ttySAC0||crw------- bluetooth bluetooth 204,  64 2013-06-14 07:58 ttySAC0|109
+ttySAC1||crw-rw---- root     system   204,  65 2013-06-14 07:58 ttySAC1|109
+ttySAC2||crw-rw---- root     system   204,  66 2013-06-14 07:59 ttySAC2|109
+ttySAC3||crw-rw---- root     system   204,  67 2013-06-14 07:58 ttySAC3|109
+ttyUSB0||crw-rw---- system   system   188,   0 2013-06-17 15:09 ttyUSB0|109
+ttyUSB1||crw-rw-rw- system   system   188,   1 2013-06-17 15:13 ttyUSB1|109
+tun|crw-rw---- system   vpn       10, 200 2013-06-17 10:16 tun|crw-rw---- system   vpn       10, 200 2013-06-14 07:58 tun|000
+tzic||crw------- system   system   252,   0 2013-06-14 07:58 tzic|109
+uhid|crw-rw---- system   net_bt_stack  10,  45 2013-06-17 10:16 uhid||019
+uinput|crw-rw---- system   net_bt_stack  10, 223 2013-06-17 10:16 uinput|crw-rw---- system   bluetooth  10, 223 2013-06-14 07:58 uinput|000
+ump||crw-rw-rw- system   graphics 243,   0 2013-06-14 07:58 ump|109
+umts_boot0|crw-rw---- radio    radio     10,  36 2013-06-17 10:16 umts_boot0||019
+umts_boot1|crw-rw---- radio    radio     10,  34 2013-06-17 10:16 umts_boot1||019
+umts_ipc0|crw-rw---- radio    radio     10,  38 2013-06-17 10:16 umts_ipc0||019
+umts_ramdump0|crw-rw---- radio    radio     10,  35 2013-06-17 10:16 umts_ramdump0||019
+umts_rfs0|crw-rw---- radio    radio     10,  37 2013-06-17 10:16 umts_rfs0||019
+urandom|crw-rw-rw- root     root       1,   9 2013-06-17 10:16 urandom|crw-rw-rw- root     root       1,   9 2013-06-14 07:58 urandom|000
+usb||drwxr-xr-x root     root              2013-06-17 15:13 usb|109
+usb_accessory|crw-rw---- root     usb       10,  48 2013-06-17 10:16 usb_accessory|crw-rw---- root     usb       10,  52 2013-06-14 07:58 usb_accessory|000
+usb_mtp_gadget||crw-rw---- system   system    10,  53 2013-06-14 07:58 usb_mtp_gadget|109
+vcs||crw------- root     root       7,   0 2013-06-14 07:58 vcs|109
+vcs1||crw------- root     root       7,   1 2013-06-14 07:58 vcs1|109
+vcsa||crw------- root     root       7, 128 2013-06-14 07:58 vcsa|109
+vcsa1||crw------- root     root       7, 129 2013-06-14 07:58 vcsa1|109
+video0||crw-rw-rw- system   root      81,   0 2013-06-14 07:58 video0|109
+video1||crw-rw-rw- system   camera    81,   1 2013-06-14 07:58 video1|109
+video11||crw-rw-rw- system   graphics  81,  11 2013-06-14 07:58 video11|109
+video12||crw-rw---- system   camera    81,  12 2013-06-14 07:58 video12|109
+video16||crw-rw---- system   system    81,  16 2013-06-14 07:58 video16|109
+video2||crw-rw-rw- system   root      81,   2 2013-06-14 07:58 video2|109
+video20||crw-rw-rw- system   system    81,  20 2013-06-14 07:58 video20|109
+video3||crw-rw-rw- system   root      81,   3 2013-06-14 07:58 video3|109
+voodoo_sound||crw------- root     root      10,  40 2013-06-14 07:58 voodoo_sound|109
+voodoo_sound_control||crw------- root     root      10,  39 2013-06-14 07:58 voodoo_sound_control|109
+watchdog|crw------- root     root      10, 130 2013-06-17 10:16 watchdog||019
+xt_qtaguid|crw-r--r-- root     root      10,  39 2013-06-17 10:16 xt_qtaguid|crw-r--r-- root     root      10,  38 2013-06-14 07:58 xt_qtaguid|000
+zero|crw-rw-rw- root     root       1,   5 2013-06-17 10:16 zero|crw-rw-rw- root     root       1,   5 2013-06-14 07:58 zero|000
