@@ -39,8 +39,10 @@ def split2dict(lines):
 
 
 #main
-f1_lines = open_file("galaxy_nexus")
-f2_lines = open_file("galaxy_note_2")
+file_name1 = "galaxy_nexus"
+file_name2 = "galaxy_note_2"
+f1_lines = open_file(file_name1)
+f2_lines = open_file(file_name2)
 
 dev_list = make_list(f1_lines, f2_lines)
 
@@ -52,6 +54,8 @@ f2_dict = split2dict(f2_lines)
 
 strout = ""
 stat = ""
+
+strout = "dev name|" + file_name1 + "|" + file_name2 + "|" + "phone1dev[Y/N]|" + "phone2dev[Y/N]|" + "permission[Y/N]\n" 
 for dev in dev_list:
     strout = strout + dev + "|"
     if dev in f1_dict.keys():
@@ -62,19 +66,19 @@ for dev in dev_list:
         stat = stat + "1"
     if dev in f2_dict.keys(): 
         strout = strout + f2_dict[dev][1] + "|"
-        stat = stat + "0"
+        stat = stat + "|0"
     else:
         strout = strout + "|"
-        stat = stat + "1"
+        stat = stat + "|1"
     
 
-    if stat == "00":
+    if stat == "0|0":
         if f1_dict[dev][0] == f1_dict[dev][0]:
-            stat = stat + "0"
+            stat = stat + "|0"
         else:
-            stat = stat + "1"
+            stat = stat + "|1"
     else:
-        stat = stat + "9"
+        stat = stat + "|9"
 
     strout = strout + stat
     strout = strout + "\n"
@@ -85,7 +89,7 @@ print strout
 #print f1_dict.keys()
 #print f2_dict.keys()
 
-file3 = open("output", "w")
+file3 = open("output.csv", "w")
 file3.writelines(strout)
 file3.close()
 
