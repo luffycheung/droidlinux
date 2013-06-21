@@ -39,7 +39,7 @@ i2c-3|crw------- root     root      89,   3 2013-06-17 10:16 i2c-3|crw------- ro
 i2c-4|crw------- root     root      89,   4 2013-06-17 10:16 i2c-4|crw------- root     root      89,   4 1970-04-24 11:43 i2c-4|0|0|0
 i2c-5|crw------- root     root      89,   5 2013-06-17 10:16 i2c-5||0|1|9
 input|drwxr-xr-x root     root              2013-06-17 10:16 input|drwxr-xr-x root     root              2013-06-18 16:39 input|0|0|0
-ion|crwxrwxrwx root     root      10,  58 2013-06-17 10:16 ion|crw-rw-r-- system   system    10,  63 1970-04-24 11:43 ion|0|0|0
+ion|crwxrwxrwx root     root      10,  58 2013-06-17 10:16 ion|crw-rw-r-- system   system    10,  63 1970-04-24 11:43 ion|0|0|1
 keychord|crw------- root     root      10,  47 2013-06-17 10:16 keychord|crw------- root     root      10,  17 1970-04-24 11:43 keychord|0|0|0
 kgsl-3d0||crw-rw-rw- system   system   238,   0 2013-06-18 16:40 kgsl-3d0|1|0|9
 kmem|crw------- root     root       1,   2 2013-06-17 10:16 kmem|crw------- root     root       1,   2 1970-04-24 11:43 kmem|0|0|0
@@ -108,7 +108,7 @@ rmnet_mux_ctrl||crw-r----- radio    radio     10,  24 1970-04-24 11:43 rmnet_mux
 rpmsg-omx0|crw-rw---- drmrpc   drmrpc   252,   0 2013-06-17 10:16 rpmsg-omx0||0|1|9
 rpmsg-omx1|crw-rw---- drmrpc   drmrpc   252,   1 2013-06-17 10:16 rpmsg-omx1||0|1|9
 rproc_user|crw-rw---- drmrpc   drmrpc    10,  62 2013-06-17 10:16 rproc_user||0|1|9
-rtc0|crw------- root     root     254,   0 2013-06-17 10:16 rtc0|crw-rw---- system   system   253,   0 1970-04-24 11:43 rtc0|0|0|0
+rtc0|crw------- root     root     254,   0 2013-06-17 10:16 rtc0|crw-rw---- system   system   253,   0 1970-04-24 11:43 rtc0|0|0|1
 siI-8334||crw------- root     root     244,   0 1970-04-24 11:43 siI-8334|1|0|9
 smd1||crw------- root     root     251,   1 1970-04-24 11:43 smd1|1|0|9
 smd11||crw------- root     root     251,  11 1970-04-24 11:43 smd11|1|0|9

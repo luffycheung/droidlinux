@@ -41,7 +41,7 @@ def cmp_files(file_name1, file_name2, dev_list, f1_dict, f2_dict):
     strout = ""
     stat = ""
 
-    strout = "dev name|" + file_name1 + "|" + file_name2 + "|" + "phone1dev[Y/N]|" + "phone2dev[Y/N]|" + "permission[Y/N]|" + "phone2devPermission" + "\n" 
+    strout = "dev name|" + file_name1 + "|" + file_name2 + "|" + "phone2devPermission|" + "phone1dev[Y/N]|" + "phone2dev[Y/N]|" + "permission[Y/N]" + "\n" 
     for dev in dev_list:
         strout = strout + dev + "|"
         if dev in f1_dict.keys():
@@ -61,14 +61,16 @@ def cmp_files(file_name1, file_name2, dev_list, f1_dict, f2_dict):
         if stat == "0|0":
             if f1_dict[dev][0] == f2_dict[dev][0]:
                 stat = stat + "|0"
+
             else:
                 stat = stat + "|1"
-                strout = strout + "|" + f2_dict[dev][0]                
+                strout = strout + f2_dict[dev][0]                
         else:
             stat = stat + "|9"
             if stat == "1|0|9":
-                strout = strout + "|" + f2_dict[dev][0]                
-
+                strout = strout + f2_dict[dev][0]                
+        
+        strout = strout + "|"
         strout = strout + stat
 
         strout = strout + "\n"
