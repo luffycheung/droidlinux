@@ -1,0 +1,77 @@
+crw-rw---- system   system    10,  54 2013-06-17 10:16 accelirq
+crw-rw-r-- system   radio     10,  46 2013-06-17 10:16 alarm
+crw------- system   system    10,  51 2013-06-17 10:16 an30259a_leds
+crw-rw---- adb      adb       10,  50 2013-06-17 10:16 android_adb
+crw-rw-rw- root     root      10,  61 2013-06-17 10:16 ashmem
+crw-rw-rw- root     root      10,  44 2013-06-17 10:16 binder
+drwxr-xr-x root     root              2013-06-17 10:16 block
+drwxr-xr-x root     root              2013-06-17 10:16 bus
+crw-rw---- system   system    10,  53 2013-06-17 10:16 compassirq
+crw------- root     root       5,   1 2013-06-17 10:16 console
+crw------- root     root      10,  33 2013-06-17 10:16 cpu_dma_latency
+drwxr-xr-x system   system            2013-06-17 10:16 cpuctl
+crw------- root     root      10, 236 2013-06-17 10:16 device-mapper
+crw-rw---- system   system    10,  59 2013-06-17 10:16 dsscomp
+crw-rw-rw- root     root       1,   7 2013-06-17 10:16 full
+crw------- root     root      10, 229 2013-06-17 10:16 fuse
+drwxr-xr-x root     root              2013-06-17 10:16 graphics
+crw------- root     root      10,  60 2013-06-17 10:16 hdcp
+crw------- root     root      89,   1 2013-06-17 10:16 i2c-1
+crw-rw---- media    media     89,   2 2013-06-17 10:16 i2c-2
+crw------- root     root      89,   3 2013-06-17 10:16 i2c-3
+crw------- root     root      89,   4 2013-06-17 10:16 i2c-4
+crw------- root     root      89,   5 2013-06-17 10:16 i2c-5
+drwxr-xr-x root     root              2013-06-17 10:16 input
+crwxrwxrwx root     root      10,  58 2013-06-17 10:16 ion
+crw------- root     root      10,  47 2013-06-17 10:16 keychord
+crw------- root     root       1,   2 2013-06-17 10:16 kmem
+crw------- root     root       1,  11 2013-06-17 10:16 kmsg
+drwxr-xr-x root     root              2013-06-17 10:16 log
+crw------- root     root       1,   1 2013-06-17 10:16 mem
+crw-rw---- radio    radio     10,  52 2013-06-17 10:16 modem_br
+crw-rw---- system   system    10,  57 2013-06-17 10:16 mpu
+crw-rw---- system   system    10,  56 2013-06-17 10:16 mpuirq
+drwxr-xr-x root     root              2013-06-17 10:16 mtd
+crw-rw---- root     mtp       10,  49 2013-06-17 10:16 mtp_usb
+crw------- root     root      10,  32 2013-06-17 10:16 network_latency
+crw------- root     root      10,  31 2013-06-17 10:16 network_throughput
+crw-rw-rw- root     root       1,   3 2013-06-17 10:16 null
+crw-rw---- radio    vpn      108,   0 2013-06-17 10:16 ppp
+crw-rw-rw- root     root       5,   2 2013-06-17 14:14 ptmx
+drwxr-xr-x root     root              1969-12-31 18:00 pts
+crw-rw-rw- root     root     250,   0 2013-06-17 10:16 pvrsrvkm
+crw-rw-rw- root     root       1,   8 2013-06-17 10:16 random
+crw------- root     root      10,  63 2013-06-17 10:16 rfkill
+crw-rw---- drmrpc   drmrpc   252,   0 2013-06-17 10:16 rpmsg-omx0
+crw-rw---- drmrpc   drmrpc   252,   1 2013-06-17 10:16 rpmsg-omx1
+crw-rw---- drmrpc   drmrpc    10,  62 2013-06-17 10:16 rproc_user
+crw------- root     root     254,   0 2013-06-17 10:16 rtc0
+drwxr-xr-x root     root              2013-06-17 10:16 snd
+drwxr-xr-x root     root              2013-06-17 13:28 socket
+crw-rw---- drmrpc   drmrpc   122,   1 2013-06-17 10:16 tf_ctrl
+crw-rw---- drmrpc   drmrpc   122,   0 2013-06-17 10:16 tf_driver
+crwxrwxrwx system   system   248,   0 2013-06-17 10:16 tiler
+crw-rw---- system   system    10,  55 2013-06-17 10:16 timerirq
+crw-rw-rw- root     root       5,   0 2013-06-17 10:16 tty
+crw------- root     root     253,   0 2013-06-17 10:16 ttyFIQ0
+crw-rw---- radio    radio    249,   0 2013-06-17 10:16 ttyGS0
+crw-rw---- radio    radio    249,   1 2013-06-17 10:16 ttyGS1
+crw------- root     root     249,   2 2013-06-17 10:16 ttyGS2
+crw------- root     root     249,   3 2013-06-17 10:16 ttyGS3
+crw-rw---- system   radio    251,   0 2013-06-17 13:18 ttyO0
+crw------- bluetooth bluetooth 251,   1 2013-06-17 10:16 ttyO1
+crw------- nfc      nfc      251,   3 2013-06-17 10:16 ttyO3
+crw-rw---- system   vpn       10, 200 2013-06-17 10:16 tun
+crw-rw---- system   net_bt_stack  10,  45 2013-06-17 10:16 uhid
+crw-rw---- system   net_bt_stack  10, 223 2013-06-17 10:16 uinput
+crw-rw---- radio    radio     10,  36 2013-06-17 10:16 umts_boot0
+crw-rw---- radio    radio     10,  34 2013-06-17 10:16 umts_boot1
+crw-rw---- radio    radio     10,  38 2013-06-17 10:16 umts_ipc0
+crw-rw---- radio    radio     10,  35 2013-06-17 10:16 umts_ramdump0
+crw-rw---- radio    radio     10,  37 2013-06-17 10:16 umts_rfs0
+crw-rw-rw- root     root       1,   9 2013-06-17 10:16 urandom
+crw-rw---- root     usb       10,  48 2013-06-17 10:16 usb_accessory
+crw------- root     root      10, 130 2013-06-17 10:16 watchdog
+crw-r--r-- root     root      10,  39 2013-06-17 10:16 xt_qtaguid
+crw-rw-rw- root     root       1,   5 2013-06-17 10:16 zero
+
