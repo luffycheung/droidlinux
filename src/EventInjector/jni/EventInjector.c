@@ -220,10 +220,10 @@ static int scan_dir(const char *dirname) {
 		pDevs[nDevsCount].device_path = strdup(devname);
 		nDevsCount++;
 
-		// we don't have enough space for this.
-		if(nDevsCount > 5){
-			break;
-		}
+//		// we don't have enough space for this.
+//		if(nDevsCount > 5){
+//			break;
+//		}
 	}
 	closedir(dir);
 	return 0;

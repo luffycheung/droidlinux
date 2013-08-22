@@ -97,16 +97,22 @@ public class MainActivity extends Activity implements OnClickListener, OnItemSel
 		panel.addView(b);
 		// --
 		
+		// put list in a scroll view
+		LinearLayout listLayout = new LinearLayout(this);
+		listLayout.setLayoutParams(new LinearLayout.LayoutParams(LayoutParams.MATCH_PARENT, 
+				LayoutParams.MATCH_PARENT, 1.0f));
 		m_lvDevices = new ListView(this);
-		LayoutParams lvLayout = new LayoutParams(LayoutParams.FILL_PARENT,
+		LayoutParams lvLayoutParam = new LayoutParams(LayoutParams.FILL_PARENT,
 				LayoutParams.WRAP_CONTENT);
-		m_lvDevices.setLayoutParams(lvLayout);
+		m_lvDevices.setLayoutParams(lvLayoutParam);
 		m_lvDevices.setId(idLVDevices);
 		m_lvDevices.setDividerHeight(0);
 		m_lvDevices.setFadingEdgeLength(0);
 		m_lvDevices.setCacheColorHint(0);
 		m_lvDevices.setAdapter(null);
-		panel.addView(m_lvDevices);
+
+		listLayout.addView(m_lvDevices);
+		panel.addView(listLayout);
 		// --
 		LinearLayout panelH = new LinearLayout(this);
 		panelH.setOrientation(LinearLayout.HORIZONTAL);

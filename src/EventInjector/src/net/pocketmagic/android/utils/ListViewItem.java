@@ -24,7 +24,6 @@
 
 package net.pocketmagic.android.utils;
 
-
 public class ListViewItem {
 		   
 	    private String m_szDeviceName;
