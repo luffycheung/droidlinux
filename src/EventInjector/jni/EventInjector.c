@@ -160,6 +160,7 @@ static int open_device(int index) {
 
 	pDevs[index].device_name = strdup(name);
 
+
 	return 0;
 }
 
