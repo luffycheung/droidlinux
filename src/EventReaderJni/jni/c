@@ -1,0 +1,3 @@
+echo "rm old libs"
+rm -rf ../libs
+ndk-build
