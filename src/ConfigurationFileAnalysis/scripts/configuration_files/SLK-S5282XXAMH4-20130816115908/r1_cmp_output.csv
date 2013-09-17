@@ -1,0 +1,14 @@
+Galaxy Star Duos,GT-S5282,SLKSri lanka,S5282XXAMH4,4.1.2,08.08.2013,1354287,Unlock,SLK-S5282XXAMH4-20130816115908.zip,http://hotfile.com/dl/239874078/de68064/SLK-S5282XXAMH4-20130816115908.zip.html,00134
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/al3006_pls,,,,0666,system,system,O,O,,,,
+/dev/ecompass_ctrl,,,,0666,system,compass,O,O,,,,
+/dev/input/event0,,,,0666,system,system,O,O,,O,,
+/dev/mali,,,,0666,system,graphics,O,O,,,,
+/dev/mmc31xx,,,,0666,system,compass,O,O,,,,
+/dev/mxc622x,,,,0666,system,input,O,O,,,,
+/dev/mxdspidev,,,,0666,system,system,O,O,,,,
+/dev/ump,,,,0666,system,graphics,O,O,,,,
+/dev/umts_router,,,,0666,system,system,O,O,,,,
+/dev/vbpipe0,,,,0666,system,system,O,O,,,,
+/dev/vbpipe2,,,,0666,system,system,O,O,,,,
+/dev/vbpipe3,,,,0666,system,system,O,O,,,,

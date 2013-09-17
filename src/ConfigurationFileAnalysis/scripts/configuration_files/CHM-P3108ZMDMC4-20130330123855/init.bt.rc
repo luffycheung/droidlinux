@@ -1,0 +1,17 @@
+on boot
+
+service hciattach /system/bin/brcm_patchram_plus \
+        --enable_hci --no2bytes --enable_lpm \
+        --tosleep 50000 --baudrate 3000000 --use_baudrate_for_download \
+        --patchram /vendor/firmware/BCM4330.hcd /dev/ttyO1
+    class main
+    user bluetooth
+    group bluetooth net_bt_admin
+    disabled
+    oneshot
+
+# for bt rf test.
+service bt_dut_cmd /system/bin/bcm_dut
+    group bluetooth net_bt_admin
+    disabled
+    oneshot

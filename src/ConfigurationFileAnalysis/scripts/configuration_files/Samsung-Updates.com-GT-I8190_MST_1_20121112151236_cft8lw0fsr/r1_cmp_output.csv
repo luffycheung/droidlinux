@@ -1,0 +1,10 @@
+Galaxy S 3 Mini,GT-I8190,MSTN/a,I8190XXALJL,4.1.1,24.10.2012,380934,Unlock,Samsung-Updates.com-GT-I8190_MST_1_20121112151236_cft8lw0fsr.zip,http://hotfile.com/dl/224113960/b67cfc2/Samsung-Updates.com-GT-I8190_MST_1_20121112151236_cft8lw0fsr.zip.html,00012
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/b2r2_blt,,,,0666,system,graphics,O,O,,,,
+/dev/clone0,,,,0666,system,graphics,O,O,,,,
+/dev/comp0,,,,0666,system,graphics,O,O,,,,
+/dev/comp1,,,,0666,system,graphics,O,O,,,,
+/dev/disp0,,,,0666,system,graphics,O,O,,,,
+/dev/hwmem,,,,0666,media,system,O,O,,,,
+/dev/mali,,,,0666,system,graphics,O,O,,,,
+/dev/tee,,,,0666,root,system,O,O,,,,

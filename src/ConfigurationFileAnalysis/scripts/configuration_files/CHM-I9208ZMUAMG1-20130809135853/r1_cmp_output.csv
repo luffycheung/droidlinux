@@ -1,0 +1,7 @@
+Galaxy Mega 6.3 (TD-SCDMA),GT-I9208,CHMChina,I9208ZMUAMG1,4.2.2,04.07.2013,828632,Unlock,CHM-I9208ZMUAMG1-20130809135853.zip,http://hotfile.com/dl/238628108/97767fb/CHM-I9208ZMUAMG1-20130809135853.zip.html,00037
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,system,system,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,system,system,O,O,,,,
+/dev/tima,,,,0666,root,root,O,O,,,,

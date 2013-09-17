@@ -1,0 +1,22 @@
+Galaxy Note,GT-I9220,CHNChina,I9220ZCLPR,4.0.4,19.10.2012,1152018,Unlock,Samsung-Updates.com-GT-I9220_CHN_1_20121023153156_byr7a13nfz.zip,http://hotfile.com/dl/178614677/1746ec2/Samsung-Updates.com-GT-I9220_CHN_1_20121023153156_byr7a13nfz.zip.html,00041
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/CEC,,,,0666,system,system,O,O,,,,
+/dev/HPD,,,,0666,system,system,O,O,,,,
+/dev/exynos-mem,,,,0666,system,graphics,O,O,,,O
+/dev/fimg2d,,,,0666,system,graphics,O,O,,,,
+/dev/i2c-7,,,,0666,system,system,O,O,,,,
+/dev/mali,,,,0666,system,system,O,O,,,,
+/dev/s3c-mem,,,,0666,system,system,O,O,,,,
+/dev/s3c-mfc,,,,0666,system,graphics,O,O,,,,
+/dev/s5p-jpeg,,,,0666,system,camera,O,O,,,,
+/dev/s5p-mfc,,,,0666,system,graphics,O,O,,,,
+/dev/srp,,,,0666,system,audio,O,O,,,,
+/dev/srp_ctrl,,,,0666,system,audio,O,O,,,,
+/dev/ump,,,,0666,system,graphics,O,O,,,,
+/dev/video0,,,,0666,system,m2m,O,O,,,,
+/dev/video1,,,,0666,system,camera,O,O,,,,
+/dev/video14,,,,0666,system,system,O,O,,,,
+/dev/video2,,,,0666,system,m2m,O,O,,,,
+/dev/video21,,,,0666,system,system,O,O,,,,
+/dev/video3,,,,0666,system,m2m,O,O,,,,
+/dev/video4,,,,0666,system,m2m,O,O,,,,

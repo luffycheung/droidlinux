@@ -1,0 +1,14 @@
+Galaxy Grand Duos,GT-I9082,CHUN/a,I9082ZNAMG1,4.1.2,30.07.2013,1329072,Unlock,CHU-I9082ZNAMG1-20130820192351.zip,http://hotfile.com/dl/240746883/7bd6f2d/CHU-I9082ZNAMG1-20130820192351.zip.html,00019
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/ami_sensor,,,,0666,system,system,O,O,,,,
+/dev/flightmode-opt,,,,0666,system,system,O,O,,,,
+/dev/hdmi0,,,,0666,system,system,O,O,,,,
+/dev/vc-cam,,,,0666,system,system,O,O,,,,
+/dev/vc-cma,,,,0666,system,system,O,O,,,,
+/dev/vc-dnfo,,,,0666,system,system,O,O,,,,
+/dev/vc-hnfo,,,,0666,system,system,O,O,,,,
+/dev/vc-lmk,,,,0666,system,system,O,O,,,,
+/dev/vc-mem,,,,0666,system,system,O,O,,,,
+/dev/vc-omx,,,,0666,system,system,O,O,,,,
+/dev/vchiq,,,,0666,system,system,O,O,,,,
+/dev/vcsm,,,,0666,system,system,O,O,,,,

@@ -1,0 +1,388 @@
+import init.spc.usb.rc
+import init.wifi.rc
+import init.spc.eth.rc
+
+on early-init
+    mkdir /secdata 0771 system system
+
+on init
+    # See storage config details at http://source.android.com/tech/storage/
+    mkdir /mnt/shell/emulated 0700 shell shell
+    mkdir /storage/emulated 0555 root root
+
+    export EXTERNAL_STORAGE /storage/emulated/legacy
+    export EMULATED_STORAGE_SOURCE /mnt/shell/emulated
+    export EMULATED_STORAGE_TARGET /storage/emulated
+
+    # Support legacy paths
+    symlink /storage/emulated/legacy /sdcard
+    symlink /storage/emulated/legacy /mnt/sdcard
+    symlink /storage/emulated/legacy /storage/sdcard0
+    symlink /mnt/shell/emulated/0 /storage/emulated/legacy
+
+# map "real" external storages paths also in same way. backwards compatibility.
+    symlink /storage/UsbDriveA0 /mnt/UsbDriveA0
+    symlink /storage/UsbDriveB0 /mnt/UsbDriveB0
+    symlink /storage/UsbDriveC0 /mnt/UsbDriveC0
+    symlink /storage/UsbDriveD0 /mnt/UsbDriveD0
+    symlink /storage/UsbDriveE0 /mnt/UsbDriveE0
+    symlink /storage/UsbDriveF0 /mnt/UsbDriveF0
+    symlink /storage/UsbDriveA1 /mnt/UsbDriveA1
+    symlink /storage/UsbDriveB1 /mnt/UsbDriveB1
+    symlink /storage/UsbDriveC1 /mnt/UsbDriveC1
+    symlink /storage/UsbDriveD1 /mnt/UsbDriveD1
+    symlink /storage/UsbDriveE1 /mnt/UsbDriveE1
+    symlink /storage/UsbDriveF1 /mnt/UsbDriveF1
+    symlink /storage/UsbDriveA2 /mnt/UsbDriveA2
+    symlink /storage/UsbDriveB2 /mnt/UsbDriveB2
+    symlink /storage/UsbDriveC2 /mnt/UsbDriveC2
+    symlink /storage/UsbDriveD2 /mnt/UsbDriveD2
+    symlink /storage/UsbDriveE2 /mnt/UsbDriveE2
+    symlink /storage/UsbDriveF2 /mnt/UsbDriveF2
+    symlink /storage/UsbDriveA3 /mnt/UsbDriveA3
+    symlink /storage/UsbDriveB3 /mnt/UsbDriveB3
+    symlink /storage/UsbDriveC3 /mnt/UsbDriveC3
+    symlink /storage/UsbDriveD3 /mnt/UsbDriveD3
+    symlink /storage/UsbDriveE3 /mnt/UsbDriveE3
+    symlink /storage/UsbDriveF3 /mnt/UsbDriveF3
+    symlink /storage/UsbDriveA4 /mnt/UsbDriveA4
+    symlink /storage/UsbDriveB4 /mnt/UsbDriveB4
+    symlink /storage/UsbDriveC4 /mnt/UsbDriveC4
+    symlink /storage/UsbDriveD4 /mnt/UsbDriveD4
+    symlink /storage/UsbDriveE4 /mnt/UsbDriveE4
+    symlink /storage/UsbDriveF4 /mnt/UsbDriveF4
+    symlink /storage/UsbDriveA5 /mnt/UsbDriveA5
+    symlink /storage/UsbDriveB5 /mnt/UsbDriveB5
+    symlink /storage/UsbDriveC5 /mnt/UsbDriveC5
+    symlink /storage/UsbDriveD5 /mnt/UsbDriveD5
+    symlink /storage/UsbDriveE5 /mnt/UsbDriveE5
+    symlink /storage/UsbDriveF5 /mnt/UsbDriveF5
+    symlink /storage/UsbDriveA6 /mnt/UsbDriveA6
+    symlink /storage/UsbDriveB6 /mnt/UsbDriveB6
+    symlink /storage/UsbDriveC6 /mnt/UsbDriveC6
+    symlink /storage/UsbDriveD6 /mnt/UsbDriveD6
+    symlink /storage/UsbDriveE6 /mnt/UsbDriveE6
+    symlink /storage/UsbDriveF6 /mnt/UsbDriveF6
+    symlink /storage/UsbDriveA7 /mnt/UsbDriveA7
+    symlink /storage/UsbDriveB7 /mnt/UsbDriveB7
+    symlink /storage/UsbDriveC7 /mnt/UsbDriveC7
+    symlink /storage/UsbDriveD7 /mnt/UsbDriveD7
+    symlink /storage/UsbDriveE7 /mnt/UsbDriveE7
+    symlink /storage/UsbDriveF7 /mnt/UsbDriveF7
+    symlink /storage/UsbDriveA8 /mnt/UsbDriveA8
+    symlink /storage/UsbDriveB8 /mnt/UsbDriveB8
+    symlink /storage/UsbDriveC8 /mnt/UsbDriveC8
+    symlink /storage/UsbDriveD8 /mnt/UsbDriveD8
+    symlink /storage/UsbDriveE8 /mnt/UsbDriveE8
+    symlink /storage/UsbDriveF8 /mnt/UsbDriveF8
+
+    export SECONDARY_STORAGE /storage/UsbDriveA0:/storage/UsbDriveA1:/storage/UsbDriveA2:/storage/UsbDriveA3:/storage/UsbDriveA4:/storage/UsbDriveA5:/storage/UsbDriveA6:/storage/UsbDriveA7:/storage/UsbDriveA8:/storage/UsbDriveB0:/storage/UsbDriveB1:/storage/UsbDriveB2:/storage/UsbDriveB3:/storage/UsbDriveB4:/storage/UsbDriveB5:/storage/UsbDriveB6:/storage/UsbDriveB7:/storage/UsbDriveB8:/storage/UsbDriveC0:/storage/UsbDriveC1:/storage/UsbDriveC2:/storage/UsbDriveC3:/storage/UsbDriveC4:/storage/UsbDriveC5:/storage/UsbDriveC6:/storage/UsbDriveC7:/storage/UsbDriveC8:/storage/UsbDriveD0:/storage/UsbDriveD1:/storage/UsbDriveD2:/storage/UsbDriveD3:/storage/UsbDriveD4:/storage/UsbDriveD5:/storage/UsbDriveD6:/storage/UsbDriveD7:/storage/UsbDriveD8:/storage/UsbDriveE0:/storage/UsbDriveE1:/storage/UsbDriveE2:/storage/UsbDriveE3:/storage/UsbDriveE4:/storage/UsbDriveE5:/storage/UsbDriveE6:/storage/UsbDriveE7:/storage/UsbDriveE8:/storage/UsbDriveF0:/storage/UsbDriveF1:/storage/UsbDriveF2:/storage/UsbDriveF3:/storage/UsbDriveF4:/storage/UsbDriveF5:/storage/UsbDriveF6:/storage/UsbDriveF7:/storage/UsbDriveF8
+    mkdir /storage/UsbDriveA0 0000 system system
+    mkdir /storage/UsbDriveB0 0000 system system
+    mkdir /storage/UsbDriveC0 0000 system system
+    mkdir /storage/UsbDriveD0 0000 system system
+    mkdir /storage/UsbDriveE0 0000 system system
+    mkdir /storage/UsbDriveF0 0000 system system
+    mkdir /storage/UsbDriveA1 0000 system system
+    mkdir /storage/UsbDriveB1 0000 system system
+    mkdir /storage/UsbDriveC1 0000 system system
+    mkdir /storage/UsbDriveD1 0000 system system
+    mkdir /storage/UsbDriveE1 0000 system system
+    mkdir /storage/UsbDriveF1 0000 system system
+    mkdir /storage/UsbDriveA2 0000 system system
+    mkdir /storage/UsbDriveB2 0000 system system
+    mkdir /storage/UsbDriveC2 0000 system system
+    mkdir /storage/UsbDriveD2 0000 system system
+    mkdir /storage/UsbDriveE2 0000 system system
+    mkdir /storage/UsbDriveF2 0000 system system
+    mkdir /storage/UsbDriveA3 0000 system system
+    mkdir /storage/UsbDriveB3 0000 system system
+    mkdir /storage/UsbDriveC3 0000 system system
+    mkdir /storage/UsbDriveD3 0000 system system
+    mkdir /storage/UsbDriveE3 0000 system system
+    mkdir /storage/UsbDriveF3 0000 system system
+    mkdir /storage/UsbDriveA4 0000 system system
+    mkdir /storage/UsbDriveB4 0000 system system
+    mkdir /storage/UsbDriveC4 0000 system system
+    mkdir /storage/UsbDriveD4 0000 system system
+    mkdir /storage/UsbDriveE4 0000 system system
+    mkdir /storage/UsbDriveF4 0000 system system
+    mkdir /storage/UsbDriveA5 0000 system system
+    mkdir /storage/UsbDriveB5 0000 system system
+    mkdir /storage/UsbDriveC5 0000 system system
+    mkdir /storage/UsbDriveD5 0000 system system
+    mkdir /storage/UsbDriveE5 0000 system system
+    mkdir /storage/UsbDriveF5 0000 system system
+    mkdir /storage/UsbDriveA6 0000 system system
+    mkdir /storage/UsbDriveB6 0000 system system
+    mkdir /storage/UsbDriveC6 0000 system system
+    mkdir /storage/UsbDriveD6 0000 system system
+    mkdir /storage/UsbDriveE6 0000 system system
+    mkdir /storage/UsbDriveF6 0000 system system
+    mkdir /storage/UsbDriveA7 0000 system system
+    mkdir /storage/UsbDriveB7 0000 system system
+    mkdir /storage/UsbDriveC7 0000 system system
+    mkdir /storage/UsbDriveD7 0000 system system
+    mkdir /storage/UsbDriveE7 0000 system system
+    mkdir /storage/UsbDriveF7 0000 system system
+    mkdir /storage/UsbDriveA8 0000 system system
+    mkdir /storage/UsbDriveB8 0000 system system
+    mkdir /storage/UsbDriveC8 0000 system system
+    mkdir /storage/UsbDriveD8 0000 system system
+    mkdir /storage/UsbDriveE8 0000 system system
+    mkdir /storage/UsbDriveF8 0000 system system
+
+    # for modem partition
+    symlink /dev/block/mmcblk0p10 /dev/mbin0
+    
+on post-fs-data
+    # We chown/chmod /secdata again so because mount is run as root + defaults
+    chown system system /secdata
+
+    chmod 0771 /secdata
+    mkdir /secdata/Userdir 0770 spc spc
+    chown spc spc /secdata/Userdir
+
+    mkdir /secdata/media 0770 media_rw media_rw
+    chown media_rw media_rw /secdata/media
+
+    setprop vold.post_fs_data_done 1
+
+# permissions for bluetooth.
+	setprop ro.bt.bdaddr_path "/efs/bluetooth/bt_addr"
+	chown bluetooth net_bt_stack ro.bt.bdaddr_path
+	chown bluetooth net_bt_stack /dev/ttySAC0
+	chmod 0660 /dev/ttySAC0
+	chmod 0660 /sys/class/rfkill/rfkill0/state
+	chown bluetooth net_bt_stack /sys/class/rfkill/rfkill0/state
+	chown bluetooth net_bt_stack /sys/class/rfkill/rfkill0/type
+	mkdir /efs/bluetooth 0775 radio system
+# Permissions for ethernet
+    chown system system /sys/bus/usb/drivers/ax88179_178a/2-1.4:1.0/hw_addr
+    chmod 0664 /sys/bus/usb/drivers/ax88179_178a/2-1.4:1.0/hw_addr
+    
+# Permissions for Samba
+#    mkdir /data/samba 0700 system system
+#    mkdir /data/samba/private 0700 system system
+#    mkdir /data/samba/var 0700 system system
+#    mkdir /data/samba/var/locks 0700 system system
+#    mkdir /data/samba/var/log 0700 system system
+#    mkdir /data/samba/var/tmp 0700 system system
+#    mkdir /data/samba/var/cores 0700 system system
+
+service samrc_start /system/bin/samrc start
+    class main
+    user root
+    group shell
+    disabled
+    oneshot
+
+service samrc_stop /system/bin/samrc stop
+    class main
+    user root
+    group shell
+    disabled
+    oneshot
+
+service samrc_repasswd /system/bin/samrc repasswd
+    class main
+    user root
+    group shell
+    disabled
+    oneshot
+
+on property:service.samrc=start
+    start samrc_start
+
+on property:service.samrc=stop
+    start samrc_stop
+
+on property:service.samrc=repasswd
+    start samrc_repasswd
+
+on boot
+    mount debugfs /sys/kernel/debug /sys/kernel/debug
+    setprop ro.radio.noril yes
+
+    write /proc/sys/vm/min_free_kbytes 65536
+
+    # Reduce reserved lowmem from ~48MB to ~12MB
+    write /proc/sys/vm/lowmem_reserve_ratio "128 128"
+
+    # Set up kernel tracing, but disable it by default
+    chmod 0222 /sys/kernel/debug/tracing/trace_marker
+    write /sys/kernel/debug/tracing/tracing_on 0
+
+    chmod 0444 /sys/kernel/debug/smb347-regs
+
+    # Set Mali power policy as Coarse demand
+    write /sys/devices/platform/mali.0/power_policy coarse_demand
+
+    # Do not enter suspend
+    write /sys/power/wake_lock no_suspend
+
+# mobicore
+    mkdir /data/app/mcRegistry 0775 system system
+    chmod 0700 /dev/mobicore
+    chmod 0666 /dev/mobicore-user
+    chown system system /dev/mobicore
+    chown radio system /dev/mobicore-user
+
+# S.LSI secdrv mem
+    chown system system /dev/s5p-smem
+    chmod 0660 /dev/s5p-smem
+
+# CPU Idle
+    chown system radio /sys/module/cpuidle/parameters/allow_coupled_idle
+    chown system radio /sys/module/cpuidle/parameters/allow_lpa
+
+# ko files for exfat
+insmod /lib/modules/exfat_core.ko
+insmod /lib/modules/exfat_fs.ko
+
+service e2fsckkmsgd /sbin/e2fsckkmsgd -d
+    user root
+    oneshot
+
+on fs
+    mkdir /efs 0771 radio system
+
+    start e2fsckkmsgd
+    mount_all /fstab.spc
+    setprop ro.crypto.fuse_sdcard true
+
+	chown radio system /efs
+	chmod 0771 /efs
+
+# For modem interface driver
+    chown radio radio /sys/devices/virtual/misc/multipdp/waketime
+    chmod 0660 /sys/devices/virtual/misc/umts_dm0/dm_state
+    chown radio system /sys/devices/virtual/misc/umts_dm0/dm_state
+
+# LCD
+    chown system system /sys/class/backlight/pwm-backlight.0/brightness
+    chown system system /sys/class/tcon/tcon/lux
+    chown system system /sys/class/tcon/tcon/auto_br
+    chmod 0660 /sys/class/backlight/pwm-backlight.0/brightness
+    chmod 0660 /sys/class/tcon/tcon/lux
+    chmod 0660 /sys/class/tcon/tcon/auto_br
+
+# audio: permissions for voice processing
+    # global switch for voice processing effects
+    chown root audio /sys/class/i2c-dev/i2c-4/device/4-003e/voice_processing
+    chmod 0660 /sys/class/i2c-dev/i2c-4/device/4-003e/voice_processing
+    # voice processing chip sleep
+    chown root audio /sys/class/i2c-dev/i2c-4/device/4-003e/sleep
+    chmod 0660 /sys/class/i2c-dev/i2c-4/device/4-003e/sleep
+    # voice processing usecase preset
+    chown root audio /sys/class/i2c-dev/i2c-4/device/4-003e/preset
+    chmod 0660 /sys/class/i2c-dev/i2c-4/device/4-003e/preset
+    # voice processing noise suppression level
+    chown root audio /sys/class/i2c-dev/i2c-4/device/4-003e/tx_ns_level
+    chmod 0660 /sys/class/i2c-dev/i2c-4/device/4-003e/tx_ns_level
+    # voice processing AGC enable (TX)
+    chown root audio /sys/class/i2c-dev/i2c-4/device/4-003e/tx_agc_enable
+    chmod 0660 /sys/class/i2c-dev/i2c-4/device/4-003e/tx_agc_enable
+    # voice processing AEC enable
+    chown root audio /sys/class/i2c-dev/i2c-4/device/4-003e/aec_enable
+    chmod 0660 /sys/class/i2c-dev/i2c-4/device/4-003e/aec_enable
+
+# virtual sdcard daemon running as media_rw (1023)
+service sdcard /system/bin/sdcard /secdata/media /mnt/shell/emulated 1023 1023
+    class late_start
+
+#service sdcard /system/bin/sdcard /secdata/media 1023 1023
+#    class late_start
+
+service dhcpcd_eth0 /system/bin/dhcpcd -ABDKL
+    class main
+    disabled
+    oneshot
+
+service battery_charger /charger
+    class charger
+
+# MobiCore startup
+service mobicore /system/bin/mcDriverDaemon -r /system/app/FFFFFFFF000000000000000000000001.drbin
+    class main
+    user system
+    group system
+
+# on userdebug and eng builds, enable kgdb on the serial console
+on property:ro.debuggable=1
+    write /sys/module/kgdboc/parameters/kgdboc ttyFIQ2
+    write /sys/module/fiq_debugger/parameters/kgdb_enable 1
+
+# TVout
+service TvoutService_C /system/bin/bintvoutservice
+    class main
+    user system
+    group graphics
+
+# bugreport is triggered by holding down volume down, volume up and power
+service bugreport /system/bin/bugmailer.sh -v
+    class main
+    disabled
+    oneshot
+    keycodes 114 115 116
+
+service cpboot-daemon /sbin/cbd -d -txmm626x -bh -mh -p 10
+    class main
+    user root
+    group radio cache inet misc audio sdcard_rw log sdcard_r
+
+service at_distributor /system/bin/at_distributor
+    class main
+    user root
+    group radio log
+
+service initdird /system/bin/initdird
+    class main
+    oneshot
+
+#datarouter
+service DR-daemon /system/bin/ddexe
+    class main
+    user root
+    group system radio inet net_raw
+ 
+service KIES-daemon /system/bin/kiesexe
+    class main
+    user root
+    group system radio inet net_raw
+ 
+service SMD-daemon /system/bin/smdexe
+    class main
+    user root
+    group system radio inet net_raw
+ 
+service DTT-daemon /system/bin/dttexe
+    class main
+    user root
+    group system radio inet net_raw
+     
+service BCS-daemon /system/bin/connfwexe
+    class main
+    user root
+    group system radio inet net_raw
+
+service mobex-daemon /system/bin/npsmobex
+    class main
+    user system
+    group system inet sdcard_rw
+
+# Secure Storage startup
+service prepare-ssdaemon /system/bin/sh /system/bin/ss-presetup.sh
+    class core
+    user root
+    group root
+    oneshot
+
+service secure_storage /system/bin/secure_storage_daemon
+    class core
+    user system
+    group system
+    disabled
+
+on property:ro.securestorage.ready=true
+    start secure_storage

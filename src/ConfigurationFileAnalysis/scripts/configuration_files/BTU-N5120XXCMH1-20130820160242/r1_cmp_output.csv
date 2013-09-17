@@ -1,0 +1,7 @@
+Galaxy Note 8.0 LTE,GT-N5120,BTUUnited kingdom,N5120XXCMH1,4.2.2,01.08.2013,1210063,Unlock,BTU-N5120XXCMH1-20130820160242.zip,http://hotfile.com/dl/240609025/7e307d1/BTU-N5120XXCMH1-20130820160242.zip.html,00063
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/fimg2d,,,,0666,system,graphics,O,O,,,,
+/dev/ion,,,,0666,system,system,O,O,,,,
+/dev/mali,,,,0666,system,system,O,O,,,,
+/dev/ttyUSB1,,,,0666,system,system,O,O,,,,
+/dev/ump,,,,0666,system,graphics,O,O,,,,

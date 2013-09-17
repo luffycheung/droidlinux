@@ -1,0 +1,53 @@
+on boot
+ mkdir /data/_SamsungBnR_ 0775 system system
+ 
+ chown system system /data/_SamsungBnR_
+ 
+ chmod 0775 /data/_SamsungBnR_
+    
+ mkdir /data/_SamsungBnR_/BR 0775 system system
+ 
+ chown system system /data/_SamsungBnR_/BR
+ 
+ chmod 0775 /data/_SamsungBnR_/BR
+# tdmb ownership
+    chown system system /dev/tdmb
+    chmod 0660 /dev/tdmb
+
+# PMS DVFS LOCK
+    chown radio system /sys/power/cpufreq_table
+    chown radio system /sys/power/cpufreq_max_limit
+    chown radio system /sys/power/cpufreq_min_limit
+    chmod 0660 /sys/power/cpufreq_table
+    chmod 0660 /sys/power/cpufreq_max_limit
+    chmod 0660 /sys/power/cpufreq_min_limit
+
+# Define TCP buffer sizes for various networks
+#   ReadMin, ReadInitial, ReadMax, WriteMin, WriteInitial, WriteMax,
+    setprop net.tcp.buffersize.default 4096,87380,110208,4096,16384,110208
+#   setprop net.tcp.buffersize.wifi    4095,131072,196608,4096,16384,110208
+    setprop net.tcp.buffersize.lte     4094,281250,1220608,4096,140625,1220608
+    setprop net.tcp.buffersize.umts    4094,87380,1220608,4096,16384,1220608
+    setprop net.tcp.buffersize.hspa    4094,87380,1220608,4096,16384,1220608
+    setprop net.tcp.buffersize.hsupa   4094,87380,1220608,4096,16384,1220608
+    setprop net.tcp.buffersize.hsdpa   4094,87380,1220608,4096,16384,1220608
+    setprop net.tcp.buffersize.hspap   4094,87380,1220608,4096,16384,1220608
+    setprop net.tcp.buffersize.edge    4093,26280,35040,4096,16384,35040
+    setprop net.tcp.buffersize.gprs    4092,8760,11680,4096,8760,11680
+#   setprop net.tcp.buffersize.evdo_b  4094,87380,262144,4096,16384,262144
+#   setprop net.tcp.buffersize.lte     4094,87380,1220608,4096,16384,1220608
+#   setprop net.tcp.buffersize.umts    4094,87380,110208,4096,16384,110208
+
+on post-fs-data
+    chmod 644 /data/log/RR_NPON.p
+    chmod 644 /data/log/RR_PPON.p
+    chmod 644 /data/log/RR_DPON.p
+    chmod 644 /data/log/recovery_kernel_log.txt
+    chmod 644 /data/log/recovery_log.txt
+
+service dmb /system/bin/dmbserver
+	class main
+	user system
+	group radio inet misc audio camera graphics net_bt net_bt_admin sdcard_rw
+
+ insmod /system/lib/modules/vibrator.ko

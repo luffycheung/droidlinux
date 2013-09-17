@@ -1,0 +1,9 @@
+Galaxy GT-I8268,GT-I8268,CHMChina,I8268ZMAME1,4.1.2,15.05.2013,1114026,Unlock,CHM-I8268ZMAME1-20130516110348.zip,http://hotfile.com/dl/229883017/5838b17/CHM-I8268ZMAME1-20130516110348.zip.html,00015
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/graphics/fb0,,,,0666,system,media,O,O,,,,
+/dev/graphics/galcore,,,,0666,system,media,O,O,,,,
+/dev/input/event*,,,,0666,root,input,O,O,,O,,
+/dev/ion,,,,0666,system,graphics,O,O,,,,
+/dev/msocket,,,,0666,system,system,O,O,,,,
+/dev/msocket_dump,,,,0666,system,system,O,O,,,,
+/dev/uio0,,,,0666,media,media,O,O,,,,

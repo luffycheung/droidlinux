@@ -1,0 +1,20 @@
+on boot
+    chown system system /sys/class/leds/button-backlight/brightness
+
+# Sensor
+    write /sys/class/input/input5/static_matrix "10040 376 -66 630 9921 224 -555 278 10048"
+    write /sys/class/input/input6/static_matrix "10040 376 -66 630 9921 224 -555 278 10048"
+    write /sys/class/input/input7/static_matrix "10040 376 -66 630 9921 224 -555 278 10048"
+
+# TVout
+service TvoutService_C /system/bin/bintvoutservice
+    class main
+    user system
+    group system
+
+on property:persist.sys.storage_preload=1
+    mount ext4 /dev/block/mmcblk0p20 /preload nosuid nodev noatime wait ro
+    setprop storage.preload.complete 1
+
+on property:persist.sys.storage_preload=0
+    exec /system/bin/umount /preload

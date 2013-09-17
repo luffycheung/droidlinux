@@ -1,0 +1,5 @@
+Samsung Galaxy Tab 10.1N (3G + Wifi),GT-P7501,DTMGermany (t-mobile),P7501XXLPD,4.0.4,01.03.2013,1207286,Unlock,Samsung-Updates.com-GT-P7501-DTM-P7501XXLPD-1362145456.zip,http://hotfile.com/dl/209662248/ac7792a/Samsung-Updates.com-GT-P7501-DTM-P7501XXLPD-1362145456.zip.html,00130
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/nvhdcp0,,,,0666,system,system,O,O,,,,
+/dev/nvhdcp1,,,,0666,system,system,O,O,,,,
+/dev/nvmap,,,,0666,system,system,O,O,,,,

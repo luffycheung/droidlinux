@@ -1,0 +1,25 @@
+# ethernet
+    mkdir /efs/eth 0775 radio system
+    chown system system /efs/eth/.mac.info
+    chmod 0664 /efs/eth/.mac.info
+
+service eth_macloader /system/bin/eth_macloader
+	class main
+	disabled
+	oneshot
+
+service axefuse /system/bin/axefuse
+	class main
+	disabled
+	oneshot
+	
+on property:persist.eth.on=0
+	write /sys/devices/platform/ethernet/on 1
+	start eth_macloader
+
+on property:persist.eth.on=1
+	setprop net.eth.mac 0
+
+on property:persist.eth.efuse=1
+	start axefuse
+

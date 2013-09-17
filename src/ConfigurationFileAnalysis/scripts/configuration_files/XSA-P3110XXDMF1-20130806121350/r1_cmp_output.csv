@@ -1,0 +1,5 @@
+Galaxy Tab 2 7.0 WiFi,GT-P3110,XSAAustralia,P3110XXDMF1,4.1.2,20.06.2013,812001,Unlock,XSA-P3110XXDMF1-20130806121350.zip,http://hotfile.com/dl/238013704/a549f86/XSA-P3110XXDMF1-20130806121350.zip.html,00097
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/gcioctl,,,,0666,system,system,O,O,,,,
+/dev/ion,,,,0777,root,root,O,O,,,,
+/dev/pvrsrvkm,,,,0666,system,system,O,O,,,,

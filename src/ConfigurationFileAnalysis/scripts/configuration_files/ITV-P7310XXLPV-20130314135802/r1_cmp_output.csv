@@ -1,0 +1,5 @@
+Galaxy Tab 8.9 (WiFi),GT-P7310,ITVItaly,P7310XXLPV,4.0.4,18.02.2013,1203574,Unlock,ITV-P7310XXLPV-20130314135802.zip,http://hotfile.com/dl/224807044/2d27f04/ITV-P7310XXLPV-20130314135802.zip.html,00127
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/nvhdcp0,,,,0666,system,system,O,O,,,,
+/dev/nvhdcp1,,,,0666,system,system,O,O,,,,
+/dev/nvmap,,,,0666,system,system,O,O,,,,

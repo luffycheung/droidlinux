@@ -1,0 +1,6 @@
+Galaxy Grand (China),SCH-I879,CTCChina (anycall),I879KEAME1,4.1.2,22.05.2013,1222833,Unlock,CTC-I879KEAME1-20130528113137.zip,http://hotfile.com/dl/226894140/8acf77f/CTC-I879KEAME1-20130528113137.zip.html,00175
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,system,system,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,system,system,O,O,,,,

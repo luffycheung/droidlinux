@@ -1,0 +1,32 @@
+on boot
+
+# for bluetooth
+service hciattach /system/bin/sh /system/etc/init.qcom.bt.sh
+    class late_start
+    user bluetooth
+    group qcom_oncrpc bluetooth net_bt_admin system radio
+    disabled
+    oneshot
+
+# for bluetooth rf test.
+service bt_dut_cmd /system/bin/qcom_dut
+    group bluetooth net_bt_admin
+    class main
+    disabled
+    oneshot
+
+service bt_audio_dut_cmd /system/bin/qcom_audio_dut
+    group bluetooth net_bt_admin
+    class main
+    disabled
+
+# TVout Rohit(r.mewar)
+service TvoutService_C /system/bin/bintvoutservice
+     class main
+     user system
+     group graphics
+
+on property:ro.tvout.enable=false
+	stop TvoutService_C
+
+# TvOut

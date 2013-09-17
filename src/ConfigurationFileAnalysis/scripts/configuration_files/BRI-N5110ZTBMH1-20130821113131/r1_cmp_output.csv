@@ -1,0 +1,15 @@
+Galaxy Note 8.0 (WIFI),GT-N5110,BRITaiwan,N5110ZTBMH1,4.1.2,08.08.2013,1236612,Unlock,BRI-N5110ZTBMH1-20130821113131.zip,http://hotfile.com/dl/240777827/7e0c1fd/BRI-N5110ZTBMH1-20130821113131.zip.html,00062
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/exynos-mem,,,,0666,system,graphics,O,O,,,O
+/dev/fimg2d,,,,0666,system,graphics,O,O,,,,
+/dev/ion,,,,0666,system,system,O,O,,,,
+/dev/mali,,,,0666,system,system,O,O,,,,
+/dev/s5p-mfc,,,,0666,system,graphics,O,O,,,,
+/dev/ttyUSB0,,,,0666,system,system,O,O,,,,
+/dev/ttyUSB1,,,,0666,system,system,O,O,,,,
+/dev/ttyUSB2,,,,0666,system,system,O,O,,,,
+/dev/ump,,,,0666,system,graphics,O,O,,,,
+/dev/video11,,,,0666,system,graphics,O,O,,,,
+/dev/video26,,,,0666,media,m2m,O,O,,,,
+/dev/video29,,,,0666,media,m2m,O,O,,,,
+/dev/video4,,,,0666,system,m2m,O,O,,,,

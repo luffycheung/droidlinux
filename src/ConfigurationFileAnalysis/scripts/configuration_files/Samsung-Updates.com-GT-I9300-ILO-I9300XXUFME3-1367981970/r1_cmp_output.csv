@@ -1,0 +1,6 @@
+Galaxy S 3 (International),GT-I9300,ILOIsrael,I9300XXUFME3 (UNOFFICIAL ?€? LEAK),4.2.2,08.05.2013,611730,Unlock,Samsung-Updates.com-GT-I9300-ILO-I9300XXUFME3-1367981970.zip,http://hotfile.com/dl/223668330/14703e3/Samsung-Updates.com-GT-I9300-ILO-I9300XXUFME3-1367981970.zip.html,00050
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/fimg2d,,,,0666,system,graphics,O,O,,,,
+/dev/ion,,,,0666,system,system,O,O,,,,
+/dev/mali,,,,0666,system,system,O,O,,,,
+/dev/ump,,,,0666,system,graphics,O,O,,,,

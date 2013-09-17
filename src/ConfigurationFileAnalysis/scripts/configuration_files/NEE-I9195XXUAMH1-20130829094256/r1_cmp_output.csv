@@ -1,0 +1,7 @@
+Galaxy S4 Mini LTE,GT-I9195,NEEFinland,I9195XXUAMH1,4.2.2,06.08.2013,1310925,Unlock,NEE-I9195XXUAMH1-20130829094256.zip,http://hotfile.com/dl/242242780/a66c33d/NEE-I9195XXUAMH1-20130829094256.zip.html,00034
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,system,system,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,system,system,O,O,,,,
+/dev/tima,,,,0666,root,root,O,O,,,,

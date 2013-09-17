@@ -1,0 +1,6 @@
+Galaxy Tab 3 8.0,SM-T310,TURTurkey,T310XWUAMG3,4.2.2,23.07.2013,1174257,Unlock,TUR-T310XWUAMG3-20130829133840.zip,http://hotfile.com/dl/242255545/e4b6282/TUR-T310XWUAMG3-20130829133840.zip.html,00224
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/fimg2d,,,,0666,system,graphics,O,O,,,,
+/dev/ion,,,,0666,system,system,O,O,,,,
+/dev/mali,,,,0666,system,system,O,O,,,,
+/dev/ump,,,,0666,system,graphics,O,O,,,,

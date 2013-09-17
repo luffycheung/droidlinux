@@ -1,0 +1,5 @@
+Galaxy Tab 2 10.1 WiFi,GT-P5110,ILOIsrael,P5110JKDMG1,4.1.2,10.07.2013,1306315,Unlock,ILO-P5110JKDMG1-20130806151730.zip,http://hotfile.com/dl/238029503/535253f/ILO-P5110JKDMG1-20130806151730.zip.html,00108
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/gcioctl,,,,0666,system,system,O,O,,,,
+/dev/ion,,,,0777,root,root,O,O,,,,
+/dev/pvrsrvkm,,,,0666,system,system,O,O,,,,

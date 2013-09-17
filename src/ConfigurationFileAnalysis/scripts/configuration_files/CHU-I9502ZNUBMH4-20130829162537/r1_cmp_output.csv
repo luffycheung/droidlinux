@@ -1,0 +1,10 @@
+Galaxy S 4 DUOS,GT-I9502,CHUN/a,I9502ZNUBMH4,4.2.2,21.08.2013,1365050,Unlock,CHU-I9502ZNUBMH4-20130829162537.zip,http://hotfile.com/dl/242267991/5c20c80/CHU-I9502ZNUBMH4-20130829162537.zip.html,00057
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/fimg2d,,,,0666,system,graphics,O,O,,,,
+/dev/ion,,,,0666,system,system,O,O,,,,
+/dev/pvr_sync,,,,0666,system,graphics,O,O,,,,
+/dev/pvrsrvkm,,,,0666,system,graphics,O,O,,,,
+/dev/ttyUSB0,,,,0666,system,radio,O,O,,,,
+/dev/ttyUSB1,,,,0666,system,system,O,O,,,,
+/dev/ttyUSB2,,,,0666,system,system,O,O,,,,
+/dev/ump,,,,0666,system,system,O,O,,,,

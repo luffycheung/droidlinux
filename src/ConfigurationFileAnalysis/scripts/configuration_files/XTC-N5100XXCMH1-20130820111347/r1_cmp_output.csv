@@ -1,0 +1,6 @@
+Galaxy Note 8.0 (3G/WIFI),GT-N5100,XTCPhilippines (sun),N5100XXCMH1,4.2.2,01.08.2013,1210063,Unlock,XTC-N5100XXCMH1-20130820111347.zip,http://hotfile.com/dl/240574551/920c49c/XTC-N5100XXCMH1-20130820111347.zip.html,00061
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/fimg2d,,,,0666,system,graphics,O,O,,,,
+/dev/ion,,,,0666,system,system,O,O,,,,
+/dev/mali,,,,0666,system,system,O,O,,,,
+/dev/ump,,,,0666,system,graphics,O,O,,,,

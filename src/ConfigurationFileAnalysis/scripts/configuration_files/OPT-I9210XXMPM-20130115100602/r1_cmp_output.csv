@@ -1,0 +1,6 @@
+Galaxy S 2 LTE,GT-I9210,OPTPortugal (optimus),I9210XXMPM,4.0.4,08.01.2013,1190249,Unlock,OPT-I9210XXMPM-20130115100602.zip,http://hotfile.com/dl/226523286/562dbcf/OPT-I9210XXMPM-20130115100602.zip.html,00039
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,root,root,O,O,,,,

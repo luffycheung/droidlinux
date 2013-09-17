@@ -1,0 +1,6 @@
+Galaxy Win,GT-I8552,INUIndia,I8552XXAMH2,4.1.2,14.08.2013,1360677,Unlock,INU-I8552XXAMH2-20130826112241.zip,http://hotfile.com/dl/241682992/db3c3b9/INU-I8552XXAMH2-20130826112241.zip.html,00016
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,system,system,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,system,system,O,O,,,,

@@ -1,0 +1,5 @@
+Galaxy Tab 2 10.1 (3G + WiFi),GT-P5100,TGYHong kong,P5100ZSDMH1,4.1.2,01.08.2013,1337886,Unlock,TGY-P5100ZSDMH1-20130826152513.zip,http://hotfile.com/dl/241720317/2d6d482/TGY-P5100ZSDMH1-20130826152513.zip.html,00104
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/gcioctl,,,,0666,system,system,O,O,,,,
+/dev/ion,,,,0777,root,root,O,O,,,,
+/dev/pvrsrvkm,,,,0666,system,system,O,O,,,,

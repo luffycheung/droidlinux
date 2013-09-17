@@ -1,0 +1,6 @@
+SC-01D,SC-01D,DCMJapan (docomo),SC01DOMMP5,4.0.4,10.07.2013,1233856,Unlock,DCM-SC01DOMMP5-20130711105048.zip,http://hotfile.com/dl/235514270/5497618/DCM-SC01DOMMP5-20130711105048.zip.html,00157
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,root,root,O,O,,,,

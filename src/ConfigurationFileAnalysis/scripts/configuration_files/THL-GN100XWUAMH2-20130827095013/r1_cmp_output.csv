@@ -1,0 +1,6 @@
+Galaxy Camera NX (3G),EK-GN100,THLThailand,GN100XWUAMH2,4.2.2,08.08.2013,1341255,Unlock,THL-GN100XWUAMH2-20130827095013.zip,http://hotfile.com/dl/241871184/668997d/THL-GN100XWUAMH2-20130827095013.zip.html,00004
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/fimg2d,,,,0666,system,graphics,O,O,,,,
+/dev/ion,,,,0666,system,system,O,O,,,,
+/dev/mali,,,,0666,system,system,O,O,,,,
+/dev/ump,,,,0666,system,graphics,O,O,,,,

@@ -1,0 +1,5 @@
+Galaxy Tab 2 7.0 (3G + WiFi),GT-P3100,XEFFrance,P3100XXDMG6,4.2.2,29.07.2013,1198223,Unlock,XEF-P3100XXDMG6-20130802142353.zip,http://hotfile.com/dl/237244269/cb376eb/XEF-P3100XXDMG6-20130802142353.zip.html,00089
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/gcioctl,,,,0666,system,system,O,O,,,,
+/dev/ion,,,,0777,root,root,O,O,,,,
+/dev/pvrsrvkm,,,,0666,system,system,O,O,,,,

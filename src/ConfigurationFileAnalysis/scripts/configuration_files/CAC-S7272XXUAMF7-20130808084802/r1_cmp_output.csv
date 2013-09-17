@@ -1,0 +1,9 @@
+Galaxy Ace 3 Duos,GT-S7272,CACUzbekistan,S7272XXUAMF7,4.2.2,27.06.2013,950235,Unlock,CAC-S7272XXUAMF7-20130808084802.zip,http://hotfile.com/dl/238354673/c86553b/CAC-S7272XXUAMF7-20130808084802.zip.html,00148
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/ami_sensor,,,,0666,system,system,O,O,,,,
+/dev/graphics/fb0,,,,0666,system,graphics,O,O,,,,
+/dev/ion,,,,0666,system,graphics,O,O,,,,
+/dev/mm_interlock,,,,0666,system,graphics,O,O,,,,
+/dev/mm_v3d,,,,0666,system,graphics,O,O,,,,
+/dev/pvrsrvkm,,,,0666,system,system,O,O,,,,
+/dev/v3d,,,,0666,system,graphics,O,O,,,,

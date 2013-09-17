@@ -1,0 +1,6 @@
+Galaxy Trend DUOS 2,GT-S7572,CHNChina,S7572ZCAMG2,4.1.2,25.07.2013,1328504,Unlock,CHN-S7572ZCAMG2-20130819145002.zip,http://hotfile.com/dl/240432898/1f1a0d2/CHN-S7572ZCAMG2-20130819145002.zip.html,00153
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,system,system,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,system,system,O,O,,,,

@@ -1,0 +1,5 @@
+Galaxy Tab 2 7.0 WiFi,GT-P3110,BTUUnited kingdom,P3110XXDMH1,4.2.2,03.08.2013,1249439,Unlock,BTU-P3110XXDMH1-20130813134512.zip,http://hotfile.com/dl/239345915/c7a0885/BTU-P3110XXDMH1-20130813134512.zip.html,00096
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/gcioctl,,,,0666,system,system,O,O,,,,
+/dev/ion,,,,0777,root,root,O,O,,,,
+/dev/pvrsrvkm,,,,0666,system,system,O,O,,,,

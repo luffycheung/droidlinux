@@ -1,0 +1,7 @@
+Galaxy Mega 6.3 LTE,GT-I9205,XEFFrance,I9205XXUAMG7,4.2.2,30.07.2013,651213,Unlock,XEF-I9205XXUAMG7-20130822101423.zip,http://hotfile.com/dl/240957486/00b946d/XEF-I9205XXUAMG7-20130822101423.zip.html,00036
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,system,system,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,system,system,O,O,,,,
+/dev/tima,,,,0666,root,root,O,O,,,,

@@ -1,0 +1,8 @@
+Galaxy Premier,GT-I9260,CHNChina,I9260ZCAMG1,4.1.2,11.07.2013,1304264,Unlock,CHN-I9260ZCAMG1-20130729133604.zip,http://hotfile.com/dl/236565841/e71b1b1/CHN-I9260ZCAMG1-20130729133604.zip.html,00044
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/gcioctl,,,,0666,system,system,O,O,,,,
+/dev/ion,,,,0777,root,root,O,O,,,,
+/dev/pvrsrvkm,,,,0666,system,system,O,O,,,,
+/dev/ttyUSB0,,,,0666,system,system,O,O,,,,
+/dev/ttyUSB1,,,,0666,system,system,O,O,,,,
+/dev/ttyUSB2,,,,0666,system,system,O,O,,,,

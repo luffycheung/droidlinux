@@ -1,0 +1,8 @@
+Galaxy S Advance,GT-I9070,EURGreece,I9070XXLQE,4.1.2,09.04.2013,1122398,Unlock,EUR-I9070XXLQE-20130813164107.zip,http://hotfile.com/dl/239357988/6970124/EUR-I9070XXLQE-20130813164107.zip.html,00018
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/b2r2_blt,,,,0666,system,graphics,O,O,,,,
+/dev/comp0,,,,0666,system,graphics,O,O,,,,
+/dev/disp0,,,,0666,system,graphics,O,O,,,,
+/dev/hwmem,,,,0666,media,system,O,O,,,,
+/dev/mali,,,,0666,system,graphics,O,O,,,,
+/dev/tee,,,,0666,root,system,O,O,,,,

@@ -1,0 +1,8 @@
+Galaxy S 3 (Verizon),SCH-I535,VZWVerizon wireless,I535VRALF2,4.0.4,14.06.2012,618049,Unlock,Samsung-Updates.com-SCH-I535_VZW_1_20120705143513_fti2qg2lmf.zip,http://hotfile.com/dl/176205805/555ad76/Samsung-Updates.com-SCH-I535_VZW_1_20120705143513_fti2qg2lmf.zip.html,00171
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,root,root,O,O,,,,
+/dev/tspdrv,,,,0666,root,root,O,O,,,,
+/dev/ttyUSB0,,,,0666,system,system,O,O,,,,

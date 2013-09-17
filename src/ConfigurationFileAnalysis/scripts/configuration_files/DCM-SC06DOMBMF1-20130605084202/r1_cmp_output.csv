@@ -1,0 +1,12 @@
+Galaxy S 3 (Korea NTT Docomo),SC-06D,DCMJapan (docomo),SC06DOMBMF1,4.1.2,04.06.2013,1247701,Unlock,DCM-SC06DOMBMF1-20130605084202.zip,http://hotfile.com/dl/229786887/7330fed/DCM-SC06DOMBMF1-20130605084202.zip.html,00166
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/felica,,,,0666,root,root,O,O,,,,
+/dev/felica_ant,,,,0666,root,root,O,O,,,,
+/dev/felica_cen,,,,0666,root,root,O,O,,,,
+/dev/felica_pon,,,,0666,root,root,O,O,,,,
+/dev/felica_rws,,,,0666,root,root,O,O,,,,
+/dev/genlock,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,root,root,O,O,,,,
+/dev/ttyUSB0,,,,0666,system,system,O,O,,,,

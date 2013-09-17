@@ -1,0 +1,9 @@
+Galaxy Tab 2 7.0 WiFi,GT-P3110,TMHHungary (t-mobile),P3110XXBLH2,4.0.4,23.08.2012,999349,Unlock,Samsung-Updates.com-GT-P3110_TMH_1_20120827105452_9hcd3gdxgu.zip,http://hotfile.com/dl/199268326/1eb0266/Samsung-Updates.com-GT-P3110_TMH_1_20120827105452_9hcd3gdxgu.zip.html,00098
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/block/mmcblk0p8,,,,0660,radio,radio,O,,,,,
+/dev/hdcp,,,,0664,root,root,O,,,,,
+/dev/i2c-4,,,,0660,system,system,O,,,,,
+/dev/ttyUSB*,,,,0660,system,usb,O,,,,,
+/dev/umts_csd,,,,0660,radio,system,O,,,,,
+/dev/umts_router,,,,0660,radio,system,O,,,,,
+/dev/usb/lp*,,,,0660,system,usb,O,,,,,

@@ -1,0 +1,10 @@
+SC-03D,SC-03D,DCMJapan (docomo),SC03DOMMP3,4.0.4,13.03.2013,1209938,Unlock,Samsung-Updates.com-SC-03D-DCM-SC03DOMMP3-1363165835.zip,http://hotfile.com/dl/200204619/34706bd/Samsung-Updates.com-SC-03D-DCM-SC03DOMMP3-1363165835.zip.html,00161
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,root,root,O,O,,,,
+/dev/msm_vidc_dec,,,,0666,system,audio,O,O,,,,
+/dev/msm_vidc_dec_sec,,,,0666,system,audio,O,O,,,,
+/dev/msm_vidc_enc,,,,0666,system,audio,O,O,,,,
+/dev/msm_vidc_reg,,,,0666,system,audio,O,O,,,,

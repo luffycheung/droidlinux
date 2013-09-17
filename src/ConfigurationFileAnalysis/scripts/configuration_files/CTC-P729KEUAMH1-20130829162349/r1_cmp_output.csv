@@ -1,0 +1,6 @@
+Galaxy Mega 6.3 Duos (China),SCH-P729,CTCChina (anycall),P729KEUAMH1,4.2.2,08.08.2013,1052792,Unlock,CTC-P729KEUAMH1-20130829162349.zip,http://hotfile.com/dl/242265195/0c20d90/CTC-P729KEUAMH1-20130829162349.zip.html,00184
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,system,system,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,system,system,O,O,,,,

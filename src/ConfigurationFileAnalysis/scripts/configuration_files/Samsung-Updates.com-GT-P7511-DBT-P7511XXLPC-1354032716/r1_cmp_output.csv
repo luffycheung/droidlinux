@@ -1,0 +1,5 @@
+GT-P7511,GT-P7511,DBTGermany,P7511XXLPC,4.0.4,27.11.2012,1174719,Unlock,Samsung-Updates.com-GT-P7511-DBT-P7511XXLPC-1354032716.zip,http://hotfile.com/dl/186273762/62259c2/Samsung-Updates.com-GT-P7511-DBT-P7511XXLPC-1354032716.zip.html,00132
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/nvhdcp0,,,,0666,system,system,O,O,,,,
+/dev/nvhdcp1,,,,0666,system,system,O,O,,,,
+/dev/nvmap,,,,0666,system,system,O,O,,,,

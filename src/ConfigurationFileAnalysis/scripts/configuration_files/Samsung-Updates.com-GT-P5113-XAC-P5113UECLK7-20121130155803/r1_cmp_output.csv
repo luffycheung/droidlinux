@@ -1,0 +1,5 @@
+Galaxy Tab 2 10.1 (WiFi),GT-P5113,XACN/a,P5113UECLK7,4.1.1,29.11.2012,523998,Unlock,Samsung-Updates.com-GT-P5113-XAC-P5113UECLK7-20121130155803.zip,http://hotfile.com/dl/224164866/5574c96/Samsung-Updates.com-GT-P5113-XAC-P5113UECLK7-20121130155803.zip.html,00113
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/gcioctl,,,,0666,system,system,O,O,,,,
+/dev/ion,,,,0777,root,root,O,O,,,,
+/dev/pvrsrvkm,,,,0666,system,system,O,O,,,,

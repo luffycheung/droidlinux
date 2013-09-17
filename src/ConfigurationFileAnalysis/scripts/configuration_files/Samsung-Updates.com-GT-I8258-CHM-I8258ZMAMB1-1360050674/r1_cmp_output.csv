@@ -1,0 +1,11 @@
+GT-I8258,GT-I8258,CHMChina,I8258ZMAMB1,4.0.4,05.02.2013,1201092,Unlock,Samsung-Updates.com-GT-I8258-CHM-I8258ZMAMB1-1360050674.zip,http://hotfile.com/dl/201962290/92dd31c/Samsung-Updates.com-GT-I8258-CHM-I8258ZMAMB1-1360050674.zip.html,00013
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/akm8975_dev,,,,0666,system,system,O,O,,,,
+/dev/al3006_pls,,,,0666,system,system,O,O,,,,
+/dev/ecompass_ctrl,,,,0666,system,compass,O,O,,,,
+/dev/lis3dh_acc,,,,0666,system,system,O,O,,,,
+/dev/mali,,,,0666,system,graphics,O,O,,,,
+/dev/mmc31xx,,,,0666,system,compass,O,O,,,,
+/dev/mxc622x,,,,0666,system,input,O,O,,,,
+/dev/ump,,,,0666,system,graphics,O,O,,,,
+/dev/vbpipe7,,,,0666,audio,audio,O,O,,,,

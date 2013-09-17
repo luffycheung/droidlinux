@@ -1,0 +1,7 @@
+Galaxy S 3 LTE (Sprint),SPH-L710,SPRU.s. (spint),L710VPBMD4,4.1.2,15.04.2013,1130792,Unlock,SPR-L710VPBMD4-20130418114128.zip,http://hotfile.com/dl/224932786/cf3908b/SPR-L710VPBMD4-20130418114128.zip.html,00232
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,root,root,O,O,,,,
+/dev/ttyUSB0,,,,0666,system,system,O,O,,,,

@@ -1,0 +1,13 @@
+Galaxy Camera (WiFi Only),EK-GC110,XSGUnited arab emirates,GC110XXAME1,4.1.2,03.05.2013,1182734,Unlock,Samsung-Updates.com-EK-GC110_XSG_1_20130520160214_8msnz202w1.zip,http://hotfile.com/dl/224249870/2277d51/Samsung-Updates.com-EK-GC110_XSG_1_20130520160214_8msnz202w1.zip.html,00003
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/exynos-mem,,,,0666,system,graphics,O,O,,,O
+/dev/fimg2d,,,,0666,system,graphics,O,O,,,,
+/dev/ion,,,,0666,system,system,O,O,,,,
+/dev/mali,,,,0666,system,system,O,O,,,,
+/dev/s5p-mfc,,,,0666,system,graphics,O,O,,,,
+/dev/ttyUSB0,,,,0666,system,system,O,O,,,,
+/dev/ump,,,,0666,system,graphics,O,O,,,,
+/dev/video11,,,,0666,system,graphics,O,O,,,,
+/dev/video26,,,,0666,media,m2m,O,O,,,,
+/dev/video29,,,,0666,media,m2m,O,O,,,,
+/dev/video4,,,,0666,system,m2m,O,O,,,,

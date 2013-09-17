@@ -1,0 +1,12 @@
+Galaxy S Duos,GT-S7566,CHNChina,S7566ZCAMG1,4.0.4,11.07.2013,1219691,Unlock,CHN-S7566ZCAMG1-20130730112013.zip,http://hotfile.com/dl/236862973/3f30c6f/CHN-S7566ZCAMG1-20130730112013.zip.html,00151
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,root,root,O,O,,,,
+/dev/msm_vidc_dec,,,,0666,system,audio,O,O,,,,
+/dev/msm_vidc_dec_sec,,,,0666,system,audio,O,O,,,,
+/dev/msm_vidc_enc,,,,0666,system,audio,O,O,,,,
+/dev/msm_vidc_reg,,,,0666,system,audio,O,O,,,,
+/dev/tspdrv,,,,0666,root,root,O,O,,,,
+/dev/ttyUSB0,,,,0666,system,system,O,O,,,,

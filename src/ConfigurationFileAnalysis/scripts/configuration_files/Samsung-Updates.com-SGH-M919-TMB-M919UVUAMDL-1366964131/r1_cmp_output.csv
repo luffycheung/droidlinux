@@ -1,0 +1,7 @@
+Galaxy S 4 (T-Mobile),SGH-M919,TMBUsa (t-mobile),M919UVUAMDL,4.2.2,26.04.2013,453951,Unlock,Samsung-Updates.com-SGH-M919-TMB-M919UVUAMDL-1366964131.zip,http://hotfile.com/dl/213546261/7ab0512/Samsung-Updates.com-SGH-M919-TMB-M919UVUAMDL-1366964131.zip.html,00203
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,system,system,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,system,system,O,O,,,,
+/dev/tima,,,,0666,root,root,O,O,,,,

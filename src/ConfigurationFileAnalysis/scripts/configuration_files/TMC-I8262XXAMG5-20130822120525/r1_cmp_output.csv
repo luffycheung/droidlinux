@@ -1,0 +1,6 @@
+Galaxy Core,GT-I8262,TMCAlgeria,I8262XXAMG5,4.1.2,17.07.2013,1314857,Unlock,TMC-I8262XXAMG5-20130822120525.zip,http://hotfile.com/dl/240964682/a11067c/TMC-I8262XXAMG5-20130822120525.zip.html,00014
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,system,system,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,system,system,O,O,,,,

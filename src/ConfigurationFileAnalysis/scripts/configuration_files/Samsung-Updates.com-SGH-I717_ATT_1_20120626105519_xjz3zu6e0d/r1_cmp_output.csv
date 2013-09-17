@@ -1,0 +1,6 @@
+Galaxy Note (AT&T),SGH-I717,ATTAt&t,I717UCLF6,4.0.4,23.06.2012,773414,Unlock,Samsung-Updates.com-SGH-I717_ATT_1_20120626105519_xjz3zu6e0d.zip,http://hotfile.com/dl/178274992/c3c5913/Samsung-Updates.com-SGH-I717_ATT_1_20120626105519_xjz3zu6e0d.zip.html,00195
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,root,root,O,O,,,,

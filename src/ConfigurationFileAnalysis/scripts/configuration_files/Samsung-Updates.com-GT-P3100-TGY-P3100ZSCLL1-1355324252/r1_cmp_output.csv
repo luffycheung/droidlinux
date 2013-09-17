@@ -1,0 +1,5 @@
+Galaxy Tab 2 7.0 (3G + WiFi),GT-P3100,TGYHong kong,P3100ZSCLL1,4.1.1,12.12.2012,595683,Unlock,Samsung-Updates.com-GT-P3100-TGY-P3100ZSCLL1-1355324252.zip,http://hotfile.com/dl/187178611/abf3f9a/Samsung-Updates.com-GT-P3100-TGY-P3100ZSCLL1-1355324252.zip.html,00092
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/gcioctl,,,,0666,system,system,O,O,,,,
+/dev/ion,,,,0777,root,root,O,O,,,,
+/dev/pvrsrvkm,,,,0666,system,system,O,O,,,,

@@ -1,0 +1,10 @@
+Galaxy Xcover 2,GT-S7710,3IEIreland (three),S7710XXAMD2,4.1.2,24.04.2013,963581,Unlock,3IE-S7710XXAMD2-20130426165153.zip,http://hotfile.com/dl/235465554/bb86fc5/3IE-S7710XXAMD2-20130426165153.zip.html,00154
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/b2r2_blt,,,,0666,system,graphics,O,O,,,,
+/dev/clone0,,,,0666,system,graphics,O,O,,,,
+/dev/comp0,,,,0666,system,graphics,O,O,,,,
+/dev/comp1,,,,0666,system,graphics,O,O,,,,
+/dev/disp0,,,,0666,system,graphics,O,O,,,,
+/dev/hwmem,,,,0666,media,system,O,O,,,,
+/dev/mali,,,,0666,system,graphics,O,O,,,,
+/dev/tee,,,,0666,root,system,O,O,,,,

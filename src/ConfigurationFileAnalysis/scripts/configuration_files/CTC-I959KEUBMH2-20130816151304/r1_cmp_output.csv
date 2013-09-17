@@ -1,0 +1,7 @@
+Galaxy S 4 (CDMA),SCH-I959,CTCChina (anycall),I959KEUBMH2,4.2.2,06.08.2013,1165013,Unlock,CTC-I959KEUBMH2-20130816151304.zip,http://hotfile.com/dl/239903359/c5fd9db/CTC-I959KEUBMH2-20130816151304.zip.html,00179
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/fimg2d,,,,0666,system,graphics,O,O,,,,
+/dev/ion,,,,0666,system,system,O,O,,,,
+/dev/pvr_sync,,,,0666,system,graphics,O,O,,,,
+/dev/pvrsrvkm,,,,0666,system,graphics,O,O,,,,
+/dev/ump,,,,0666,system,system,O,O,,,,

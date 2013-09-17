@@ -1,0 +1,19 @@
+Galaxy Note 2 LTE (International),GT-N7105,FTMFrance (orange),N7105XXDMF2,4.1.2,05.06.2013,1071214,Unlock,FTM-N7105XXDMF2-20130812111142.zip,http://hotfile.com/dl/239135867/8732a6e/FTM-N7105XXDMF2-20130812111142.zip.html,00073
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/exynos-mem,,,,0666,system,graphics,O,O,,,O
+/dev/felica,,,,0666,root,root,O,O,,,,
+/dev/felica_ant,,,,0666,root,root,O,O,,,,
+/dev/felica_cen,,,,0666,root,root,O,O,,,,
+/dev/felica_pon,,,,0666,root,root,O,O,,,,
+/dev/felica_rws,,,,0666,root,root,O,O,,,,
+/dev/fimg2d,,,,0666,system,graphics,O,O,,,,
+/dev/ion,,,,0666,system,system,O,O,,,,
+/dev/mali,,,,0666,system,system,O,O,,,,
+/dev/s5p-mfc,,,,0666,system,graphics,O,O,,,,
+/dev/ttyUSB1,,,,0666,system,system,O,O,,,,
+/dev/ttyUSB2,,,,0666,system,system,O,O,,,,
+/dev/ump,,,,0666,system,graphics,O,O,,,,
+/dev/video11,,,,0666,system,graphics,O,O,,,,
+/dev/video26,,,,0666,media,m2m,O,O,,,,
+/dev/video29,,,,0666,media,m2m,O,O,,,,
+/dev/video4,,,,0666,system,m2m,O,O,,,,

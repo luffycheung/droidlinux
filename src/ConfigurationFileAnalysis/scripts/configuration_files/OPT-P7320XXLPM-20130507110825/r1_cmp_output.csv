@@ -1,0 +1,6 @@
+Galaxy Tab 8.9 (LTE + WiFi),GT-P7320,OPTPortugal (optimus),P7320XXLPM,4.0.4,22.04.2013,1217389,Unlock,OPT-P7320XXLPM-20130507110825.zip,http://hotfile.com/dl/229967787/ea7e0ce/OPT-P7320XXLPM-20130507110825.zip.html,00128
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,root,root,O,O,,,,

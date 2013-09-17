@@ -1,0 +1,7 @@
+Galaxy Axiom,SCH-R830,USCU.s. cellular,R830VXBMB2,4.1.2,12.02.2013,952388,Unlock,Samsung-Updates.com-SCH-R830-USC-R830VXBMB2-1360632247.zip,http://hotfile.com/dl/201619223/f8a48c3/Samsung-Updates.com-SCH-R830-USC-R830VXBMB2-1360632247.zip.html,00186
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,root,root,O,O,,,,
+/dev/ttyUSB0,,,,0666,system,system,O,O,,,,

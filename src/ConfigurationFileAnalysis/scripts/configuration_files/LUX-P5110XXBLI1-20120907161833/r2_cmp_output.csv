@@ -1,0 +1,9 @@
+Galaxy Tab 2 10.1 WiFi,GT-P5110,LUXLuxemburg,P5110XXBLI1,4.0.4,04.09.2012,1060237,Unlock,LUX-P5110XXBLI1-20120907161833.zip,http://hotfile.com/dl/225197177/d0e5f1c/LUX-P5110XXBLI1-20120907161833.zip.html,00109
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/block/mmcblk0p8,,,,0660,radio,radio,O,,,,,
+/dev/hdcp,,,,0664,root,root,O,,,,,
+/dev/i2c-4,,,,0660,system,system,O,,,,,
+/dev/ttyUSB*,,,,0660,system,usb,O,,,,,
+/dev/umts_csd,,,,0660,radio,system,O,,,,,
+/dev/umts_router,,,,0660,radio,system,O,,,,,
+/dev/usb/lp*,,,,0660,system,usb,O,,,,,

@@ -1,0 +1,12 @@
+Galaxy Trend 2,GT-S7898,CHMChina,S7898ZMAMG1,4.1.2,19.07.2013,1319949,Unlock,CHM-S7898ZMAMG1-20130812170802.zip,http://hotfile.com/dl/239346033/9890984/CHM-S7898ZMAMG1-20130812170802.zip.html,00155
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/al3006_pls,,,,0666,system,system,O,O,,,,
+/dev/ecompass_ctrl,,,,0666,system,compass,O,O,,,,
+/dev/mali,,,,0666,system,graphics,O,O,,,,
+/dev/mmc31xx,,,,0666,system,compass,O,O,,,,
+/dev/mxc622x,,,,0666,system,input,O,O,,,,
+/dev/mxdspidev,,,,0666,system,system,O,O,,,,
+/dev/ump,,,,0666,system,graphics,O,O,,,,
+/dev/vbpipe0,,,,0666,system,system,O,O,,,,
+/dev/vbpipe2,,,,0666,system,system,O,O,,,,
+/dev/vbpipe3,,,,0666,system,system,O,O,,,,

@@ -1,0 +1,7 @@
+Galaxy S III LTE (AT&T),SGH-I747,ATTAt&t,I747UCDLK3,4.1.1,15.11.2012,274808,Unlock,Samsung-Updates.com-SGH-I747_ATT_1_20121116120521_7p9l4qgqoh.zip,http://hotfile.com/dl/182224582/7adbccf/Samsung-Updates.com-SGH-I747_ATT_1_20121116120521_7p9l4qgqoh.zip.html,00198
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,root,root,O,O,,,,
+/dev/ttyUSB0,,,,0666,system,system,O,O,,,,

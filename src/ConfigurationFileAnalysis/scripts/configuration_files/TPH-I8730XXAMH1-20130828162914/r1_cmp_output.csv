@@ -1,0 +1,7 @@
+Galaxy Express,GT-I8730,TPHPortugal,I8730XXAMH1,4.1.2,02.08.2013,1343035,Unlock,TPH-I8730XXAMH1-20130828162914.zip,http://hotfile.com/dl/242088306/8f5eb68/TPH-I8730XXAMH1-20130828162914.zip.html,00017
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,system,system,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,system,system,O,O,,,,
+/dev/ttyUSB*,,,,0666,system,usb,O,O,,,,

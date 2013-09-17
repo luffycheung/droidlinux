@@ -1,0 +1,5 @@
+Galaxy Tab 2 7.0 WIFI,GT-P3113,XARCellular south,P3113UECMH2,4.2.2,14.08.2013,1251263,Unlock,XAR-P3113UECMH2-20130826170038.zip,http://hotfile.com/dl/241707705/3ce5c6f/XAR-P3113UECMH2-20130826170038.zip.html,00101
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/gcioctl,,,,0666,system,system,O,O,,,,
+/dev/ion,,,,0777,root,root,O,O,,,,
+/dev/pvrsrvkm,,,,0666,system,system,O,O,,,,

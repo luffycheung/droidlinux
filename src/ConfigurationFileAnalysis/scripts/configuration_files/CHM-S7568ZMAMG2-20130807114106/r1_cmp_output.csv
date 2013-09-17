@@ -1,0 +1,11 @@
+Galaxy S Duos,GT-S7568,CHMChina,S7568ZMAMG2,4.0.4,24.07.2013,1235985,Unlock,CHM-S7568ZMAMG2-20130807114106.zip,http://hotfile.com/dl/238200960/37f1a74/CHM-S7568ZMAMG2-20130807114106.zip.html,00152
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/akm8975_dev,,,,0666,system,system,O,O,,,,
+/dev/al3006_pls,,,,0666,system,system,O,O,,,,
+/dev/ecompass_ctrl,,,,0666,system,compass,O,O,,,,
+/dev/lis3dh_acc,,,,0666,system,system,O,O,,,,
+/dev/mali,,,,0666,system,graphics,O,O,,,,
+/dev/mmc31xx,,,,0666,system,compass,O,O,,,,
+/dev/mxc622x,,,,0666,system,input,O,O,,,,
+/dev/ump,,,,0666,system,graphics,O,O,,,,
+/dev/vbpipe7,,,,0666,audio,audio,O,O,,,,

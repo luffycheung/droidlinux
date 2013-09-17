@@ -1,0 +1,20 @@
+Galaxy S 3 LTE,GT-I9305,O2UUnited kingdom (o2),I9305XXBME3,4.1.2,29.05.2013,1153417,Unlock,O2U-I9305XXBME3-20130828114321.zip,http://hotfile.com/dl/242067814/c82302a/O2U-I9305XXBME3-20130828114321.zip.html,00053
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/exynos-mem,,,,0666,system,graphics,O,O,,,O
+/dev/felica,,,,0666,root,root,O,O,,,,
+/dev/felica_ant,,,,0666,root,root,O,O,,,,
+/dev/felica_cen,,,,0666,root,root,O,O,,,,
+/dev/felica_pon,,,,0666,root,root,O,O,,,,
+/dev/felica_rws,,,,0666,root,root,O,O,,,,
+/dev/fimg2d,,,,0666,system,graphics,O,O,,,,
+/dev/ion,,,,0666,system,system,O,O,,,,
+/dev/mali,,,,0666,system,system,O,O,,,,
+/dev/s5p-mfc,,,,0666,system,graphics,O,O,,,,
+/dev/ttyUSB1,,,,0666,system,system,O,O,,,,
+/dev/ttyUSB2,,,,0666,system,system,O,O,,,,
+/dev/ump,,,,0666,system,graphics,O,O,,,,
+/dev/video11,,,,0666,system,graphics,O,O,,,,
+/dev/video20,,,,0666,system,system,O,O,,,,
+/dev/video26,,,,0666,media,m2m,O,O,,,,
+/dev/video29,,,,0666,media,m2m,O,O,,,,
+/dev/video4,,,,0666,system,m2m,O,O,,,,

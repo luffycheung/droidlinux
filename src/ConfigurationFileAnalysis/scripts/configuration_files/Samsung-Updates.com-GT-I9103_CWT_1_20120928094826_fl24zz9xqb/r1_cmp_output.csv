@@ -1,0 +1,8 @@
+Galaxy R,GT-I9103,CWTN/a,I9103ZSLPD,4.0.4,27.09.2012,1066825,Unlock,Samsung-Updates.com-GT-I9103_CWT_1_20120928094826_fl24zz9xqb.zip,http://hotfile.com/dl/199258748/ead288c/Samsung-Updates.com-GT-I9103_CWT_1_20120928094826_fl24zz9xqb.zip.html,00024
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/ion,,,,0666,system,system,O,O,,,,
+/dev/link_pm,,,,0666,system,radio,O,O,,,,
+/dev/nvmap,,,,0666,system,system,O,O,,,,
+/dev/nvos,,,,0666,system,system,O,O,,,,
+/dev/nvrm,,,,0666,system,system,O,O,,,,
+/dev/umts*,,,,0666,system,radio,O,O,,,,

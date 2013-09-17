@@ -1,0 +1,7 @@
+Galaxy S 4 (Sprint),SPH-L720,SPRU.s. (spint),L720VPUAMF9,4.2.2,25.06.2013,953334,Unlock,SPR-L720VPUAMF9-20130626162512.zip,http://hotfile.com/dl/235555943/ff47da6/SPR-L720VPUAMF9-20130626162512.zip.html,00235
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,system,system,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,system,system,O,O,,,,
+/dev/tima,,,,0666,root,root,O,O,,,,

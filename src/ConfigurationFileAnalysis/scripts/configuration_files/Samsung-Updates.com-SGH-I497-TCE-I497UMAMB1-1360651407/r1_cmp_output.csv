@@ -1,0 +1,8 @@
+Galaxy Tab 2 10.1 (AT&T),SGH-I497,TCEMexico,I497UMAMB1,4.0.4,12.02.2013,1202654,Unlock,Samsung-Updates.com-SGH-I497-TCE-I497UMAMB1-1360651407.zip,http://hotfile.com/dl/197242508/a669143/Samsung-Updates.com-SGH-I497-TCE-I497UMAMB1-1360651407.zip.html,00193
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,root,root,O,O,,,,
+/dev/tspdrv,,,,0666,root,root,O,O,,,,
+/dev/ttyUSB0,,,,0666,system,system,O,O,,,,
