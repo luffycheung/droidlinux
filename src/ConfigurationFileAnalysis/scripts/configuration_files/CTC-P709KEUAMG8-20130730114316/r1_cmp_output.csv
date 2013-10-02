@@ -1,0 +1,6 @@
+Galaxy Mega 5.8 Duos (China),SCH-P709,CTCChina (anycall),P709KEUAMG8,4.2.2,26.07.2013,1093768,Unlock,CTC-P709KEUAMG8-20130730114316.zip,http://hotfile.com/dl/236725011/726f291/CTC-P709KEUAMG8-20130730114316.zip.html,00183
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,system,system,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,system,system,O,O,,,,

@@ -1,0 +1,9 @@
+Galaxy Ace 3,GT-S7270,BRITaiwan,S7270ZSUAMH2,4.2.2,20.08.2013,980503,Unlock,BRI-S7270ZSUAMH2-20130829163333.zip,http://hotfile.com/dl/242266613/fc1491a/BRI-S7270ZSUAMH2-20130829163333.zip.html,00147
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/ami_sensor,,,,0666,system,system,O,O,,,,
+/dev/graphics/fb0,,,,0666,system,graphics,O,O,,,,
+/dev/ion,,,,0666,system,graphics,O,O,,,,
+/dev/mm_interlock,,,,0666,system,graphics,O,O,,,,
+/dev/mm_v3d,,,,0666,system,graphics,O,O,,,,
+/dev/pvrsrvkm,,,,0666,system,system,O,O,,,,
+/dev/v3d,,,,0666,system,graphics,O,O,,,,

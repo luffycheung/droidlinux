@@ -1,0 +1,8 @@
+SPH-L300,SPH-L300,SPRU.s. (spint),L300VPALH1 (LEAK),4.0.4,03.08.2012,934170,Unlock,COMBINATION_L300VPALH1_L300SPRALH1_934170_REV00_user_low_ship.tar.md5,http://hotfile.com/dl/178855614/738fca5/COMBINATION_L300VPALH1_L300SPRALH1_934170_REV00_user_low_ship.tar.md5.html,00231
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,root,root,O,O,,,,
+/dev/tspdrv,,,,0666,root,root,O,O,,,,
+/dev/ttyUSB0,,,,0666,system,system,O,O,,,,

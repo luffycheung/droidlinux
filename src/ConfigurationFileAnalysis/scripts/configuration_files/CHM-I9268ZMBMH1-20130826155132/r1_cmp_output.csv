@@ -1,0 +1,8 @@
+Galaxy Premier,GT-I9268,CHMChina,I9268ZMBMH1,4.1.2,30.07.2013,1337030,Unlock,CHM-I9268ZMBMH1-20130826155132.zip,http://hotfile.com/dl/241844659/072c473/CHM-I9268ZMBMH1-20130826155132.zip.html,00046
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/gcioctl,,,,0666,system,system,O,O,,,,
+/dev/ion,,,,0777,root,root,O,O,,,,
+/dev/pvrsrvkm,,,,0666,system,system,O,O,,,,
+/dev/ttyUSB0,,,,0666,system,system,O,O,,,,
+/dev/ttyUSB1,,,,0666,system,system,O,O,,,,
+/dev/ttyUSB2,,,,0666,system,system,O,O,,,,

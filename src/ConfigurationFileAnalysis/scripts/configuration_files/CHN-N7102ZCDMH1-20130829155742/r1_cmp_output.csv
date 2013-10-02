@@ -1,0 +1,15 @@
+Galaxy Note 2 DUOS (China),GT-N7102,CHNChina,N7102ZCDMH1,4.1.2,14.08.2013,1095513,Unlock,CHN-N7102ZCDMH1-20130829155742.zip,http://hotfile.com/dl/242261751/ad967fe/CHN-N7102ZCDMH1-20130829155742.zip.html,00071
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/exynos-mem,,,,0666,system,graphics,O,O,,,O
+/dev/fimg2d,,,,0666,system,graphics,O,O,,,,
+/dev/ion,,,,0666,system,system,O,O,,,,
+/dev/mali,,,,0666,system,system,O,O,,,,
+/dev/s5p-mfc,,,,0666,system,graphics,O,O,,,,
+/dev/ttyUSB0,,,,0666,system,system,O,O,,,,
+/dev/ttyUSB1,,,,0666,system,system,O,O,,,,
+/dev/ttyUSB2,,,,0666,system,system,O,O,,,,
+/dev/ump,,,,0666,system,graphics,O,O,,,,
+/dev/video11,,,,0666,system,graphics,O,O,,,,
+/dev/video26,,,,0666,media,m2m,O,O,,,,
+/dev/video29,,,,0666,media,m2m,O,O,,,,
+/dev/video4,,,,0666,system,m2m,O,O,,,,

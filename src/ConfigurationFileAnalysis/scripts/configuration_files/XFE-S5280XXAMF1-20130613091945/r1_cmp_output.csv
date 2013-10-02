@@ -1,0 +1,14 @@
+Galaxy Star,GT-S5280,XFESouth africa,S5280XXAMF1,4.1.2,07.06.2013,1247256,Unlock,XFE-S5280XXAMF1-20130613091945.zip,http://hotfile.com/dl/235465790/6929ac4/XFE-S5280XXAMF1-20130613091945.zip.html,00133
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/al3006_pls,,,,0666,system,system,O,O,,,,
+/dev/ecompass_ctrl,,,,0666,system,compass,O,O,,,,
+/dev/input/event0,,,,0666,system,system,O,O,,O,,
+/dev/mali,,,,0666,system,graphics,O,O,,,,
+/dev/mmc31xx,,,,0666,system,compass,O,O,,,,
+/dev/mxc622x,,,,0666,system,input,O,O,,,,
+/dev/mxdspidev,,,,0666,system,system,O,O,,,,
+/dev/ump,,,,0666,system,graphics,O,O,,,,
+/dev/umts_router,,,,0666,system,system,O,O,,,,
+/dev/vbpipe0,,,,0666,system,system,O,O,,,,
+/dev/vbpipe2,,,,0666,system,system,O,O,,,,
+/dev/vbpipe3,,,,0666,system,system,O,O,,,,

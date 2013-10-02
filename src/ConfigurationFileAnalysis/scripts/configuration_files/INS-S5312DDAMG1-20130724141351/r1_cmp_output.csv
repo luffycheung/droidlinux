@@ -1,0 +1,6 @@
+Galaxy Pocket Neo Duos,GT-S5312,INSIndia,S5312DDAMG1,4.1.2,01.07.2013,1288794,Unlock,INS-S5312DDAMG1-20130724141351.zip,http://hotfile.com/dl/235737375/d3dfbed/INS-S5312DDAMG1-20130724141351.zip.html,00138
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/bralloc_mem,,,,0666,system,graphics,O,O,,,,
+/dev/pvrsrvkm,,,,0666,system,system,O,O,,,,
+/dev/v3d,,,,0666,system,graphics,O,O,,,,
+/dev/vce,,,,0666,system,graphics,O,O,,,,

@@ -1,0 +1,12 @@
+Galaxy Ace IIx,GT-S7560,VDCCzech republic (vodafone),S7560XXAME9,4.0.4,28.05.2013,1224927,Unlock,VDC-S7560XXAME9-20130827100434.zip,http://hotfile.com/dl/242347496/aa4a93a/VDC-S7560XXAME9-20130827100434.zip.html,00149
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,root,root,O,O,,,,
+/dev/msm_vidc_dec,,,,0666,system,audio,O,O,,,,
+/dev/msm_vidc_dec_sec,,,,0666,system,audio,O,O,,,,
+/dev/msm_vidc_enc,,,,0666,system,audio,O,O,,,,
+/dev/msm_vidc_reg,,,,0666,system,audio,O,O,,,,
+/dev/tspdrv,,,,0666,root,root,O,O,,,,
+/dev/ttyUSB0,,,,0666,system,system,O,O,,,,

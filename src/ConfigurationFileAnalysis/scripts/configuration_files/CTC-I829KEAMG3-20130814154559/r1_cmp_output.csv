@@ -1,0 +1,6 @@
+Galaxy Style DUOS,SCH-I829,CTCChina (anycall),I829KEAMG3,4.1.2,11.07.2013,1307768,Unlock,CTC-I829KEAMG3-20130814154559.zip,http://hotfile.com/dl/239531450/8ed90e3/CTC-I829KEAMG3-20130814154559.zip.html,00174
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,system,system,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,system,system,O,O,,,,

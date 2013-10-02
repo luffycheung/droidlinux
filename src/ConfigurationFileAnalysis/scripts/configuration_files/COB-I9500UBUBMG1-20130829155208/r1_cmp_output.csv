@@ -1,0 +1,7 @@
+Galaxy S 4 (Exynos Octa),GT-I9500,COBColombia (movistar),I9500UBUBMG1,4.2.2,02.07.2013,1002623,Unlock,COB-I9500UBUBMG1-20130829155208.zip,http://hotfile.com/dl/242275157/16365fc/COB-I9500UBUBMG1-20130829155208.zip.html,00056
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/fimg2d,,,,0666,system,graphics,O,O,,,,
+/dev/ion,,,,0666,system,system,O,O,,,,
+/dev/pvr_sync,,,,0666,system,graphics,O,O,,,,
+/dev/pvrsrvkm,,,,0666,system,graphics,O,O,,,,
+/dev/ump,,,,0666,system,system,O,O,,,,

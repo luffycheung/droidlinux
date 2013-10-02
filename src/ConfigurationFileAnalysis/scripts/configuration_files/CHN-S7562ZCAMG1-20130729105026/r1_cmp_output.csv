@@ -1,0 +1,12 @@
+Galaxy S Duos,GT-S7562,CHNChina,S7562ZCAMG1,4.0.4,11.07.2013,1219573,Unlock,CHN-S7562ZCAMG1-20130729105026.zip,http://hotfile.com/dl/236568166/2c4994c/CHN-S7562ZCAMG1-20130729105026.zip.html,00150
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,root,root,O,O,,,,
+/dev/msm_vidc_dec,,,,0666,system,audio,O,O,,,,
+/dev/msm_vidc_dec_sec,,,,0666,system,audio,O,O,,,,
+/dev/msm_vidc_enc,,,,0666,system,audio,O,O,,,,
+/dev/msm_vidc_reg,,,,0666,system,audio,O,O,,,,
+/dev/tspdrv,,,,0666,root,root,O,O,,,,
+/dev/ttyUSB0,,,,0666,system,system,O,O,,,,

@@ -1,0 +1,8 @@
+SCH-L710,SCH-L710,XARCellular south,L710WWALI6,4.0.4,13.09.2012,1106234,Unlock,Samsung-Updates.com-SCH-L710_XAR_1_20120915142708_ax27ebegbt.zip,http://hotfile.com/dl/176693278/c3e378e/Samsung-Updates.com-SCH-L710_XAR_1_20120915142708_ax27ebegbt.zip.html,00180
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,root,root,O,O,,,,
+/dev/tspdrv,,,,0666,root,root,O,O,,,,
+/dev/ttyUSB0,,,,0666,system,system,O,O,,,,

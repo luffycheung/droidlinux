@@ -1,0 +1,5 @@
+Galaxy Tab 2 7.0 WIFI,GT-P3113,XACN/a,P3113UECLK7,4.1.1,30.11.2012,523998,Unlock,Samsung-Updates.com-GT-P3113-XAC-P3113UECLK7-1354242858.zip,http://hotfile.com/dl/188871781/39b4150/Samsung-Updates.com-GT-P3113-XAC-P3113UECLK7-1354242858.zip.html,00102
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/gcioctl,,,,0666,system,system,O,O,,,,
+/dev/ion,,,,0777,root,root,O,O,,,,
+/dev/pvrsrvkm,,,,0666,system,system,O,O,,,,

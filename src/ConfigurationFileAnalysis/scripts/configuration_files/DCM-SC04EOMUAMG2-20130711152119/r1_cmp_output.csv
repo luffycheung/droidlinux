@@ -1,0 +1,15 @@
+Galaxy S 4 (DoCoMo),SC-04E,DCMJapan (docomo),SC04EOMUAMG2,4.2.2,10.07.2013,814643,Unlock,DCM-SC04EOMUAMG2-20130711152119.zip,http://hotfile.com/dl/235893566/8099f91/DCM-SC04EOMUAMG2-20130711152119.zip.html,00163
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/felica,,,,0666,root,root,O,O,,,,
+/dev/felica_ant,,,,0666,root,root,O,O,,,,
+/dev/felica_cen,,,,0666,root,root,O,O,,,,
+/dev/felica_pon,,,,0666,root,root,O,O,,,,
+/dev/felica_rws,,,,0666,root,root,O,O,,,,
+/dev/genlock,,,,0666,system,system,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,system,system,O,O,,,,
+/dev/mmtuneri2c,,,,0666,system,root,O,O,,,,
+/dev/mmtunerspi,,,,0666,system,root,O,O,,,,
+/dev/snfc_hsel,,,,0666,nfc,nfc,O,O,,,,
+/dev/tima,,,,0666,root,root,O,O,,,,

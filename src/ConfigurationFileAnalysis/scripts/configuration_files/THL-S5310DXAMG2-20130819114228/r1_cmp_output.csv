@@ -1,0 +1,6 @@
+Galaxy Pocket Neo,GT-S5310,THLThailand,S5310DXAMG2,4.1.2,24.07.2013,1325990,Unlock,THL-S5310DXAMG2-20130819114228.zip,http://hotfile.com/dl/240410008/6fc7277/THL-S5310DXAMG2-20130819114228.zip.html,00137
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/bralloc_mem,,,,0666,system,graphics,O,O,,,,
+/dev/pvrsrvkm,,,,0666,system,system,O,O,,,,
+/dev/v3d,,,,0666,system,graphics,O,O,,,,
+/dev/vce,,,,0666,system,graphics,O,O,,,,

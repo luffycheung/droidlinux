@@ -1,0 +1,45 @@
+/dev/mali0                0666   system     system
+/dev/ump                  0666   system     system
+/dev/ion                  0666   system     system
+/dev/video6               0660   media      graphics
+/dev/video7               0660   media      graphics
+
+# gscalers
+/dev/video23              0660   system     system
+/dev/video26              0660   media      graphics
+/dev/video29              0660   media      graphics
+/dev/video32              0660   media      graphics
+
+/dev/video24              0660   system     system
+/dev/video27              0660   media      graphics
+/dev/video30              0660   media      graphics
+/dev/video33              0660   system     system
+/dev/video34              0660   system     system
+
+/dev/v4l-subdev*          0660   system     system
+/dev/media0               0660   system     system
+/dev/media1               0660   system     camera
+/dev/media2               0660   system     camera
+
+/dev/video25              0660   system     camera
+
+# mixer
+/dev/video16              0660   system     system
+/dev/video17              0660   system     system
+/dev/video18              0660   system     system
+/dev/video19              0660   system     system
+
+#JPEG
+/dev/video11              0660   system     graphics
+/dev/video12              0660   system     camera
+
+# FIMG2D
+/dev/fimg2d               0666   system     graphics
+
+# secure mem driver
+/dev/s5p-smem             0660   system    system
+
+# CEC
+/dev/CEC		  0660   system     system
+
+/dev/usb/lp*              0660   system     usb

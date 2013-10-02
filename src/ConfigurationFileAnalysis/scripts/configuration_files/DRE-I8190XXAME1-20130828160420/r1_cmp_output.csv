@@ -1,0 +1,10 @@
+Galaxy S 3 Mini,GT-I8190,DREAustria (3),I8190XXAME1,4.1.2,27.05.2013,1231497,Unlock,DRE-I8190XXAME1-20130828160420.zip,http://hotfile.com/dl/242084412/d839de3/DRE-I8190XXAME1-20130828160420.zip.html,00011
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/b2r2_blt,,,,0666,system,graphics,O,O,,,,
+/dev/clone0,,,,0666,system,graphics,O,O,,,,
+/dev/comp0,,,,0666,system,graphics,O,O,,,,
+/dev/comp1,,,,0666,system,graphics,O,O,,,,
+/dev/disp0,,,,0666,system,graphics,O,O,,,,
+/dev/hwmem,,,,0666,media,system,O,O,,,,
+/dev/mali,,,,0666,system,graphics,O,O,,,,
+/dev/tee,,,,0666,root,system,O,O,,,,

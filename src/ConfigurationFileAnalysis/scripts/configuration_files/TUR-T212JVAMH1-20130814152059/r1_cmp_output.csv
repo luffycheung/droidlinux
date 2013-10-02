@@ -1,0 +1,10 @@
+Galaxy Tab 3 7.0 (China),SM-T212,TURTurkey,T212JVAMH1,4.1.2,07.08.2013,1351458,Unlock,TUR-T212JVAMH1-20130814152059.zip,http://hotfile.com/dl/239556030/a271e4b/TUR-T212JVAMH1-20130814152059.zip.html,00223
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/diag_dump,,,,0666,system,system,O,O,,,,
+/dev/graphics/fb0,,,,0666,system,media,O,O,,,,
+/dev/graphics/galcore,,,,0666,system,media,O,O,,,,
+/dev/input/event*,,,,0666,root,input,O,O,,O,,
+/dev/ion,,,,0666,system,graphics,O,O,,,,
+/dev/msocket,,,,0666,system,system,O,O,,,,
+/dev/msocket_dump,,,,0666,system,system,O,O,,,,
+/dev/uio0,,,,0666,media,media,O,O,,,,

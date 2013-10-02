@@ -1,0 +1,6 @@
+Galaxy Fame Duos,GT-S6812,INUIndia,S6812DDAMG3,4.1.2,25.07.2013,1329091,Unlock,INU-S6812DDAMG3-20130817093738.zip,http://hotfile.com/dl/240435515/fbaee61/INU-S6812DDAMG3-20130817093738.zip.html,00146
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/bralloc_mem,,,,0666,system,graphics,O,O,,,,
+/dev/pvrsrvkm,,,,0666,system,system,O,O,,,,
+/dev/v3d,,,,0666,system,graphics,O,O,,,,
+/dev/vce,,,,0666,system,graphics,O,O,,,,

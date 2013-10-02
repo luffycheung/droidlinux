@@ -1,0 +1,6 @@
+Galaxy Infinite,SCH-I759,CTCChina (anycall),I759KEAMG1,4.1.2,03.07.2013,1294712,Unlock,CTC-I759KEAMG1-20130708145850.zip,http://hotfile.com/dl/234349898/5306545/CTC-I759KEAMG1-20130708145850.zip.html,00173
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,system,system,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,system,system,O,O,,,,

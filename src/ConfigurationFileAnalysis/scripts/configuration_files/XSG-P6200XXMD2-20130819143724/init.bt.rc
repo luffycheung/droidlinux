@@ -1,0 +1,24 @@
+on boot
+
+# for bluetooth
+	insmod /lib/modules/btlock.ko
+	chmod 664 /dev/btlock
+	chown bluetooth system /dev/btlock
+
+service bccmd /system/bin/logwrapper /system/bin/bccmd -t bcsp -d /dev/ttySAC0 -b 115200 psload -r /system/bin/PSConfig_8811.psr
+    user root
+    group bluetooth net_bt_admin
+    disabled
+    oneshot
+
+service hciattach /system/bin/logwrapper /system/bin/hciattach -n -p /dev/ttySAC0 bcsp 3000000 flow
+    user bluetooth
+    group bluetooth net_bt_admin
+    disabled
+
+# for bluetooth rf test.
+service bt_dut_cmd /system/bin/csr_dut
+    class main
+    group bluetooth net_bt_admin
+    disabled
+    oneshot

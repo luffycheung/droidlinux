@@ -1,0 +1,7 @@
+Galaxy S 3 (T-Mobile),SGH-T999,TMBUsa (t-mobile),T999UVDMD5,4.1.2,15.04.2013,1128078,Unlock,Samsung-Updates.com-SGH-T999-TMB-T999UVDMD5-1365994443.zip,http://hotfile.com/dl/221555017/f872486/Samsung-Updates.com-SGH-T999-TMB-T999UVDMD5-1365994443.zip.html,00217
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,root,root,O,O,,,,
+/dev/ttyUSB0,,,,0666,system,system,O,O,,,,

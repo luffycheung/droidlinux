@@ -1,0 +1,6 @@
+Galaxy S Blaze 4G,SGH-T769,TMBUsa (t-mobile),T769UVMB1,4.0.4,04.02.2013,990184,Unlock,Samsung-Updates.com-SGH-T769-TMB-T769UVMB1-1359984547.zip,http://hotfile.com/dl/195973649/bd3ee8a/Samsung-Updates.com-SGH-T769-TMB-T769UVMB1-1359984547.zip.html,00206
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,root,root,O,O,,,,

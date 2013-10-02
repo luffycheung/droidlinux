@@ -1,0 +1,8 @@
+Galaxy S 3 LTE (US Cellular),SCH-R530,USCU.s. cellular,R530UVXALG1,4.0.4,04.07.2012,830554,Unlock,COMBINATION_R530UVXALG1_R530UUSCALG1_830554_REV00_user_low_ship.tar.md5,http://hotfile.com/dl/178269617/aca8f04/COMBINATION_R530UVXALG1_R530UUSCALG1_830554_REV00_user_low_ship.tar.md5.html,00185
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,root,root,O,O,,,,
+/dev/tspdrv,,,,0666,root,root,O,O,,,,
+/dev/ttyUSB0,,,,0666,system,system,O,O,,,,

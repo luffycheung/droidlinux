@@ -1,0 +1,6 @@
+Galaxy S 2,GT-I9108,CHNChina,I9108ZMBMB3,4.1.2,27.02.2013,1010091,Unlock,Samsung-Updates.com-GT-I9108-CHN-I9108ZMBMB3-1361978734.zip,http://hotfile.com/dl/199374975/8398a4d/Samsung-Updates.com-GT-I9108-CHN-I9108ZMBMB3-1361978734.zip.html,00027
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/pvrsrvkm,,,,0666,system,system,O,O,,,,
+/dev/ttyUSB0,,,,0666,system,system,O,O,,,,
+/dev/ttyUSB1,,,,0666,system,system,O,O,,,,
+/dev/ttyUSB2,,,,0666,system,system,O,O,,,,

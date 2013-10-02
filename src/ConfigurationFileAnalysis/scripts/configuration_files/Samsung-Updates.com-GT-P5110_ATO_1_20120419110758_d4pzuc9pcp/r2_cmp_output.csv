@@ -1,0 +1,9 @@
+Galaxy Tab 2 10.1 WiFi,GT-P5110,ATOAustria (a1),P5110XWALD2,4.0.3,16.04.2012,365113,Unlock,Samsung-Updates.com-GT-P5110_ATO_1_20120419110758_d4pzuc9pcp.zip,http://hotfile.com/dl/197912720/852556f/Samsung-Updates.com-GT-P5110_ATO_1_20120419110758_d4pzuc9pcp.zip.html,00110
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/block/mmcblk0p8,,,,0660,radio,radio,O,,,,,
+/dev/hdcp,,,,0664,root,root,O,,,,,
+/dev/i2c-4,,,,0660,system,system,O,,,,,
+/dev/ttyUSB*,,,,0660,system,usb,O,,,,,
+/dev/umts_csd,,,,0660,radio,system,O,,,,,
+/dev/umts_router,,,,0660,radio,system,O,,,,,
+/dev/usb/lp*,,,,0660,system,usb,O,,,,,

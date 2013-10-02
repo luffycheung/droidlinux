@@ -1,0 +1,14 @@
+Galaxy Note 10.1 (LTE + WiFi),GT-N8020,TMNPortugal (tmn),N8020XXBMF1,4.1.2,10.06.2013,1240320,Unlock,TMN-N8020XXBMF1-20130826185118.zip,http://hotfile.com/dl/241854039/c0b1ca4/TMN-N8020XXBMF1-20130826185118.zip.html,00086
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/exynos-mem,,,,0666,system,graphics,O,O,,,O
+/dev/fimg2d,,,,0666,system,graphics,O,O,,,,
+/dev/ion,,,,0666,system,system,O,O,,,,
+/dev/mali,,,,0666,system,system,O,O,,,,
+/dev/s5p-mfc,,,,0666,system,graphics,O,O,,,,
+/dev/ttyUSB1,,,,0666,system,system,O,O,,,,
+/dev/ttyUSB2,,,,0666,system,system,O,O,,,,
+/dev/ump,,,,0666,system,graphics,O,O,,,,
+/dev/video11,,,,0666,system,graphics,O,O,,,,
+/dev/video26,,,,0666,media,m2m,O,O,,,,
+/dev/video29,,,,0666,media,m2m,O,O,,,,
+/dev/video4,,,,0666,system,m2m,O,O,,,,

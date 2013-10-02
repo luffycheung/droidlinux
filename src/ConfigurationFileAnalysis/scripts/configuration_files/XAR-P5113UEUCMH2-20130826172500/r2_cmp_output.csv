@@ -1,0 +1,14 @@
+Galaxy Tab 2 10.1 (WiFi),GT-P5113,XARCellular south,P5113UEUCMH2,4.2.2,14.08.2013,1261897,Unlock,XAR-P5113UEUCMH2-20130826172500.zip,http://hotfile.com/dl/241716362/407040c/XAR-P5113UEUCMH2-20130826172500.zip.html,00112
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/block/mmcblk0p8,,,,0660,radio,radio,O,,,,,
+/dev/gcioctl,,,,0666,system,system,O,O,,,,
+/dev/hdcp,,,,0664,root,root,O,,,,,
+/dev/i2c-4,,,,0660,system,system,O,,,,,
+/dev/ion,,,,0777,root,root,O,O,,,,
+/dev/pvrsrvkm,,,,0666,system,system,O,O,,,,
+/dev/tspdrv,,,,0660,root,shell,O,,,,,
+/dev/ttyO1,,,,0600,bluetooth,bluetooth,O,,,,,
+/dev/umts_csd,,,,0660,radio,system,O,,,,,
+/dev/umts_router,,,,0660,radio,system,O,,,,,
+/dev/usb/lp*,,,,0660,system,usb,O,,,,,
+/dev/usb_mtp_gadget,,,,0660,system,system,O,,,,,

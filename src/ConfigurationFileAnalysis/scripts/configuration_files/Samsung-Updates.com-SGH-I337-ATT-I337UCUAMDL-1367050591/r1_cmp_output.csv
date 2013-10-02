@@ -1,0 +1,7 @@
+Galaxy S 4 (AT&T),SGH-I337,ATTAt&t,I337UCUAMDL,4.2.2,27.04.2013,453947,Unlock,Samsung-Updates.com-SGH-I337-ATT-I337UCUAMDL-1367050591.zip,http://hotfile.com/dl/223155068/c6f1d72/Samsung-Updates.com-SGH-I337-ATT-I337UCUAMDL-1367050591.zip.html,00192
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,system,system,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,system,system,O,O,,,,
+/dev/tima,,,,0666,root,root,O,O,,,,

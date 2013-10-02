@@ -1,0 +1,6 @@
+Galaxy Tab 3 8.0 (WiFi),SM-T311,TCLPortugal (vodafone),T311XXUAMG1,4.2.2,05.07.2013,991930,Unlock,TCL-T311XXUAMG1-20130822174654.zip,http://hotfile.com/dl/240993781/386fc21/TCL-T311XXUAMG1-20130822174654.zip.html,00225
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/fimg2d,,,,0666,system,graphics,O,O,,,,
+/dev/ion,,,,0666,system,system,O,O,,,,
+/dev/mali,,,,0666,system,system,O,O,,,,
+/dev/ump,,,,0666,system,graphics,O,O,,,,

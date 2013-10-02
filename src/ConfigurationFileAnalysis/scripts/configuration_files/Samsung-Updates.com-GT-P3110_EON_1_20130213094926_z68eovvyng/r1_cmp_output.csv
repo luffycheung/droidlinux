@@ -1,0 +1,5 @@
+Galaxy Tab 2 7.0 WiFi,GT-P3110,EONN/a,P3110XXCLK7,4.1.1,22.11.2012,523998,Unlock,Samsung-Updates.com-GT-P3110_EON_1_20130213094926_z68eovvyng.zip,http://hotfile.com/dl/199265819/3ca576b/Samsung-Updates.com-GT-P3110_EON_1_20130213094926_z68eovvyng.zip.html,00100
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/gcioctl,,,,0666,system,system,O,O,,,,
+/dev/ion,,,,0777,root,root,O,O,,,,
+/dev/pvrsrvkm,,,,0666,system,system,O,O,,,,

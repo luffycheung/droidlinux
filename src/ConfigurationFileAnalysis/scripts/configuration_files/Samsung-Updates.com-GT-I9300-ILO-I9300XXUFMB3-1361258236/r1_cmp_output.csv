@@ -1,0 +1,6 @@
+Galaxy S 3 (International),GT-I9300,ILOIsrael,I9300XXUFMB3,4.2.1,19.02.2013,171637,Unlock,Samsung-Updates.com-GT-I9300-ILO-I9300XXUFMB3-1361258236.zip,http://hotfile.com/dl/195574214/3fa0709/Samsung-Updates.com-GT-I9300-ILO-I9300XXUFMB3-1361258236.zip.html,00051
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/fimg2d,,,,0666,system,graphics,O,O,,,,
+/dev/ion,,,,0666,system,system,O,O,,,,
+/dev/mali,,,,0666,system,system,O,O,,,,
+/dev/ump,,,,0666,system,graphics,O,O,,,,

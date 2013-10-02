@@ -1,0 +1,6 @@
+Samsung HomeSync,GT-B9150,XARCellular south,B9150UEUBMG1,4.2.2,09.07.2013,1053963,Unlock,XAR-B9150UEUBMG1-20130712161247.zip,http://hotfile.com/dl/234742969/16f8222/XAR-B9150UEUBMG1-20130712161247.zip.html,00008
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/fimg2d,,,,0666,system,graphics,O,O,,,,
+/dev/ion,,,,0666,system,system,O,O,,,,
+/dev/mali0,,,,0666,system,system,O,O,,,,
+/dev/ump,,,,0666,system,system,O,O,,,,

@@ -1,0 +1,8 @@
+Galaxy Premier,GT-I9260,BRITaiwan,I9260ZTAMA1,4.1.1,22.01.2013,622456,Unlock,Samsung-Updates.com-GT-I9260-BRI-I9260ZTAMA1-1358820360.zip,http://hotfile.com/dl/191903210/b81c91a/Samsung-Updates.com-GT-I9260-BRI-I9260ZTAMA1-1358820360.zip.html,00045
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/gcioctl,,,,0666,system,system,O,O,,,,
+/dev/ion,,,,0777,root,root,O,O,,,,
+/dev/pvrsrvkm,,,,0666,system,system,O,O,,,,
+/dev/ttyUSB0,,,,0666,system,system,O,O,,,,
+/dev/ttyUSB1,,,,0666,system,system,O,O,,,,
+/dev/ttyUSB2,,,,0666,system,system,O,O,,,,

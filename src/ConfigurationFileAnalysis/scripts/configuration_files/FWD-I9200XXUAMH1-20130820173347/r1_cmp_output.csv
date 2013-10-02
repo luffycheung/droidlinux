@@ -1,0 +1,7 @@
+Galaxy Mega 6.3,GT-I9200,FWDMorocco,I9200XXUAMH1,4.2.2,01.08.2013,651213,Unlock,FWD-I9200XXUAMH1-20130820173347.zip,http://hotfile.com/dl/240675172/9e37813/FWD-I9200XXUAMH1-20130820173347.zip.html,00035
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,system,system,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,system,system,O,O,,,,
+/dev/tima,,,,0666,root,root,O,O,,,,

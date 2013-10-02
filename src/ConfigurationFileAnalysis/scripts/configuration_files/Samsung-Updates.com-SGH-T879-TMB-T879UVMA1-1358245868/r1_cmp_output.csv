@@ -1,0 +1,6 @@
+Galaxy Note (T-Mobile),SGH-T879,TMBUsa (t-mobile),T879UVMA1,4.0.4,15.01.2013,892179,Unlock,Samsung-Updates.com-SGH-T879-TMB-T879UVMA1-1358245868.zip,http://hotfile.com/dl/192498530/2ed199b/Samsung-Updates.com-SGH-T879-TMB-T879UVMA1-1358245868.zip.html,00211
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,root,root,O,O,,,,

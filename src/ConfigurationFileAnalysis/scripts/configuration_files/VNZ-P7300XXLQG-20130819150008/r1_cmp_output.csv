@@ -1,0 +1,5 @@
+Galaxy Tab 8.9 (3G + WiFi),GT-P7300,VNZNew zealand (vodafone),P7300XXLQG,4.0.4,19.04.2013,1216877,Unlock,VNZ-P7300XXLQG-20130819150008.zip,http://hotfile.com/dl/240442535/bb1f8be/VNZ-P7300XXLQG-20130819150008.zip.html,00126
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/nvhdcp0,,,,0666,system,system,O,O,,,,
+/dev/nvhdcp1,,,,0666,system,system,O,O,,,,
+/dev/nvmap,,,,0666,system,system,O,O,,,,

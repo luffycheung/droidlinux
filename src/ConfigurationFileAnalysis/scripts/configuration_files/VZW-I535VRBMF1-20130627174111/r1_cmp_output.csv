@@ -1,0 +1,7 @@
+Galaxy S 3 (Verizon),SCH-I535,VZWVerizon wireless,I535VRBMF1,4.1.2,08.06.2013,1152558,Unlock,VZW-I535VRBMF1-20130627174111.zip,http://hotfile.com/dl/233201455/b70504c/VZW-I535VRBMF1-20130627174111.zip.html,00169
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,root,root,O,O,,,,
+/dev/ttyUSB0,,,,0666,system,system,O,O,,,,

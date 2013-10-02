@@ -1,0 +1,7 @@
+SGH-T699,SGH-T699,TMBUsa (t-mobile),T699UVBMC5,4.1.2,16.03.2013,995683,Unlock,Samsung-Updates.com-SGH-T699-TMB-T699UVBMC5-1363439562.zip,http://hotfile.com/dl/204016374/8aa7892/Samsung-Updates.com-SGH-T699-TMB-T699UVBMC5-1363439562.zip.html,00204
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,root,root,O,O,,,,
+/dev/ttyUSB0,,,,0666,system,system,O,O,,,,

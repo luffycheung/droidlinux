@@ -1,0 +1,6 @@
+Galaxy Young,GT-S6310,XSPSingapore,S6310DXAME1,4.1.2,20.05.2013,1013803,Unlock,XSP-S6310DXAME1-20130821093616.zip,http://hotfile.com/dl/240756096/07c2211/XSP-S6310DXAME1-20130821093616.zip.html,00143
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,system,system,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,system,system,O,O,,,,

@@ -1,0 +1,7 @@
+Galaxy S 4 DUOS,GT-I9508,CHMChina,I9508ZMUAMG1,4.2.2,02.07.2013,465829,Unlock,CHM-I9508ZMUAMG1-20130729181825.zip,http://hotfile.com/dl/236682998/9ea1d61/CHM-I9508ZMUAMG1-20130729181825.zip.html,00059
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,system,system,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,system,system,O,O,,,,
+/dev/tima,,,,0666,root,root,O,O,,,,

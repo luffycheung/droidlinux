@@ -1,0 +1,132 @@
+import init.smdk4210.usb.rc
+
+on early-init
+    export EXTERNAL_STORAGE /mnt/sdcard
+    mkdir /mnt/sdcard 0000 system system
+    # for backwards compatibility
+    symlink /mnt/sdcard /sdcard
+
+on post-fs-data
+    # give system access to wpa_supplicant.conf for backup and restore
+    mkdir /data/misc/wifi 0770 wifi wifi
+    chmod 0770 /data/misc/wifi
+    chmod 0660 /data/misc/wifi/wpa_supplicant.conf
+    mkdir /data/misc/wifi/sockets 0770 wifi wifi
+    mkdir /data/misc/dhcp 0770 dhcp dhcp
+    chown dhcp dhcp /data/misc/dhcp
+
+     # we will remap this as /mnt/sdcard with the sdcard fuse tool
+     mkdir /data/media 0775 media_rw media_rw
+     chown media_rw media_rw /data/media
+
+     # Set indication (checked by vold) that we have finished this action
+     setprop vold.post_fs_data_done 1
+
+on boot
+    chown system system /sys/class/backlight/pwm-backlight/brightness
+    chmod 0660 /sys/class/backlight/pwm-backlight/brightness
+    chown radio system /sys/devices/virtual/misc/melfas_touchkey/brightness
+    chmod 0660 /sys/devices/virtual/misc/melfas_touchkey/brightness
+
+#panorama directory creation
+    mkdir /data/pxtmpdir 0775
+    chown system system /data/pxtmpdir
+    chmod 0775 /data/pxtmpdir
+
+# Permissions for dvfs lock
+    chown system system /sys/power/cpufreq_max_limit
+    chown system system /sys/power/cpufreq_min_limit
+    chmod 0660 /sys/power/cpufreq_max_limit
+    chmod 0660 /sys/power/cpufreq_min_limit
+
+    mount debugfs /sys/kernel/debug /sys/kernel/debug
+
+    setprop ro.build.product SC-02D
+    setprop ro.product.device SC-02D
+    setprop ro.radio.noril yes
+
+# Permissions for touch
+    chown system radio /sys/class/sec/tsp_noise_test/set_all_refer
+    chown system radio /sys/class/sec/tsp_noise_test/set_debug_data1
+    chown system radio /sys/class/sec/tsp_noise_test/set_debug_data2
+    chown system radio /sys/class/sec/tsp_noise_test/set_debug_data3
+    chown system radio /sys/class/sec/tsp_noise_test/set_delta0
+    chown system radio /sys/class/sec/tsp_noise_test/set_delta1
+    chown system radio /sys/class/sec/tsp_noise_test/set_delta2
+    chown system radio /sys/class/sec/tsp_noise_test/set_delta3
+    chown system radio /sys/class/sec/tsp_noise_test/set_delta4
+    chown system radio /sys/class/sec/tsp_noise_test/set_refer0
+    chown system radio /sys/class/sec/tsp_noise_test/set_refer1
+    chown system radio /sys/class/sec/tsp_noise_test/set_refer2
+    chown system radio /sys/class/sec/tsp_noise_test/set_refer3
+    chown system radio /sys/class/sec/tsp_noise_test/set_refer4
+    chown system radio /sys/class/sec/tsp_noise_test/set_threshould
+    chown system radio /sys/class/sec/tsp_noise_test/set_index_ref
+    chown system radio /sys/class/sec/tsp_noise_test/show_inspection_info
+    chown system radio /sys/class/sec/tsp_noise_test/show_intensity_info
+    chown system radio /sys/class/sec/tsp_noise_test/show_reference_info
+    chown system radio /sys/class/sec/tsp_noise_test/tsp_info
+    chown system radio /sys/class/sec/tsp_noise_test/tsp_power
+    chown system radio /sys/class/sec/tsp_noise_test/tsp_x_line
+    chown system radio /sys/class/sec/tsp_noise_test/tsp_y_line
+    chown system radio /sys/class/sec/sec_touchscreen/debug_log
+    chown system radio /sys/class/sec/sec_touchscreen/debug_mode
+    chown system radio /sys/class/sec/sec_touchscreen/tsp_firm_update
+    chown system radio /sys/class/sec/sec_touchscreen/tsp_firm_update_status
+    chown system radio /sys/class/sec/sec_touchscreen/tsp_firm_version_panel
+    chown system radio /sys/class/sec/sec_touchscreen/tsp_firm_version_phone
+    chown system radio /sys/class/sec/sec_touchscreen/tsp_threshold
+
+# Permisions for sensors
+    chown radio system /sys/devices/virtual/K3G_GYRO-dev/k3g/gyro_selftest
+    chown radio system /sys/devices/virtual/K3G_GYRO-dev/k3g/gyro_get_temp
+    chown radio system /sys/devices/virtual/K3G_GYRO-dev/k3g/gyro_power_on
+    chown radio system /sys/devices/virtual/accelerometer/accelerometer/acc_file
+    chown radio system /sys/devices/virtual/sec/gsensorcal/calibration
+
+# sensor
+    chown root system /dev/mpu
+    chown root system /dev/mpuirq
+    chown root system /dev/accelirq
+    chown root system /dev/timerirq
+
+    chmod 0660 /dev/mpu
+    chmod 0660 /dev/mpuirq
+    chmod 0660 /dev/accelirq
+    chmod 0660 /dev/timerirq
+
+    chmod 664 /sys/class/sensors/accelerometer_sensor/calibration
+    chown system system /sys/class/sensors/accelerometer_sensor/calibration
+
+# fake some battery state
+    setprop status.battery.state Slow
+    setprop status.battery.level 5
+    setprop status.battery.level_raw  50
+    setprop status.battery.level_scale 9
+
+# create virtual SD card at /mnt/sdcard, based on the /data/media directory
+# daemon will drop to user/group system/media_rw after initializing
+# underlying files in /data/media wil be created with user and group media_rw (1023)
+service sdcard /system/bin/sdcard /data/media 1023 1023
+    class late_start
+
+service notified_event /system/bin/notified_event
+	class main
+    user system
+    group system
+    socket notified_event stream 0660 root system
+    
+service tscald /system/bin/tscald /data/data/com.samsung.app.sec_tscal/cal.conf /sys/devices/platform/s3c64xx-ts/set_tscal
+    user root
+    group root
+    oneshot
+
+    
+# 2011-12-08/systemsw/kyo/ bugreport is triggered by holding down volume down, volume up and power
+service bugreport /system/bin/bugmailer.sh -v
+	class main
+	disabled
+	oneshot
+	keycodes 114 115 116
+	
+	

@@ -1,0 +1,15 @@
+Galaxy Note 8.0 (3G/WIFI),GT-N5100,ECOEcuador (claro),N5100UBBMC8,4.1.2,19.03.2013,1048977,Unlock,ECO-N5100UBBMC8-20130617141651.zip,http://hotfile.com/dl/241691608/f0413be/ECO-N5100UBBMC8-20130617141651.zip.html,00060
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/exynos-mem,,,,0666,system,graphics,O,O,,,O
+/dev/fimg2d,,,,0666,system,graphics,O,O,,,,
+/dev/ion,,,,0666,system,system,O,O,,,,
+/dev/mali,,,,0666,system,system,O,O,,,,
+/dev/s5p-mfc,,,,0666,system,graphics,O,O,,,,
+/dev/ttyUSB0,,,,0666,system,system,O,O,,,,
+/dev/ttyUSB1,,,,0666,system,system,O,O,,,,
+/dev/ttyUSB2,,,,0666,system,system,O,O,,,,
+/dev/ump,,,,0666,system,graphics,O,O,,,,
+/dev/video11,,,,0666,system,graphics,O,O,,,,
+/dev/video26,,,,0666,media,m2m,O,O,,,,
+/dev/video29,,,,0666,media,m2m,O,O,,,,
+/dev/video4,,,,0666,system,m2m,O,O,,,,

@@ -1,0 +1,7 @@
+Galaxy Note (AT&T),SGH-I717,XXXN/a,I717UCMD3,4.1.2,05.04.2013,1117019,Unlock,Samsung-Updates.com-SGH-I717-XXX-I717UCMD3-1365200247.zip,http://hotfile.com/dl/211672556/3c1ac6c/Samsung-Updates.com-SGH-I717-XXX-I717UCMD3-1365200247.zip.html,00194
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,root,root,O,O,,,,
+/dev/ttyUSB0,,,,0666,system,system,O,O,,,,

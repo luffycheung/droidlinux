@@ -1,0 +1,17 @@
+Galaxy Grand,GT-I9128,CHMChina,I9128ZMAMD3,4.1.2,19.04.2013,1151585,Unlock,CHM-I9128ZMAMD3-20130422105709.zip,http://hotfile.com/dl/229000177/0b48836/CHM-I9128ZMAMD3-20130422105709.zip.html,00029
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/ami_sensor,,,,0666,system,system,O,O,,,,
+/dev/block/mmcblk0p1,,,,0770,radio,system,O,,,,,
+/dev/block/mmcblk0p11,,,,0660,system,root,O,,,,,
+/dev/flightmode-opt,,,,0666,system,system,O,O,,,,
+/dev/hdmi0,,,,0666,system,system,O,O,,,,
+/dev/td_callrec,,,,0660,system,radio,O,,,,,
+/dev/vc-cam,,,,0666,system,system,O,O,,,,
+/dev/vc-cma,,,,0666,system,system,O,O,,,,
+/dev/vc-dnfo,,,,0666,system,system,O,O,,,,
+/dev/vc-hnfo,,,,0666,system,system,O,O,,,,
+/dev/vc-lmk,,,,0666,system,system,O,O,,,,
+/dev/vc-mem,,,,0666,system,system,O,O,,,,
+/dev/vc-omx,,,,0666,system,system,O,O,,,,
+/dev/vchiq,,,,0666,system,system,O,O,,,,
+/dev/vcsm,,,,0666,system,system,O,O,,,,

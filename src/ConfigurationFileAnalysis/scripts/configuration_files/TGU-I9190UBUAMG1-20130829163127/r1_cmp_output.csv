@@ -1,0 +1,7 @@
+Galaxy S4 Mini,GT-I9190,TGUN/a,I9190UBUAMG1,4.2.2,09.07.2013,1045871,Unlock,TGU-I9190UBUAMG1-20130829163127.zip,http://hotfile.com/dl/242277086/e679d58/TGU-I9190UBUAMG1-20130829163127.zip.html,00032
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,system,system,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,system,system,O,O,,,,
+/dev/tima,,,,0666,root,root,O,O,,,,

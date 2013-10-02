@@ -1,0 +1,6 @@
+Galaxy Tab 3 8.0 LTE,SM-T315,TGYHong kong,T315ZHUAMG3,4.2.2,24.07.2013,1187998,Unlock,TGY-T315ZHUAMG3-20130823140517.zip,http://hotfile.com/dl/241656149/7b6e403/TGY-T315ZHUAMG3-20130823140517.zip.html,00226
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/fimg2d,,,,0666,system,graphics,O,O,,,,
+/dev/ion,,,,0666,system,system,O,O,,,,
+/dev/mali,,,,0666,system,system,O,O,,,,
+/dev/ump,,,,0666,system,graphics,O,O,,,,

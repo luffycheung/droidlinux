@@ -1,0 +1,5 @@
+Galaxy Tab 10.1 (WIFI),GT-P7510,ZTOBrazil,P7510UBLP4,4.0.4,05.02.2013,1200888,Unlock,ZTO-P7510UBLP4-20130713081836.zip,http://hotfile.com/dl/235378836/71fb997/ZTO-P7510UBLP4-20130713081836.zip.html,00131
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/nvhdcp0,,,,0666,system,system,O,O,,,,
+/dev/nvhdcp1,,,,0666,system,system,O,O,,,,
+/dev/nvmap,,,,0666,system,system,O,O,,,,

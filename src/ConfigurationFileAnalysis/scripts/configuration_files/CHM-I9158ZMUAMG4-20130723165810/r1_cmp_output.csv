@@ -1,0 +1,8 @@
+Galaxy Mega 5.8,GT-I9158,CHMChina,I9158ZMUAMG4,4.2.2,16.07.2013,1052904,Unlock,CHM-I9158ZMUAMG4-20130723165810.zip,http://hotfile.com/dl/235659627/ec3f7af/CHM-I9158ZMUAMG4-20130723165810.zip.html,00031
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,system,system,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,system,system,O,O,,,,
+/dev/tima,,,,0666,root,root,O,O,,,,
+/dev/ttyUSB*,,,,0666,system,usb,O,O,,,,

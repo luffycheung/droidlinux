@@ -1,0 +1,6 @@
+Galaxy Young Duos,GT-S6312,TMLBangladesh,S6312XXAMG1,4.1.2,12.07.2013,1309880,Unlock,TML-S6312XXAMG1-20130715100259.zip,http://hotfile.com/dl/235371185/7cefcef/TML-S6312XXAMG1-20130715100259.zip.html,00144
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,system,system,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,system,system,O,O,,,,

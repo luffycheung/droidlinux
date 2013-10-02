@@ -1,0 +1,6 @@
+Galaxy Note LTE,GT-N7005,TGYHong kong,N7005ZHMF1,4.0.4,21.06.2013,1229868,Unlock,TGY-N7005ZHMF1-20130626093652.zip,http://hotfile.com/dl/234676954/5da4009/TGY-N7005ZHMF1-20130626093652.zip.html,00068
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,root,root,O,O,,,,

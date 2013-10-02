@@ -1,0 +1,7 @@
+Galaxy S 4 (Snapdragon),GT-I9505,DREAustria (3),I9505XXUBMEA,4.2.2,29.05.2013,768421,Unlock,DRE-I9505XXUBMEA-20130828093854.zip,http://hotfile.com/dl/242061320/36ac6f9/DRE-I9505XXUBMEA-20130828093854.zip.html,00058
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,system,system,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,system,system,O,O,,,,
+/dev/tima,,,,0666,root,root,O,O,,,,

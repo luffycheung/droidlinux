@@ -1,0 +1,13 @@
+Galaxy Mega 5.8,GT-I9152,CWTN/a,I9152ZSUAMG6,4.2.2,30.07.2013,706376,Unlock,CWT-I9152ZSUAMG6-20130819101302.zip,http://hotfile.com/dl/240404920/9f627f0/CWT-I9152ZSUAMG6-20130819101302.zip.html,00030
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/ami_sensor,,,,0666,system,system,O,O,,,,
+/dev/flightmode-opt,,,,0666,system,system,O,O,,,,
+/dev/hdmi0,,,,0666,system,system,O,O,,,,
+/dev/vc-cam,,,,0666,system,system,O,O,,,,
+/dev/vc-cma,,,,0666,system,system,O,O,,,,
+/dev/vc-dnfo,,,,0666,system,system,O,O,,,,
+/dev/vc-hnfo,,,,0666,system,system,O,O,,,,
+/dev/vc-mem,,,,0666,system,system,O,O,,,,
+/dev/vc-omx,,,,0666,system,system,O,O,,,,
+/dev/vchiq,,,,0666,system,system,O,O,,,,
+/dev/vcsm,,,,0666,system,system,O,O,,,,

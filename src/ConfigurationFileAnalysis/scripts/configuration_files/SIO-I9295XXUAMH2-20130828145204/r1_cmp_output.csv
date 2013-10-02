@@ -1,0 +1,7 @@
+Galaxy S 4 Active,GT-I9295,SION/a,I9295XXUAMH2,4.2.2,05.08.2013,957941,Unlock,SIO-I9295XXUAMH2-20130828145204.zip,http://hotfile.com/dl/242236658/0ed13f1/SIO-I9295XXUAMH2-20130828145204.zip.html,00047
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,system,system,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,system,system,O,O,,,,
+/dev/tima,,,,0666,root,root,O,O,,,,

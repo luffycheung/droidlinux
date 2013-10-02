@@ -1,0 +1,6 @@
+Captivate Glide (AT&T),SGH-I927,ATTAt&t,I927UCLJ3,4.0.4,11.10.2012,970642,Unlock,Samsung-Updates.com-SGH-I927_ATT_1_20121012193857_0if3dkz78d.zip,http://hotfile.com/dl/178973969/d1aa35d/Samsung-Updates.com-SGH-I927_ATT_1_20121012193857_0if3dkz78d.zip.html,00202
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/ion,,,,0666,system,system,O,O,,,,
+/dev/nvmap,,,,0666,system,system,O,O,,,,
+/dev/nvos,,,,0666,system,system,O,O,,,,
+/dev/nvrm,,,,0666,system,system,O,O,,,,

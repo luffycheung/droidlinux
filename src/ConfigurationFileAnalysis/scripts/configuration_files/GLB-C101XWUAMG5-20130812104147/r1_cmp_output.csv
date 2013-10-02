@@ -1,0 +1,6 @@
+Galaxy S4 Zoom,SM-C101,GLBPhilippines (globe),C101XWUAMG5,4.2.2,23.07.2013,1180563,Unlock,GLB-C101XWUAMG5-20130812104147.zip,http://hotfile.com/dl/239139289/06df5b8/GLB-C101XWUAMG5-20130812104147.zip.html,00220
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/fimg2d,,,,0666,system,graphics,O,O,,,,
+/dev/ion,,,,0666,system,system,O,O,,,,
+/dev/mali,,,,0666,system,system,O,O,,,,
+/dev/ump,,,,0666,system,graphics,O,O,,,,

@@ -1,0 +1,8 @@
+Galaxy Tab 2 10.1 4G (T-Mobile),SGH-T779,TMBUsa (t-mobile),T779UVALJ4,4.0.4,06.10.2012,1128816,Unlock,Samsung-Updates.com-SGH-T779_TMB_1_20121008100213_34bs58ydyx.zip,http://hotfile.com/dl/182141547/e7ef3e9/Samsung-Updates.com-SGH-T779_TMB_1_20121008100213_34bs58ydyx.zip.html,00208
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,root,root,O,O,,,,
+/dev/tspdrv,,,,0666,root,root,O,O,,,,
+/dev/ttyUSB0,,,,0666,system,system,O,O,,,,

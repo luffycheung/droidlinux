@@ -1,0 +1,8 @@
+Galaxy Tab 2 7.0 (Chinese),GT-P3108,CHMChina,P3108ZMDMC4,4.1.2,29.03.2013,1100387,Unlock,CHM-P3108ZMDMC4-20130330123855.zip,http://hotfile.com/dl/225201649/aa5bf7e/CHM-P3108ZMDMC4-20130330123855.zip.html,00095
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/gcioctl,,,,0666,system,system,O,O,,,,
+/dev/ion,,,,0777,root,root,O,O,,,,
+/dev/pvrsrvkm,,,,0666,system,system,O,O,,,,
+/dev/ttyUSB0,,,,0666,system,system,O,O,,,,
+/dev/ttyUSB1,,,,0666,system,system,O,O,,,,
+/dev/ttyUSB2,,,,0666,system,system,O,O,,,,

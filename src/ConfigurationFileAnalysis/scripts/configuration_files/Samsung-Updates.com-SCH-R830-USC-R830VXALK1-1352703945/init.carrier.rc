@@ -1,0 +1,36 @@
+#
+# tcp window size customizing for USCC.
+#
+on boot
+
+#setprop net.tcp.buffersize.lte     524288,1048576,2097152,262144,524288,1048576
+#setprop net.tcp.buffersize.default 4096,87380,524288,4096,16384,110208
+
+setprop net.tcp.buffersize.default 4096,87380,110208,4096,16384,110208
+setprop net.tcp.buffersize.lte     4096,524280,524280,4096,524280,524280
+setprop net.tcp.buffersize.evdo    4096,65535,65535,4096,65535,65535
+setprop net.tcp.buffersize.1xrtt   4096,65535,65535,4096,65535,65535
+
+# AuthenTec VPNClient Interceptor module
+    insmod /system/lib/modules/vpnclient.ko
+
+# Assign TCP buffer thresholds to be ceiling value of technology maximums
+# Increased technology maximums should be reflected here.
+    write /proc/sys/net/core/rmem_max 65535
+    write /proc/sys/net/core/wmem_max 65535 
+
+# AuthenTec VPNClient 
+service vpnclientpm /system/bin/vpnclientpm -O /data/data/com.ipsec.vpnclient/vpnclientpm.txt
+    group system net_admin net_raw
+    disabled
+   
+service vpncstarter /system/bin/vpncstarter
+    class main
+    user system
+    group system
+
+on property:vpnclientpm.enable=1
+    start vpnclientpm
+   
+on property:vpnclientpm.enable=0
+    stop vpnclientpm

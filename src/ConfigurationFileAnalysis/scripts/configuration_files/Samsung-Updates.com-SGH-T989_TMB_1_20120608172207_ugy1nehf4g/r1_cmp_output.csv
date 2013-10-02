@@ -1,0 +1,6 @@
+SGH-T989,SGH-T989,TMBUsa (t-mobile),T989UVLE1,4.0.3,06.05.2012,508451,Unlock,Samsung-Updates.com-SGH-T989_TMB_1_20120608172207_ugy1nehf4g.zip,http://hotfile.com/dl/178283503/ac05a83/Samsung-Updates.com-SGH-T989_TMB_1_20120608172207_ugy1nehf4g.zip.html,00216
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,root,root,O,O,,,,

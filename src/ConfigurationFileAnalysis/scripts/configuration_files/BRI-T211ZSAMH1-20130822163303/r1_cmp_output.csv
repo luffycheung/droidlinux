@@ -1,0 +1,10 @@
+Galaxy Tab 3 7.0 (WiFi+3G),SM-T211,BRITaiwan,T211ZSAMH1,4.1.2,19.08.2013,1362657,Unlock,BRI-T211ZSAMH1-20130822163303.zip,http://hotfile.com/dl/241857366/1ff2e71/BRI-T211ZSAMH1-20130822163303.zip.html,00222
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/diag_dump,,,,0666,system,system,O,O,,,,
+/dev/graphics/fb0,,,,0666,system,media,O,O,,,,
+/dev/graphics/galcore,,,,0666,system,media,O,O,,,,
+/dev/input/event*,,,,0666,root,input,O,O,,O,,
+/dev/ion,,,,0666,system,graphics,O,O,,,,
+/dev/msocket,,,,0666,system,system,O,O,,,,
+/dev/msocket_dump,,,,0666,system,system,O,O,,,,
+/dev/uio0,,,,0666,media,media,O,O,,,,

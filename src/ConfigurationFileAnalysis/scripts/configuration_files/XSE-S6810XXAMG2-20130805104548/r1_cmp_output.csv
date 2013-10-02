@@ -1,0 +1,6 @@
+Galaxy Fame,GT-S6810,XSEIndonesia,S6810XXAMG2,4.1.2,12.07.2013,1308278,Unlock,XSE-S6810XXAMG2-20130805104548.zip,http://hotfile.com/dl/237803718/ebd3f4f/XSE-S6810XXAMG2-20130805104548.zip.html,00145
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/bralloc_mem,,,,0666,system,graphics,O,O,,,,
+/dev/pvrsrvkm,,,,0666,system,system,O,O,,,,
+/dev/v3d,,,,0666,system,graphics,O,O,,,,
+/dev/vce,,,,0666,system,graphics,O,O,,,,

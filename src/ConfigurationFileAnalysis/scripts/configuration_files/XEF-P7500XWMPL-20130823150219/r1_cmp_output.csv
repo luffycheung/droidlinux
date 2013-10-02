@@ -1,0 +1,5 @@
+Galaxy Tab 10.1,GT-P7500,XEFFrance,P7500XWMPL,4.0.4,25.04.2013,1218135,Unlock,XEF-P7500XWMPL-20130823150219.zip,http://hotfile.com/dl/241151242/8a62bb8/XEF-P7500XWMPL-20130823150219.zip.html,00129
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/nvhdcp0,,,,0666,system,system,O,O,,,,
+/dev/nvhdcp1,,,,0666,system,system,O,O,,,,
+/dev/nvmap,,,,0666,system,system,O,O,,,,

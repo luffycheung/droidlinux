@@ -1,0 +1,6 @@
+Galaxy S 2 Skyrocket,SGH-I727,ATTAt&t,I727UCLF6,4.0.4,23.06.2012,735228,Unlock,Samsung-Updates.com-SGH-I727_ATT_1_20120625200022_y7ol91tibr.zip,http://hotfile.com/dl/178275595/8c64ccc/Samsung-Updates.com-SGH-I727_ATT_1_20120625200022_y7ol91tibr.zip.html,00197
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,root,root,O,O,,,,

@@ -1,0 +1,5 @@
+Galaxy Tab 2 10.1 (3G + WiFi),GT-P5100,CHNChina,P5100ZCCLL2,4.1.1,13.12.2012,567298,Unlock,Samsung-Updates.com-GT-P5100-CHN-P5100ZCCLL2-1355391120.zip,http://hotfile.com/dl/193053099/c0d3963/Samsung-Updates.com-GT-P5100-CHN-P5100ZCCLL2-1355391120.zip.html,00107
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/gcioctl,,,,0666,system,system,O,O,,,,
+/dev/ion,,,,0777,root,root,O,O,,,,
+/dev/pvrsrvkm,,,,0666,system,system,O,O,,,,

@@ -1,0 +1,7 @@
+Galaxy Note LTE (DoCoMo),SC-05D,DCMJapan (docomo),SC05DOMMSG,4.1.2,08.07.2013,1300479,Unlock,DCM-SC05DOMMSG-20130801163049.zip,http://hotfile.com/dl/237787411/f28d508/DCM-SC05DOMMSG-20130801163049.zip.html,00164
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,root,root,O,O,,,,
+/dev/ttyUSB0,,,,0666,system,system,O,O,,,,

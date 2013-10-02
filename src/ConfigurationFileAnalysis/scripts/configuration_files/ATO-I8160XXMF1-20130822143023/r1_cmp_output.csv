@@ -1,0 +1,8 @@
+Galaxy Ace 2,GT-I8160,ATOAustria (a1),I8160XXMF1,4.1.2,03.06.2013,1106830,Unlock,ATO-I8160XXMF1-20130822143023.zip,http://hotfile.com/dl/241871477/74ef6e9/ATO-I8160XXMF1-20130822143023.zip.html,00010
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/b2r2_blt,,,,0666,system,graphics,O,O,,,,
+/dev/comp0,,,,0666,system,graphics,O,O,,,,
+/dev/disp0,,,,0666,system,graphics,O,O,,,,
+/dev/hwmem,,,,0666,media,system,O,O,,,,
+/dev/mali,,,,0666,system,graphics,O,O,,,,
+/dev/tee,,,,0666,root,system,O,O,,,,

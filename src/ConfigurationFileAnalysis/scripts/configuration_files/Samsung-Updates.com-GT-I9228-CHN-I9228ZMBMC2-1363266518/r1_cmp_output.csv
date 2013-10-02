@@ -1,0 +1,21 @@
+Galaxy Note (China ?€? TD-SCDMA),GT-I9228,CHNChina,I9228ZMBMC2,4.1.2,14.03.2013,934228,Unlock,Samsung-Updates.com-GT-I9228-CHN-I9228ZMBMC2-1363266518.zip,http://hotfile.com/dl/203527173/0b78663/Samsung-Updates.com-GT-I9228-CHN-I9228ZMBMC2-1363266518.zip.html,00042
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/exynos-mem,,,,0666,system,graphics,O,O,,,O
+/dev/fimg2d,,,,0666,system,graphics,O,O,,,,
+/dev/i2c-7,,,,0666,system,system,O,O,,,,
+/dev/ion,,,,0666,system,system,O,O,,,,
+/dev/mali,,,,0666,system,system,O,O,,,,
+/dev/s3c-mfc,,,,0666,system,graphics,O,O,,,,
+/dev/s5p-jpeg,,,,0666,system,camera,O,O,,,,
+/dev/s5p-mfc,,,,0666,system,graphics,O,O,,,,
+/dev/ttyUSB0,,,,0666,system,system,O,O,,,,
+/dev/ump,,,,0666,system,graphics,O,O,,,,
+/dev/video0,,,,0666,system,m2m,O,O,,,,
+/dev/video1,,,,0666,system,camera,O,O,,,,
+/dev/video11,,,,0666,system,graphics,O,O,,,,
+/dev/video2,,,,0666,system,m2m,O,O,,,,
+/dev/video20,,,,0666,system,system,O,O,,,,
+/dev/video26,,,,0666,media,m2m,O,O,,,,
+/dev/video29,,,,0666,media,m2m,O,O,,,,
+/dev/video3,,,,0666,system,m2m,O,O,,,,
+/dev/video4,,,,0666,system,m2m,O,O,,,,

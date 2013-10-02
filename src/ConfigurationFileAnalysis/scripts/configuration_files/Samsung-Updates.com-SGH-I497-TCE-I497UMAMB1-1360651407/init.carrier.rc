@@ -1,0 +1,128 @@
+# Copyright (c) 2009-2012, Code Aurora Forum. All rights reserved.
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions are met:
+#     * Redistributions of source code must retain the above copyright
+#       notice, this list of conditions and the following disclaimer.
+#     * Redistributions in binary form must reproduce the above copyright
+#       notice, this list of conditions and the following disclaimer in the
+#       documentation and/or other materials provided with the distribution.
+#     * Neither the name of Code Aurora nor
+#       the names of its contributors may be used to endorse or promote
+#       products derived from this software without specific prior written
+#       permission.
+#
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+# AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+# IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+# NON-INFRINGEMENT ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+# CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+# EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+# PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+# OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+# WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+# OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+# ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+#
+
+on init
+
+    mkdir /preload 0771 system system
+
+on boot
+
+# Define TCP buffer sizes for various networks
+#   ReadMin, ReadInitial, ReadMax, WriteMin, WriteInitial, WriteMax,
+    setprop net.tcp.buffersize.default 4096,87380,110208,4096,16384,110208
+    setprop net.tcp.buffersize.wifi    4096,221184,3461120,4096,221184,3461120
+    setprop net.tcp.buffersize.lte     4094,87380,2560000,4096,16384,1220608
+    setprop net.tcp.buffersize.umts    4094,87380,110208,4096,16384,110208
+    setprop net.tcp.buffersize.hspa    4092,87380,704512,4096,16384,262144
+    setprop net.tcp.buffersize.hsupa   4092,87380,704512,4096,16384,262144
+    setprop net.tcp.buffersize.hsdpa   4092,87380,704512,4096,16384,110208
+    setprop net.tcp.buffersize.hspap   4092,87380,704512,4096,16384,262144
+    setprop net.tcp.buffersize.edge    4093,26280,35040,4096,16384,35040
+    setprop net.tcp.buffersize.gprs    4092,8760,11680,4096,8760,11680
+    setprop net.tcp.buffersize.evdo_b  4094,87380,262144,4096,16384,262144
+
+	chown radio system /sys/class/sec/sec_ir/ir_send
+	chown radio system /sys/class/sec/switch/usb_state
+	chown radio system /sys/class/sec/switch/adc
+
+	# CL 396135 changes from init.qcom.rc
+	# AuthenTec VPNClient Interceptor module
+    	insmod /system/lib/modules/vpnclient.ko
+
+	# serial keyboard port
+	chown root system /dev/ttyHSL0
+	chmod 0660 /dev/ttyHSL0
+
+
+#for vzw buaplus
+on post-fs-data
+    rm -rf /data/BackupPlus
+    mkdir /data/BackupPlus 755 system system
+    
+    #CL409011 changes from init.qcom.rc
+    mkdir /data/bluetooth 0770 bluetooth bluetooth
+    # Enable the setgid bit on the directory
+    chmod 2770 /data/bluetooth
+
+# Init Optimzed Compcache by taejin5.park
+        chmod 0664 /sys/class/lmk/lowmemorykiller/lmk_state
+        chown system system /sys/class/lmk/lowmemorykiller/lmk_state
+        chmod 0664 /sys/block/zram0/disksize
+        chown system system /sys/block/zram0/disksize
+        write /sys/block/zram0/disksize 209715200
+        chmod 0664 /sys/block/zram0/initstate
+        chown system system /sys/block/zram0/initstate
+        write /sys/block/zram0/initstate 1
+
+# serial keyboard daemon
+service dock_kbd_attach /system/bin/dock_kbd_attach /dev/ttyHSL0
+	class late_start
+	disabled
+	group system
+
+on property:sys.dockstate=255
+	start dock_kbd_attach
+
+on property:sys.dockstate=0
+	stop dock_kbd_attach
+
+service ppd /system/bin/mm-pp-daemon
+     class late_start
+     user system
+     socket pps stream 0660 system system graphics
+     group system graphics
+
+service fusermount /system/bin/logwrapper /system/bin/fusermount
+    class late_start
+    oneshot
+    disabled    
+
+# CL 396135 changes from init.qcom.rc -- start
+service vpnclientpm /system/bin/vpnclientpm -O /data/data/com.ipsec.vpnclient/vpnclientpm.txt
+    group system net_admin net_raw
+    disabled
+   
+service vpncstarter /system/bin/vpncstarter
+    class main
+    user system
+    group system
+
+on property:vpnclientpm.enable=1
+    start vpnclientpm
+   
+on property:vpnclientpm.enable=0
+    stop vpnclientpm
+
+# CL 396135 changes from init.qcom.rc -- end
+
+on property:persist.sys.storage_preload=1
+    mount ext4 /dev/block/mmcblk0p20 /preload nosuid nodev noatime wait ro
+    setprop storage.preload.complete 1
+    
+on property:persist.sys.storage_preload=0
+    exec /system/bin/umount /preload
+

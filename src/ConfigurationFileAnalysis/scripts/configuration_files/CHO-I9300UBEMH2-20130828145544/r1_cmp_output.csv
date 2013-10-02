@@ -1,0 +1,12 @@
+Galaxy S 3 (International),GT-I9300,CHOChile,I9300UBEMH2,4.1.2,14.08.2013,1363899,Unlock,CHO-I9300UBEMH2-20130828145544.zip,http://hotfile.com/dl/242090898/491d077/CHO-I9300UBEMH2-20130828145544.zip.html,00048
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/exynos-mem,,,,0666,system,graphics,O,O,,,O
+/dev/fimg2d,,,,0666,system,graphics,O,O,,,,
+/dev/ion,,,,0666,system,system,O,O,,,,
+/dev/mali,,,,0666,system,system,O,O,,,,
+/dev/s5p-mfc,,,,0666,system,graphics,O,O,,,,
+/dev/ttyUSB0,,,,0666,system,system,O,O,,,,
+/dev/ump,,,,0666,system,graphics,O,O,,,,
+/dev/video11,,,,0666,system,graphics,O,O,,,,
+/dev/video26,,,,0666,media,m2m,O,O,,,,
+/dev/video29,,,,0666,media,m2m,O,O,,,,

@@ -1,0 +1,14 @@
+Galaxy Tab 2 7.0 WiFi,GT-P3110,XSAAustralia,P3110XXDMF1,4.1.2,20.06.2013,812001,Unlock,XSA-P3110XXDMF1-20130806121350.zip,http://hotfile.com/dl/238013704/a549f86/XSA-P3110XXDMF1-20130806121350.zip.html,00097
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/block/mmcblk0p8,,,,0660,radio,radio,O,,,,,
+/dev/gcioctl,,,,0666,system,system,O,O,,,,
+/dev/hdcp,,,,0664,root,root,O,,,,,
+/dev/i2c-4,,,,0660,system,system,O,,,,,
+/dev/ion,,,,0777,root,root,O,O,,,,
+/dev/pvrsrvkm,,,,0666,system,system,O,O,,,,
+/dev/tspdrv,,,,0660,root,shell,O,,,,,
+/dev/ttyO1,,,,0600,bluetooth,bluetooth,O,,,,,
+/dev/umts_csd,,,,0660,radio,system,O,,,,,
+/dev/umts_router,,,,0660,radio,system,O,,,,,
+/dev/usb/lp*,,,,0660,system,usb,O,,,,,
+/dev/usb_mtp_gadget,,,,0660,system,system,O,,,,,

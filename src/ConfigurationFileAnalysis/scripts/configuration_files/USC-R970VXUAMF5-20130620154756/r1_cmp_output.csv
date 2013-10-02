@@ -1,0 +1,7 @@
+Galaxy S 4 (U.S Cellular),SCH-R970,USCU.s. cellular,R970VXUAMF5,4.2.2,19.06.2013,912339,Unlock,USC-R970VXUAMF5-20130620154756.zip,http://hotfile.com/dl/233216317/77ea0ec/USC-R970VXUAMF5-20130620154756.zip.html,00190
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/genlock,,,,0666,system,system,O,O,,,,
+/dev/kgsl-2d0,,,,0666,root,root,O,O,,,,
+/dev/kgsl-2d1,,,,0666,root,root,O,O,,,,
+/dev/kgsl-3d0,,,,0666,system,system,O,O,,,,
+/dev/tima,,,,0666,root,root,O,O,,,,

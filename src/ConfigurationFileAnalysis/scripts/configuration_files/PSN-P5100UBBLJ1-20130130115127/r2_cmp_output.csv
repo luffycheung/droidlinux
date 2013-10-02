@@ -1,0 +1,9 @@
+Galaxy Tab 2 10.1 (3G + WiFi),GT-P5100,PSNArgentina (personal),P5100UBBLJ1,4.0.4,05.10.2012,1134477,Unlock,PSN-P5100UBBLJ1-20130130115127.zip,http://hotfile.com/dl/230266581/a7e826d/PSN-P5100UBBLJ1-20130130115127.zip.html,00105
+dev,permission,user,group,permission,user,group,only in custom version,alert_permission_abuse,permission modification,alert_input,alert_exynos
+/dev/block/mmcblk0p8,,,,0660,radio,radio,O,,,,,
+/dev/hdcp,,,,0664,root,root,O,,,,,
+/dev/i2c-4,,,,0660,system,system,O,,,,,
+/dev/ttyUSB*,,,,0660,system,usb,O,,,,,
+/dev/umts_csd,,,,0660,radio,system,O,,,,,
+/dev/umts_router,,,,0660,radio,system,O,,,,,
+/dev/usb/lp*,,,,0660,system,usb,O,,,,,
