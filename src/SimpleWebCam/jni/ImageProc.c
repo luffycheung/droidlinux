@@ -287,6 +287,7 @@ int readframe(void)
 
 	assert (buf.index < n_buffers);
 
+	// to RGB
 	processimage (buffers[buf.index].start);
 
 	if (-1 == xioctl (fd, VIDIOC_QBUF, &buf))
@@ -478,7 +479,6 @@ Java_com_camera_simplewebcam_CameraPreview_prepareCamera( JNIEnv* env,jobject th
 			closedevice ();
 			LOGE("device resetted");	
 		}
-
 	}
 
 	if(ret != ERROR_LOCAL){
