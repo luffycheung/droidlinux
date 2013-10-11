@@ -2108,7 +2108,7 @@ containing a value of this type.
 <tr><td><code>thumbnail</code></td><td>1</td><td></td></tr>
 <tr><td><code>drop</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.example.android.apis:anr
+          @attr name android:anr
         */
         public static final int DraggableDot_anr = 2;
         /**
@@ -2122,7 +2122,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.apis:legend
+          @attr name android:legend
         */
         public static final int DraggableDot_legend = 1;
         /**
@@ -2138,7 +2138,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.apis:radius
+          @attr name android:radius
         */
         public static final int DraggableDot_radius = 0;
         /**  These are the attributes that we want to retrieve for
@@ -2148,7 +2148,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FragmentArguments_android_label android:label}</code></td><td></td></tr>
+           <tr><td><code>{@link #FragmentArguments_android_label com.example.android.apis:android_label}</code></td><td></td></tr>
            </table>
            @see #FragmentArguments_android_label
          */
@@ -2156,9 +2156,9 @@ containing a value of this type.
             0x01010001
         };
         /**
-          <p>This symbol is the offset where the {@link android.R.attr#label}
+          <p>This symbol is the offset where the {@link com.example.android.apis.R.attr#android_label}
           attribute's value can be found in the {@link #FragmentArguments} array.
-          @attr name android:label
+          @attr name android:android_label
         */
         public static final int FragmentArguments_android_label = 0;
         /**  These are the attributes that we want to retrieve from the theme
@@ -2168,7 +2168,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Gallery1_android_galleryItemBackground android:galleryItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Gallery1_android_galleryItemBackground com.example.android.apis:android_galleryItemBackground}</code></td><td></td></tr>
            </table>
            @see #Gallery1_android_galleryItemBackground
          */
@@ -2176,9 +2176,9 @@ containing a value of this type.
             0x0101004c
         };
         /**
-          <p>This symbol is the offset where the {@link android.R.attr#galleryItemBackground}
+          <p>This symbol is the offset where the {@link com.example.android.apis.R.attr#android_galleryItemBackground}
           attribute's value can be found in the {@link #Gallery1} array.
-          @attr name android:galleryItemBackground
+          @attr name android:android_galleryItemBackground
         */
         public static final int Gallery1_android_galleryItemBackground = 0;
         /** Attributes that can be used with a LabelView.
@@ -2209,7 +2209,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.apis:text
+          @attr name android:text
         */
         public static final int LabelView_text = 0;
         /**
@@ -2224,7 +2224,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.apis:textColor
+          @attr name android:textColor
         */
         public static final int LabelView_textColor = 1;
         /**
@@ -2240,7 +2240,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.android.apis:textSize
+          @attr name android:textSize
         */
         public static final int LabelView_textSize = 2;
         /**  These are the attributes that we want to retrieve from the theme
@@ -2250,7 +2250,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #TogglePrefAttrs_android_preferenceLayoutChild android:preferenceLayoutChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #TogglePrefAttrs_android_preferenceLayoutChild com.example.android.apis:android_preferenceLayoutChild}</code></td><td></td></tr>
            </table>
            @see #TogglePrefAttrs_android_preferenceLayoutChild
          */
@@ -2258,9 +2258,9 @@ containing a value of this type.
             0x01010094
         };
         /**
-          <p>This symbol is the offset where the {@link android.R.attr#preferenceLayoutChild}
+          <p>This symbol is the offset where the {@link com.example.android.apis.R.attr#android_preferenceLayoutChild}
           attribute's value can be found in the {@link #TogglePrefAttrs} array.
-          @attr name android:preferenceLayoutChild
+          @attr name android:android_preferenceLayoutChild
         */
         public static final int TogglePrefAttrs_android_preferenceLayoutChild = 0;
     };

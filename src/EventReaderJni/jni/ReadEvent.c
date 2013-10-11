@@ -685,7 +685,6 @@ int logger(int argc, char *argv[])
     */
 
     while(1) {
-    	LOGE("in while 1");
         pollres = poll(ufds, nfds, -1);
         //printf("poll %d, returned %d\n", nfds, pollres);
         if(ufds[0].revents & POLLIN) {

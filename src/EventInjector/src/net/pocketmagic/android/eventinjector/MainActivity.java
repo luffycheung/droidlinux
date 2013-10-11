@@ -46,6 +46,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
@@ -70,7 +71,9 @@ public class MainActivity extends Activity implements OnClickListener, OnItemSel
 						idButMonitorStart	= Menu.FIRST + 1006,
 						idButMonitorStop	= Menu.FIRST + 1007,
 						idButTest			= Menu.FIRST + 1008,
+						idTextView			= Menu.FIRST + 1009,
 						idLVFirstItem 		= Menu.FIRST + 5000;
+						
 	// interface views
 	TextView			m_tvMonitor; 								// used to display monitored events, in the format code-type-value. See input.h in the NDK
 	ListView			m_lvDevices;								// the listview showing devices found
@@ -89,13 +92,18 @@ public class MainActivity extends Activity implements OnClickListener, OnItemSel
 		LinearLayout panel = new LinearLayout(this);
 		panel.setOrientation(LinearLayout.VERTICAL);
 		setContentView(panel);
+		
+		EditText v = new EditText(this);
+		v.setId(idTextView);
+		v.setOnClickListener(this);
+		panel.addView(v);
+		
 		// --
 		Button b = new Button(this);
 		b.setText("Scan Input Devs");
 		b.setId(idButScan);
 		b.setOnClickListener(this);
 		panel.addView(b);
-		// --
 		
 		// put list in a scroll view
 		LinearLayout listLayout = new LinearLayout(this);
@@ -228,12 +236,11 @@ public class MainActivity extends Activity implements OnClickListener, OnItemSel
 							// a short delay before next character, just for
 							// testing purposes
 							try {
-								Thread.sleep(1000);
+								Thread.sleep(2000);
 							} catch (InterruptedException e) {
 								e.printStackTrace();
 							}
 						}
-
 					}
 				});
 				sender.start();
@@ -453,7 +460,7 @@ public class MainActivity extends Activity implements OnClickListener, OnItemSel
 		for (InputDevice idev : events.m_Devs) {
 			// * Finds an open device that has a name containing keypad. This
 			// probably is the keypad associated event node
-			if (idev.getOpen() && idev.getName().contains("keypad")) {
+			if (idev.getOpen() && idev.getName().contains("key")) {
 				idev.SendKey(102, true); // home key down
 				idev.SendKey(102, false); // home key up
 				found = true;

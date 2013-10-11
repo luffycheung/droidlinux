@@ -10,12 +10,13 @@
 #include <sys/poll.h>
 #include <linux/input.h>
 #include <errno.h>
+#include <jni.h>
 
 #include "getevent.h"
 
 #include <android/log.h>
 #define TAG "EventReader::JNI"
-#define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG  , TAG, __VA_ARGS__)
+#define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG, TAG, __VA_ARGS__)
 #define LOGV(...) __android_log_print(ANDROID_LOG_VERBOSE, TAG, __VA_ARGS__)
 #define LOGI(...) __android_log_print(ANDROID_LOG_INFO, TAG, __VA_ARGS__)
 #define LOGW(...) __android_log_print(ANDROID_LOG_WARN, TAG, __VA_ARGS__)
@@ -675,5 +676,41 @@ int getevent_main(int argc, char *argv[])
 }
 
 
+jint JNI_OnLoad(JavaVM *vm, void *reserved) {
+	LOGD("eventinterceptor native lib loaded.");
+	return JNI_VERSION_1_2; //1_2 1_4
+}
+
+void JNI_OnUnload(JavaVM *vm, void *reserved) {
+	LOGD("eventinterceptor native lib unloaded.");
+}
+
 // add our jni interface to start the main function and log the events:
+jint Java_info_xzhou_eventstealer_EventStealer_startLogging(JNIEnv* env,
+		jobject thiz){
+	// start the monitoring application
+	LOGD("start logging");
+	return 1;
+	char devname[PATH_MAX];
+	char options[4];
+	char* parameters[3];
+	// touch screen
+	strcpy(devname, "/dev/input/event7");
+	strcpy(options, "-lp");
+	parameters[1] = devname;
+	parameters[2] =	options;
+	getevent_main(3, parameters);
+	return 0;
+}
+
+jstring
+Java_info_xzhou_eventstealer_EventStealer_stringFromJNI( JNIEnv* env,
+                                                  jobject thiz )
+{
+    return (*env)->NewStringUTF(env, "Hello from JNI !");
+}
+
+
+
+
 
