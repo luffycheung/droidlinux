@@ -12,7 +12,7 @@ import re
 ########################  Global Variable  #####################################  
 ################################################################################  
 
-target_thread=1 #the thread that we want to track, filt out other threads  
+target_thread=10 #the thread that we want to track, filt out other threads  
 #all_actions = ["enter","exit","exception","reserved"]  
 all_threads = {}  
 all_methods = {}  
