@@ -41,7 +41,7 @@ def add_one_record(one):
         method_id= (tmp / 4) * 4;  
         method_action= tmp % 4;  
         time_offset,=struct.unpack("Q",one[6:])
-	#print thread_id, method_id, method_action, time_offset
+        #print thread_id, method_id, method_action, time_offset
         all_records.append([thread_id, method_id, method_action, time_offset])  
 
 def handle_one_call(parent_method_id, method_id):  

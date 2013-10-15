@@ -43,7 +43,16 @@ def extract_binary(trace_file_name, all_threads, all_methods):
 	mybinfile.close()
 	pos=alldata.find("SLOW")
 	
-	offset,=struct.unpack("H", alldata[pos+6:pos+8])  
+	# Header format:
+	# u4 magic 0x574f4c53 ('SLOW')
+	# u2 version
+	# u2 offset to data
+	# u8 start date/time in usec
+	
+	offset,=struct.unpack("H", alldata[pos+6:pos+8]) 
+	
+	start_time, = struct.unpack("Q", alldata[pos+8:pos+16]);
+	
 	pos2 = pos+offset #pos2 is where the record begin  
 	numofrecords = len(alldata) - pos2  
 	numofrecords = numofrecords / 14 
@@ -51,12 +60,17 @@ def extract_binary(trace_file_name, all_threads, all_methods):
 	print "offset " + str(offset) + " records: " + str(numofrecords) + "\n"
 
 	for i in xrange(numofrecords):
+		
+		# Record format:
+		# u2 thread ID
+		# u4 method ID | method action
+		# u8 time delta since start, in usec
 		a_record = alldata[pos2 + i * 14:pos2 + i * 14 + 14]
-		thread_id,=struct.unpack("H", a_record[0:2])
-		tmp,=struct.unpack("I", a_record[2:6])  
+		thread_id,=struct.unpack("H", a_record[0:2])  # two bytes
+		tmp,=struct.unpack("I", a_record[2:6])  # method id | method action
 		method_id= (tmp / 4) * 4;  
 		method_action= tmp % 4;  
-		time_offset,=struct.unpack("Q", a_record[6:])
+		time_offset,=struct.unpack("Q", a_record[6:]) 
 		#print thread_id, method_id, method_action, time_offset
 		all_thread_records[thread_id].append([thread_id, method_id, method_action, time_offset])
 	
@@ -66,6 +80,9 @@ def extract_binary(trace_file_name, all_threads, all_methods):
 
 
 def extract_all_threads(file_name):
+	
+	timestamp_list = []
+	
 	all_threads = {}  
 	all_methods = {}  
 	#Extract threads and methods. 
@@ -91,7 +108,7 @@ def extract_all_threads(file_name):
 			all_threads[int(fields[0],10)]=fields  
 		if current_section==3:  
 			fields = line2.split("\t")  
-			all_methods[int(fields[0],16)]=fields
+			all_methods[int(fields[0],16)] = fields
 			
 	all_thread_records = extract_binary(file_name, all_threads, all_methods);
 	
@@ -102,7 +119,7 @@ def extract_all_threads(file_name):
 		#print "generating graph for thread: " + thread_name
 		
 		dot_file_name = file_name + "." + thread_name + ".dot"
-		pdf_file_name = file_name + "." + thread_name + ".pdf"
+		graph_file_name = file_name + "." + thread_name + ".t.pdf"
 		
 		all_records = all_thread_records[thread_id]
 		parent_methods = {}  
@@ -115,50 +132,65 @@ def extract_all_threads(file_name):
 			thread_id=onerecord[0];      
 			method_id=onerecord[1];  
 			action=onerecord[2];  
-			time=onerecord[3];
+			time_offset = onerecord[3];
+			time_offset = time_offset
 			
-			if(action==0):  
+			timestamp_list.append(time_offset);
+			
+			# {0->method entry; 1->method exit; 2->method exited by exception handling; 3->reversed};
+			if(action==0):  # entry
 				if(len(call_stack) > 1):  
-					parent_method_id=call_stack[-1]
+					parent_method_id = call_stack[-1] # stack top, add the current one as a child
 					if not (parent_methods.has_key(parent_method_id)):  
-						parent_methods[parent_method_id]=1  
+						parent_methods[parent_method_id] = 1  
 					if not (child_methods.has_key(method_id)):  
-						child_methods[method_id]=1  
+						child_methods[method_id] = 1  # this method is child, but later may be updated
+						
+					# adding the edges and count
 					if method_calls.has_key(parent_method_id):  
 						if method_calls[parent_method_id].has_key(method_id):  
-							method_calls[parent_method_id][method_id]+=1  
-						else:  
-							method_calls[parent_method_id][method_id]=1  
+							method_calls[parent_method_id][method_id].append(time_offset)  
+						else:
+							method_calls[parent_method_id][method_id] = [time_offset]
 					else:  
 						method_calls[parent_method_id]={}  
-						method_calls[parent_method_id][method_id]=1  
+						method_calls[parent_method_id][method_id] = [time_offset]
 				call_stack.append(method_id)  
-			else:  
+			else:  # method 
 				if(action==1):  
 					if(len(call_stack) > 1):  
-						call_stack.pop()
+						call_stack.pop() # exit current methods
 		
+		
+		timestamp_list.sort()
 		# using python dynamic scope
 		def gen_funcname(method_id):  
 			r1=re.compile(r'[/$<>]')  
 			str1=r1.sub("_", all_methods[method_id][1])  
 			str2=r1.sub("_", all_methods[method_id][2])  
 			return str1+"_"+str2
+		
+		def get_rank(t):
+			return [timestamp_list.index(x) for x in t]
 
 		myoutfile = open(dot_file_name, "w")  
 		myoutfile.write("digraph vanzo {\n\n");  
 		for a_record in all_methods.keys():  
 			if parent_methods.has_key(a_record):  
-				myoutfile.write(gen_funcname(a_record)+"  [shape=rectangle];\n")  
+				myoutfile.write(gen_funcname(a_record) + "  [shape=rectangle];\n")  
 			else:  
 				if child_methods.has_key(a_record):  
 					myoutfile.write(gen_funcname(a_record)+"  [shape=ellipse];\n")  
+		# gnerate edges
 		for a_record in method_calls.keys():  
 			for two in method_calls[a_record]:  
-				myoutfile.write(gen_funcname(a_record) + " -> " + gen_funcname(two) +  " [label=\"" + str(method_calls[a_record][two]) + "\"  fontsize=\"10\"];\n")
+				
+				label = str(get_rank(method_calls[a_record][two]))
+				
+				myoutfile.write(gen_funcname(a_record) + " -> " + gen_funcname(two) +  " [label=\"" + label + "\"  fontsize=\"10\"];\n")
 		myoutfile.write("\n}\n");  
 		myoutfile.close
-		c = "/usr/bin/dot -Tpdf ./" + dot_file_name + " -o ./" + pdf_file_name
+		c = "/usr/bin/dot -Tpdf ./" + dot_file_name + " -o ./" + graph_file_name
 		#TODO for some strange reason, I can not call it here
 		#subprocess.call(c, shell = True)
 		commands.append(c)
