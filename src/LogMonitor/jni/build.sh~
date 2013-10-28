@@ -1,0 +1,6 @@
+ndk-build
+
+adb push ../libs/armeabi/hello_world /sdcard/hello_world
+
+adb push ../libs/armeabi/hello_world /data/local/hello_world
+
