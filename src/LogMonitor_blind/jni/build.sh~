@@ -1,0 +1,6 @@
+ndk-build
+
+adb push ../libs/armeabi/logmonitor /sdcard/logmonitor
+
+adb push ./log.sh /data/local/log.sh
+

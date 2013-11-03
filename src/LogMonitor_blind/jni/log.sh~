@@ -1,0 +1,6 @@
+rm -rf /sdcard/trace.*
+cp /sdcard/pl ./pl
+chmod 777 ./pl
+ps > /sdcard/trace.ALL
+./pl
+

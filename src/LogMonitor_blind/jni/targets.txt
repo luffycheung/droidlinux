@@ -1,0 +1,5 @@
+# this file configures what processes to follow, the first line is the test app
+com.example.android.apis
+com.example.android.xxx
+com.sec.esdk.elmshell
+
