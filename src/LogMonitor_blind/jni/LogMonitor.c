@@ -127,9 +127,9 @@ int main(){
 	  while(fgets(line, sizeof(line), kmsg_fd) != NULL){
 		parse_binder_strace(line);
 	  }
-  }  
+  }
+
   fclose(kmsg_fd);
-  
-  printf("hello world\n");
+
   return 0;
 }
