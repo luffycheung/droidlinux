@@ -2,6 +2,8 @@
 #include <string.h>
 #include <stdlib.h>
 #include <dirent.h>
+#include<signal.h>
+#include<unistd.h>
 
 #include "PortableLogger.h"
 
@@ -9,20 +11,28 @@ char target[64][256];
 
 int target_num = 0;
 
+void sig_handler(int signo)
+{
+  if (signo == SIGINT){
+	// kill all process here
+    printf("received SIGINT\n");
+  }
+}
+
 void add_targets(char *conf_file){
   // read targets here
-  //strcpy(target[0], "com.example.android.apis");
   FILE *conf = fopen(conf_file, "r");
   int i = 0;
   while(!feof(conf) && i < 64){
 	char line[256];
 	fgets(line, sizeof(line), conf);
 	if(line[0] == '#') continue;
-	if(line[0] == '\n') continue;
-	printf("%s, %d, %d\n", line, i, strlen(line));
-	strncpy(target[i], line, strlen(line)-1);
-	//printf("%s", target[i]);
-	i ++;
+	if(strlen(line) >3) {
+	  printf("add process %s", line);
+	  strncpy(target[i], line, strlen(line)-1);
+	  //printf("%s", target[i]);
+	  i ++;
+	}
   }
   target_num = i;
   return;  
@@ -32,7 +42,6 @@ int find_target(char *package_name){
   int i = 0;
   for(; i < target_num; i ++){
 	if(strncmp(package_name, target[i], strlen(package_name)) == 0){
-	  
 	  return 1;
 	}
   }
@@ -47,14 +56,14 @@ void start_strace(int pid){
 	sprintf(command, "/system/xbin/strace -ttt -f -p %d -o /sdcard/trace.%d", pid, pid);
 	int c_pid = fork();
 	if(c_pid == 0){
-	  printf("in child process\n %s:%d\n", command, getpid());
-	  printf("trace started in child\n");
-	  system(command);
-	  printf("child exit\n");
+	  printf("child: %d -> %s\n",getpid(), command);
+	  int ret = 0;
+	  ret = system(command);
+	  printf("command return %d\n", ret);
 	  exit(0);
 	}else{
-	  printf("trace child process %d\n", c_pid);
-	  printf("continue in parent process\n");
+	  //printf("trace child process %d\n", c_pid);
+	  //printf("continue in parent process\n");
 	}
   }
   return;
@@ -95,7 +104,6 @@ int attach(){
 	if(cmdline != NULL){
 	  char package_name[512];
 	  fgets(package_name, sizeof(package_name), cmdline);
-	  printf("searching %s\n", package_name);
 	  if(find_target(package_name)){
 		printf("found %s\n", package_name);
 		start_strace(pid);
@@ -108,6 +116,7 @@ int main(int argc, char *argv[]){
   char conf_file[128];
   
   int status = 0;
+  int wpid = 0;
   
   if(argc <= 1){
 	strcpy(conf_file, "targets.txt");
@@ -117,12 +126,11 @@ int main(int argc, char *argv[]){
   }
   add_targets(conf_file);
   attach();
-  printf("%s, %d\n", target[0], strlen(target[0]));
+  
+  while(1)
+	sleep(1);
 
-  while ((wpid = wait(&status)) > 0)
-  {
-	printf("Exit status of %d was %d (%s)\n", (int)wpid, status,
-			 (status > 0) ? "accept" : "reject");
-  }
+  return 0;
+
 }
   
